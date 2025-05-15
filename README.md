@@ -1,6 +1,7 @@
 # ODER: A Modular Framework for Observer-Dependent Entropy Retrieval
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evlocoo/ODER-modular-retrieval/blob/main/ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15428312.svg)](https://doi.org/10.5281/zenodo.15428312)
 
 Implementation of the Observer-Dependent Entropy Retrieval (ODER) framework for black hole information recovery, as described in:
 
@@ -89,11 +90,13 @@ These visualizations directly map to figures in the paper and are reproducible w
 
 ## Citation
 
-If you use this code or base further work on ODER, please cite:
+If you use this framework, please cite both:
 
-```
-Cooper, Evlondo. (2025). Modular entropy retrieval in black-hole information recovery: A proper-time saturation model. Preprints. https://doi.org/10.20944/preprints202503.2057.v3
-```
+**Cooper, Evlondo.** (2025). *Modular entropy retrieval in black-hole information recovery: A proper-time saturation model*.  
+https://doi.org/10.20944/preprints202503.2057.v3
+
+**Cooper, Evlondo.** (2025). *ODER modular entropy simulation (Version 1.0)* [Software]. Zenodo.  
+https://doi.org/10.5281/zenodo.15428312
 
 ---
 
