@@ -1,46 +1,57 @@
 ```markdown
 > Version: **v1.1** | Added: τ_char fitting, γ(τ) inversion, envelope diagnostics
-
 # ODER: A Modular Framework for Observer-Dependent Entropy Retrieval
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evlocoo/ODER-modular-retrieval/blob/main/ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15654115.svg)](https://doi.org/10.5281/zenodo.15654115)
+[![Open in Colab – Main Simulation](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evlocoo/ODER-modular-retrieval/blob/main/ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15428312.svg)](https://doi.org/10.5281/zenodo.15428312)
 
+**ODER** implements an observer-dependent entropy retrieval model for black hole information recovery. It replaces global Page-curve bookkeeping with a local modular retrieval law derived from Tomita–Takesaki flow.
 
+This repository accompanies the 2025 preprint:
 
-Implementation of the Observer-Dependent Entropy Retrieval (ODER) framework for black hole information recovery, as described in:
-
-> **Cooper, Evlondo.** (2025). *Modular entropy retrieval in black-hole information recovery: A proper-time saturation model*. Preprints. https://doi.org/10.20944/preprints202503.2057.v3
+> **Cooper, Evlondo.** (2025). *Modular entropy retrieval in black-hole information recovery: A proper-time saturation model*.  
+> https://doi.org/10.20944/preprints202503.2057.v3
 
 ---
 
 ## Quick Start
 
-### Main Framework Simulation
-1. Open `ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb` in Jupyter Notebook, JupyterLab, or Google Colab.
-2. Run all cells to generate comprehensive visualizations of the ODER framework.
-3. All output figures will be saved to the `figures/` directory.
+### 📘 Main Framework Simulation
 
-### Retrieval Fitting and Validation  
-For entropy retrieval data fitting and envelope validation:
+To reproduce Figures 1–5 and simulate the ODER model across observers:
 
-📓 **[ODER Retrieval Inversion & Validation](./ODER_Retrieval_Inversion_And_Validation.ipynb)**  
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evlocoo/ODER-modular-retrieval/blob/main/ODER_Retrieval_Inversion_And_Validation.ipynb)
+1. Open [`ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb`](./ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb)  
+2. Run all cells to generate retrieval curves, MERA traces, and correlation diagnostics.  
+3. All plots are saved to the `figures/` directory.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evlocoo/ODER-modular-retrieval/blob/main/ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb)
+
+---
+
+### 📓 Retrieval Fitting and Envelope Validation
+
+To fit entropy retrieval data and validate modular envelope structure (Lemma C.5):
+
+- Open [`ODER_Retrieval_Validation.ipynb`](./ODER_Retrieval_Validation.ipynb)  
+- Run modular law inversion, diagnostics, and falsifiability tests
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/evlocoo/ODER-modular-retrieval/blob/main/ODER_Retrieval_Validation.ipynb)
 
 This notebook provides:
-- **Modular retrieval fitting**: Extract τ_char and γ from S_ret(τ) data
-- **Retrieval inversion**: Reconstruct γ(τ) profiles from entropy curves  
-- **Horizon computation**: Calculate τ_RH and failure window Δ_fail
-- **Diagnostic validation**: Null tests, SNR sensitivity, self-consistency checks
-- **Envelope visualization**: Verify Lemma C.5 retrieval envelope structure
 
-### Installation
+- **Modular retrieval fitting**: Extract \(\tau_{\text{char}}\) and \(\gamma(\tau)\) from \(S_{\text{ret}}(\tau)\)
+- **Retrieval horizon**: Compute \(\tau_{\text{RH}}\) and \(\Delta_{\text{fail}} = \tau_{\text{evap}} - \tau_{\text{RH}}\)
+- **Validation tests**: Null case (γ = 0), SNR sensitivity, self-consistency
+- **Envelope analysis**: Verify \(g^{(2)}\) collapse structure as described in Lemma C.5
+
+---
+
+## Installation
+
+To install dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
-
----
 
 ## Notebooks Overview
 
