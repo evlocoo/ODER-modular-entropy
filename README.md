@@ -2,10 +2,14 @@
 
 **Version 1.1** — Adds `τ_char` fitting, `γ(τ)` inversion, `Δ_fail` diagnostics, and envelope validation (Lemma C.5).
 
-This repository provides simulation and diagnostic tools for modular entropy retrieval in black hole spacetimes. It accompanies the 2025 preprint:
+This update enables direct testing of ODER predictions on experimental entropy data. ODER implements an observer-dependent entropy retrieval model for black hole information recovery. It replaces global Page-curve bookkeeping with a modular retrieval law defined in observer proper time.
+
+This repository accompanies:
 
 > **Cooper, Evlondo.** (2025). *Modular entropy retrieval in black-hole information recovery: A proper-time saturation model*.  
-> https://doi.org/10.5281/zenodo.15654115
+>https://doi.org/10.5281/zenodo.15654115
+
+
 
 ## Quick Start
 
@@ -15,7 +19,7 @@ Use this notebook to explore how entropy retrieval evolves across different obse
 
 **Notebook:** `ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb`
 
-- **Run** all cells to generate retrieval curves, MERA traces, and correlation diagnostics
+- **Run** all cells to generate retrieval curves, entropy traces, and modular diagnostics
 - **View** plots saved to the `figures/` directory
 - **Reproduce** Figures 1–5 from the paper
 
