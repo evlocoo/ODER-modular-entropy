@@ -1,0 +1,4 @@
+observer,tau_rh,inverse_stable,inverse_gamma_cv
+free_falling,22.900000000000002,True,1.2227760508387122
+accelerating,23.1,False,1.6411924371081825
+stationary,23.1,False,2.096824455553253

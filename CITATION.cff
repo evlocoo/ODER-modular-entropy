@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this verification artifact, please cite the manuscript and this archived software release."
+title: "ODER Black-Hole Retrieval Verification Artifact"
+version: "2.0"
+type: software
+authors:
+  - family-names: Cooper
+    given-names: Evlondo
+year: 2026
+license: MIT
+repository-code: "https://github.com/evlocoo/ODER-modular-entropy"
+keywords:
+  - ODER
+  - black-hole information
+  - modular entropy
+  - reproducibility
+  - adversarial nulls

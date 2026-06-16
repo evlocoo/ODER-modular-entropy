@@ -1,118 +1,139 @@
-# ODER: Observer-Dependent Entropy Retrieval Framework
+# ODER Black-Hole Retrieval Verification
 
-**Version 1.1** — Adds `τ_char` fitting, `γ(τ)` inversion, `Δ_fail` diagnostics, and envelope validation (Lemma C.5).
+This repository contains the v2 verification artifact for the ODER black-hole retrieval paper.
 
-This update enables direct testing of ODER predictions on experimental entropy data. ODER implements an observer-dependent entropy retrieval model for black hole information recovery. It replaces global Page-curve bookkeeping with a modular retrieval law defined in observer proper time.
+The notebook is intended to make the numerical claims auditable. It runs the retrieval-law checks, inverse-gamma recovery, finite-resolution proxy checks, and adversarial-null diagnostics used in the manuscript.
 
-This repository accompanies:
+Canonical notebook:
 
-> **Cooper, Evlondo.** (2025). *Modular entropy retrieval in black-hole information recovery: A proper-time saturation model*.  
->https://doi.org/10.5281/zenodo.15654115
+```text
+notebooks/ODER_BH_verification_artifact_v2.ipynb
+```
 
+Canonical outputs:
 
+```text
+outputs/verification_report.md
+outputs/validation_manifest.json
+outputs/figures/
+outputs/tables/
+```
 
-## Quick Start
+## Validation Scope
 
-### Main Framework Simulation
+This repository supports synthetic and numerical verification of observer-indexed black-hole entropy retrieval under bounded modular access. It does not claim experimental confirmation, explicit tensor-network contractions, or a microscopic simulation of black-hole geometry.
 
-Use this notebook to explore how entropy retrieval evolves across different observers and modular rates.
+The v2 artifact reproduces the retrieval-law checks, inverse-gamma recovery, finite-resolution robustness, and adversarial-null diagnostics reported in the manuscript.
 
-**Notebook:** `ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb`
+## What The Notebook Runs
 
-- **Run** all cells to generate retrieval curves, entropy traces, and modular diagnostics
-- **View** plots saved to the `figures/` directory
-- **Reproduce** Figures 1–5 from the paper
+The notebook uses the publication preset:
 
-### Retrieval Fitting and Validation
+| Setting | Value |
+| --- | --- |
+| Artifact | `ODER_BH_verification_artifact_v2` |
+| Version | `2.0` |
+| Run mode | `publication` |
+| Bootstrap traces | `200` per observer class |
+| Bond dimensions analyzed | `D=4`, `D=8` |
+| Observer classes | free-falling, accelerating, stationary |
+| External data | none |
 
-Use this notebook to extract parameters from retrieval data and validate against theoretical predictions.
+The validation suite includes:
 
-**Notebook:** `ODER_Retrieval_Inversion_And_Validation.ipynb`
+- bounded and monotone retrieval-law checks
+- 90% Retrieval Horizon ordering
+- inverse-gamma recovery
+- D=4/D=8 finite-resolution proxy robustness
+- Matched Saturating Envelope Null
+- Shared-Observer Envelope Null
+- Observer-Label Permutation Null
+- Proper-Time Jitter Null
+- Non-Gap Dynamics Null
 
-- **Extract** `τ_char` and `γ(τ)` from retrieval curves
-- **Compute** retrieval horizon and failure thresholds
-- **Validate** modular signatures and envelope structure
-- **Test** sensitivity and self-consistency
+The final report includes a claim-to-artifact map. Each reported claim points to a table, figure, or manifest entry produced by the notebook.
 
-## Installation
+## Repository Layout
+
+```text
+ODER-modular-entropy/
+  README.md
+  notebooks/
+    ODER_BH_verification_artifact_v2.ipynb
+  outputs/
+    verification_report.md
+    validation_manifest.json
+    figures/
+    tables/
+  archive/
+    v1.1/
+      ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb
+      ODER_Retrieval_Inversion_And_Validation.ipynb
+      Figures/
+  environment.yml
+  requirements.txt
+  LICENSE
+  CITATION.cff
+```
+
+The `archive/v1.1/` folder preserves the earlier simulation and inversion notebooks that document the MERA-inspired finite-resolution proxy lineage, including the 48-qubit parameterization and D=4/D=8 comparison structure. These archived notebooks are retained for provenance and continuity with earlier manuscript versions. The current v2 release is driven by `notebooks/ODER_BH_verification_artifact_v2.ipynb`, the canonical adversarial verification artifact for the present manuscript.
+
+This repository separates the supporting proxy lineage from the current verification suite: v1.1 documents the MERA-inspired finite-resolution proxy history, while v2 provides the final retrieval-law checks, inverse-gamma recovery, finite-resolution robustness, and adversarial-null diagnostics. Neither artifact claims experimental confirmation, explicit tensor-network contractions, or a microscopic simulation of black-hole geometry.
+
+## Run The Artifact
+
+Create an environment:
+
+```bash
+conda env create -f environment.yml
+conda activate oder-bh-verification
+```
+
+Or install the minimal Python requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Theoretical Framework
+Then open:
 
-ODER models entropy retrieval in black hole spacetimes as an **observer-dependent**, **Lorentzian-causal** process. It replaces global Page-curve bookkeeping with a local proper-time recovery law derived from Tomita–Takesaki modular flow.
-
-### Key Distinctions
-
-- No replica wormholes or Euclidean saddles
-- No island prescriptions or ensemble averaging
-- Retrieval occurs in proper time, not bulk-extremal coordinates
-
-### Modular Retrieval Law
-
-```
-dS_ret/dτ = γ(τ)[S_max - S_ret(τ)]tanh(τ/τ_char)
+```text
+notebooks/ODER_BH_verification_artifact_v2.ipynb
 ```
 
-**Parameters:**
-- `τ_char`: Characteristic retrieval timescale
-- `γ(τ)`: Observer-dependent retrieval rate
-- `S_max`: Maximum retrievable entropy
+Run the notebook top to bottom. It regenerates the report, manifest, figures, and tables in `outputs/`.
 
-## Simulation Features
+## Expected Outputs
 
-**Model Specifications:**
-- 48-qubit lattice simulation
-- Bond dimensions D = 4 and D = 8 for modular resolution depth
-- Bounded flow toward `S_max` with `g²` correlations
-- MERA used as geometric anchor (no explicit tensor contractions)
+The notebook writes:
 
-**Generated Visualizations:**
-- Retrieval rate profiles `γ(τ)` across observer types
-- Entropy retrieval curves `S(τ)` for stationary, accelerating, and free-falling observers
-- Bootstrap confidence bands with 200-trace resampling
-- `g²(τ)` correlation showing tanh-modulated oscillatory patterns
-- `g²(t₁,t₂)` heatmaps with diagonal tanh-fringed retrieval envelopes
-- Bond dimension impact comparisons
+- `outputs/verification_report.md`
+- `outputs/validation_manifest.json`
+- CSV tables under `outputs/tables/`
+- PNG figures under `outputs/figures/`
 
-## Repository Structure
+The manifest records the version, run mode, seed, bootstrap count, bond dimensions, thresholds, nulls executed, pass flags, and generated artifacts.
 
-| File | Description |
-|------|-------------|
-| `ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb` | Main framework simulation |
-| `ODER_Retrieval_Inversion_And_Validation.ipynb` | Parameter fitting and validation tools |
-| `requirements.txt` | Python dependencies |
-| `figures/` | Output directory for plots and visualizations |
+## Boundary Notes
 
-## Extending the Framework
+This is a reproducibility artifact for the numerical validation suite. It uses synthetic/proxy traces and does not ingest external astrophysical data.
 
-This framework encourages exploration and extension:
-
-- **Modify parameters:** Bond dimension, qubit count, `τ` intervals
-- **Add observer classes:** New spacetime backgrounds and reference frames
-- **Extend retrieval law:** Include back-reaction effects
-- **Adapt platforms:** BECs, photonic lattices, analog black holes
-- **Apply fitting tools:** Experimental or simulated entropy data
-
-Contributions that improve, stress-test, or generalize the framework are welcome.
+The finite-resolution check is scoped to the bond dimensions listed in the manifest. No additional resolution-scaling claims are made in this release.
 
 ## Citation
 
-**Cooper, Evlondo.** (2025). *Modular entropy retrieval in black-hole information recovery: A proper-time saturation model*.  
-https://doi.org/10.5281/zenodo.15654115
+If you use this repository, cite the manuscript and the archived software release.
 
-
-
-**Cooper, Evlondo.** (2025). *ODER modular entropy simulation* (Version 1.0) [Software]. Zenodo.  
-https://doi.org/10.5281/zenodo.15428312
+```bibtex
+@software{cooper_oder_bh_v2,
+  author = {Cooper, Evlondo},
+  title = {ODER Black-Hole Retrieval Verification Artifact},
+  version = {2.0},
+  year = {2026},
+  note = {v2 adversarial verification artifact}
+}
+```
 
 ## License
 
-MIT License - see `LICENSE` for details.
-
-## Contact
-
-**Evlondo Cooper**  
-Email: [evlocoo@pm.me](mailto:evlocoo@pm.me)
+MIT License. See `LICENSE`.

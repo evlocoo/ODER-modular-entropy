@@ -1,0 +1,4 @@
+observer,tau_char,tau_rh,final_entropy,bounded,monotone,inverse_recovery_pass,inverse_gamma_median_abs_error
+free_falling,2.0,12.9,0.9999999882160501,True,True,True,0.0031776509618949324
+accelerating,3.0,20.5,0.9998627989042682,True,True,True,0.0009236681330195007
+stationary,5.0,30.5,0.9810788905474227,True,True,True,0.00036430461384305557

@@ -1,0 +1,5 @@
+metric,value
+expected_order_count,346
+n_permutations,2000
+p_value,0.17341329335332334
+chance_baseline,0.16666666666666666

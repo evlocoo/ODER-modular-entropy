@@ -1,0 +1,159 @@
+{
+  "notebook_artifact": "ODER_BH_verification_artifact_v2",
+  "notebook_version": "2.0",
+  "analysis_preset": "ODER_BH_RETRIEVAL_V2",
+  "run_mode": "publication",
+  "random_seed": 20260614,
+  "created_utc": "2026-06-16T16:52:08.932160+00:00",
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "n_bootstrap": 200,
+  "n_permutations": 2000,
+  "n_jitter": 300,
+  "observer_summary": {
+    "free_falling": {
+      "tau_char": 2.0,
+      "tau_rh": 12.9,
+      "final_entropy": 0.9999999882160501,
+      "inverse_gamma_median_abs_error": 0.0031776509618949324
+    },
+    "accelerating": {
+      "tau_char": 3.0,
+      "tau_rh": 20.5,
+      "final_entropy": 0.9998627989042682,
+      "inverse_gamma_median_abs_error": 0.0009236681330195007
+    },
+    "stationary": {
+      "tau_char": 5.0,
+      "tau_rh": 30.5,
+      "final_entropy": 0.9810788905474227,
+      "inverse_gamma_median_abs_error": 0.00036430461384305557
+    }
+  },
+  "exact_constant_gamma_fit": {
+    "sse": 0.0,
+    "gamma": 0.1,
+    "tau_char": 12.0,
+    "r_squared": 1.0
+  },
+  "permutation_p_value": 0.17341329335332334,
+  "jitter_order_survival_rate": 1.0,
+  "thresholds": {
+    "bootstrap_traces_publication": 200,
+    "retrieval_horizon_order": [
+      "free_falling",
+      "accelerating",
+      "stationary"
+    ],
+    "inverse_recovery_median_abs_error_lt": 0.005,
+    "ordering_preservation_ge": 0.95,
+    "matched_null_allowed_full_signatures": 0,
+    "non_gap_max_stable_inverses": 1,
+    "label_permutation_baseline_tolerance": 0.05,
+    "inverse_finite_fraction_min": 0.55,
+    "inverse_negative_fraction_max": 0.02,
+    "inverse_gamma_cv_max": 1.25,
+    "inverse_roughness_max": 0.035,
+    "bond_dimensions": [
+      4,
+      8
+    ]
+  },
+  "nulls_executed": [
+    "Matched Saturating Envelope Null",
+    "Shared-Observer Envelope Null",
+    "Observer-Label Permutation Null",
+    "Proper-Time Jitter Null",
+    "Non-Gap Dynamics Null"
+  ],
+  "pass_flags": {
+    "preset_integrity": true,
+    "core_bounded": true,
+    "core_monotone": true,
+    "core_order": true,
+    "core_inverse_recovery": true,
+    "analytic_constant_gamma_recovery": true,
+    "bootstrap_bounded": true,
+    "d4_d8_resolution_robustness": true,
+    "matched_saturating_null_rejected": true,
+    "shared_observer_envelope_null_rejected": true,
+    "observer_label_permutation_quantified": true,
+    "proper_time_jitter_robust": true,
+    "non_gap_dynamics_null_rejected": true
+  },
+  "claim_map": [
+    {
+      "claim": "Core ODER traces remain bounded and monotone.",
+      "artifact": "core_observer_summary",
+      "status": "PASS"
+    },
+    {
+      "claim": "Observer retrieval horizons follow free_falling < accelerating < stationary.",
+      "artifact": "core_observer_summary",
+      "status": "PASS"
+    },
+    {
+      "claim": "The ODER inverse map recovers gamma(tau) with low error on generated retrieval traces.",
+      "artifact": "inverse_gamma_profiles",
+      "status": "PASS"
+    },
+    {
+      "claim": "Bootstrap confidence bands use 200 traces per observer in publication mode.",
+      "artifact": "entropy_retrieval_bootstrap_bands",
+      "status": "PASS"
+    },
+    {
+      "claim": "D=4/D=8 finite-resolution proxy settings preserve the retrieval structure.",
+      "artifact": "d4_d8_resolution_robustness",
+      "status": "PASS"
+    },
+    {
+      "claim": "Matched generic saturation does not reproduce the full ODER signature set.",
+      "artifact": "matched_saturating_envelope_null",
+      "status": "PASS"
+    },
+    {
+      "claim": "A Shared-Observer Envelope Null does not reproduce observer-class separation.",
+      "artifact": "shared_observer_envelope_null",
+      "status": "PASS"
+    },
+    {
+      "claim": "Observer-Label Permutation Null reports the chance ordering baseline.",
+      "artifact": "observer_label_permutation_null",
+      "status": "PASS"
+    },
+    {
+      "claim": "Proper-time jitter preserves retrieval-horizon ordering.",
+      "artifact": "proper_time_jitter_null",
+      "status": "PASS"
+    },
+    {
+      "claim": "A Non-Gap Dynamics Null degrades ODER inverse-map diagnostics.",
+      "artifact": "non_gap_dynamics_null",
+      "status": "PASS"
+    }
+  ],
+  "artifacts": {
+    "core_observer_summary": "outputs/tables/core_observer_summary.csv",
+    "d4_d8_resolution_robustness": "outputs/tables/d4_d8_resolution_robustness.csv",
+    "matched_saturating_envelope_null": "outputs/tables/matched_saturating_envelope_null.csv",
+    "shared_observer_envelope_null": "outputs/tables/shared_observer_envelope_null.csv",
+    "observer_label_permutation_null": "outputs/tables/observer_label_permutation_null.csv",
+    "proper_time_jitter_null": "outputs/tables/proper_time_jitter_null.csv",
+    "non_gap_dynamics_null": "outputs/tables/non_gap_dynamics_null.csv",
+    "retrieval_rate_profiles": "outputs/figures/retrieval_rate_profiles.png",
+    "entropy_retrieval_bootstrap_bands": "outputs/figures/entropy_retrieval_bootstrap_bands.png",
+    "inverse_gamma_profiles": "outputs/figures/inverse_gamma_profiles.png",
+    "d4_d8_resolution_robustness_figure": "outputs/figures/d4_d8_resolution_robustness.png",
+    "matched_saturating_envelope_nulls_figure": "outputs/figures/matched_saturating_envelope_nulls.png",
+    "g2_envelope_heatmap": "outputs/figures/g2_envelope_heatmap.png",
+    "validation_manifest": "outputs/validation_manifest.json",
+    "verification_report": "outputs/verification_report.md"
+  },
+  "boundary_notes": [
+    "Synthetic/proxy verification only.",
+    "No external astrophysical data are ingested.",
+    "D=4/D=8 is treated as a finite-resolution proxy check.",
+    "Adversarial nulls test generic saturation and structure-breaking alternatives without adding new physical models."
+  ]
+}
