@@ -2,6 +2,8 @@
 
 This repository contains the v2 verification artifact for the ODER black-hole retrieval paper.
 
+Manuscript: [Modular Entropy Retrieval in Black-Hole Information Recovery: A Proper-Time Saturation Model](https://doi.org/10.20944/preprints202503.2057.v10)
+
 The notebook is intended to make the numerical claims auditable. It runs the retrieval-law checks, inverse-gamma recovery, finite-resolution proxy checks, and adversarial-null diagnostics used in the manuscript.
 
 Canonical notebook:
