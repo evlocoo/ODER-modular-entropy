@@ -6,7 +6,7 @@ Read the [executed notebook](MERA_Access_and_Encoding.ipynb) or download and ope
 
 ## Run the notebook
 
-Use Python 3.12. From `Black_Hole_Companion/`, enter the companion directory:
+Use Python 3.12. From the repository or extracted companion root, enter the companion directory:
 
 ```sh
 cd mera-access
