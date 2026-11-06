@@ -1,0 +1,82 @@
+{
+  "validation_passed": true,
+  "means": {
+    "mera": {
+      "network": {
+        "contiguous": 0.29204776349889694,
+        "uniform": 0.24710254146681127
+      },
+      "dense": {
+        "contiguous": 0.292047763498897,
+        "uniform": 0.24710254146681127
+      }
+    },
+    "tree": {
+      "network": {
+        "contiguous": 0.33863934976986376,
+        "uniform": 0.30567531402526166
+      },
+      "dense": {
+        "contiguous": 0.33863934976986587,
+        "uniform": 0.3056753140252619
+      }
+    }
+  },
+  "delta_mera": 0.044945222032085674,
+  "delta_tree": 0.032964035744602105,
+  "gamma": 0.01198118628748357,
+  "mean_changes_mera_minus_tree": {
+    "contiguous": -0.04659158627096682,
+    "uniform": -0.05857277255845039
+  },
+  "absolute_mean_changes": {
+    "contiguous": 0.04659158627096682,
+    "uniform": 0.05857277255845039
+  },
+  "mean_changes_removing_disentanglers": {
+    "contiguous": 0.04659158627096682,
+    "uniform": 0.05857277255845039
+  },
+  "interpretation": "Original disentanglers increase the signed contiguous-minus-uniform gap.",
+  "ordering": {
+    "mera": "contiguous advantage",
+    "tree": "contiguous advantage"
+  },
+  "resolved_ordering_reversal": false,
+  "resolution_threshold": 1e-08,
+  "maximum_validation_residual": 4.374278717023117e-13,
+  "maximum_baseline_reproduction_residual": 0.0,
+  "marginals": {
+    "contiguous": [
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375
+    ],
+    "uniform": [
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375,
+      0.375
+    ]
+  },
+  "paired_increases": 17,
+  "paired_decreases": 39,
+  "paired_unresolved": 0,
+  "resources": {
+    "peak_sampled_rss_bytes": 127651840,
+    "wall_seconds": 3.639528799976688,
+    "cpu_seconds": 3.5,
+    "timing_scope": "After Python imports through calculation, validation, numerical output writes and figure; excludes report and summary writes.",
+    "memory_measurement": "Process RSS sampled every 10 ms, including imported libraries; brief peaks may be missed.",
+    "os_peak_working_set_bytes": 129261568
+  }
+}

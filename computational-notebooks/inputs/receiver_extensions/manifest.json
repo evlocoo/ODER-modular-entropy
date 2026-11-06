@@ -1,0 +1,10 @@
+{
+  "frozen_inputs.npz": {
+    "sha256": "9426cc4f5fbe1dea339ff8e8b190dde0565d7f2c35fa1be39e3290f64e8eed54",
+    "description": "Frozen 32-source subset tables and baseline/refined transmitted packet envelopes"
+  },
+  "scalar_flux_grid_384.npz": {
+    "sha256": "bce2857e3e25c9e32292ea2b4e66e2e7eab0a7485444873208453c0ebfa89c0a",
+    "description": "One real massless scalar: ell=0,1,2 transmission grid; 384-point frequency quadrature"
+  }
+}

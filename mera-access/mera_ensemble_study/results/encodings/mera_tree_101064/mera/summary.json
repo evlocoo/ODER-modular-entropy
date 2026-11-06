@@ -1,0 +1,24 @@
+{
+  "encoder": "mera",
+  "seed": 101064,
+  "contiguous_mean": 0.2696893700666429,
+  "uniform_mean": 0.2170595690571973,
+  "gap": 0.05262980100944559,
+  "means_by_path": {
+    "network": {
+      "contiguous": 0.2696893700666429,
+      "uniform": 0.2170595690571973
+    },
+    "dense": {
+      "contiguous": 0.26968937006664273,
+      "uniform": 0.2170595690571971
+    }
+  },
+  "complementary_five_site_means": {
+    "contiguous": 0.7303106299333346,
+    "uniform": 0.7829404309427817
+  },
+  "complementary_gap_residual": -1.4432899320127035e-15,
+  "maximum_validation_residual": 4.027889133340068e-13,
+  "passed": true
+}

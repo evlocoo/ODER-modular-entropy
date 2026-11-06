@@ -1,0 +1,399 @@
+{
+  "architecture": {
+    "physical_dimension": 2,
+    "chi": 2,
+    "expansion_counts": [
+      1,
+      2,
+      4
+    ],
+    "disentangler_pairs": {
+      "4": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "8": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          0
+        ]
+      ]
+    },
+    "top_disentangler": false
+  },
+  "seed": 20260918,
+  "rng": "numpy Generator(PCG64)",
+  "generation_order": "For each expansion layer: w left to right, then u in listed pair order. Each matrix draws all real entries then all imaginary entries, in C order.",
+  "qr_convention": "Reduced QR; multiply column j of Q by R[j,j]/abs(R[j,j]), giving positive real diagonal of the corresponding R. No zero diagonals occurred.",
+  "legs": "w[out_left,out_right,in]; u[out_first,out_second,in_first,in_second]. Ordered pair (7,0) means first leg site 7. C-order reshape; logical and physical site 0 are most significant bits.",
+  "source": "Bell(Q,A) then V on A; state axes [Q,B0,...,B7]. Unoptimized encoding.",
+  "ensembles": {
+    "contiguous": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "uniform": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        1,
+        6
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        0,
+        3,
+        5
+      ],
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        4,
+        5
+      ],
+      [
+        0,
+        4,
+        6
+      ],
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        0,
+        5,
+        6
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        7
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        5,
+        6
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        6
+      ],
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "weights": [
+      0.125,
+      0.017857142857142856
+    ],
+    "selection": "Input independent; subset identity retained as classical flag"
+  },
+  "statistic": "Delta = contiguous mean I(Q:B_S)/2 minus uniform-subset mean I(Q:B_S)/2",
+  "agreement_tolerance": 1e-10,
+  "resolved_threshold": 1e-08,
+  "norms": "Frobenius for matrices; Euclidean for states; absolute error for scalars; eigenvalue lower bound -1e-10.",
+  "entropy": "Base two; record raw eigenvalues; reject values below -1e-10; set only negative eigenvalues to zero, retaining every positive eigenvalue. No trace renormalization.",
+  "completion": "All tensor, encoding, state, reduced-state, marginal, independent-path and pure-complement checks pass; deliver either signed resolved result or unchanged null.",
+  "resource_budget": {
+    "cpu_seconds": 600,
+    "rss_bytes": 2147483648,
+    "monitor_interval_seconds": 0.01
+  },
+  "provenance": {
+    "source_sha256": "ef0d49db371990a089091be5277f4fe3bd926fe1336162525b52666f2eacfbe3",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "psutil": "7.2.2",
+    "platform": "Windows"
+  },
+  "identity_note": "File hashes identify artifacts; they do not prove independently timestamped preregistration."
+}

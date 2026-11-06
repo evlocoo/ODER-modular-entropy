@@ -1,0 +1,7 @@
+{
+  "archive_sha256": "5d07c3d3ed42bcc12bac69f059b8c71a27c5b108c8c8d95cd4e7dbf71ab35897",
+  "arrays": {
+    "V": "2dec2f63dd3c0e8aa6d0dd3f06b9aa5fd362ae1e9089df7666441c20ed197c2e"
+  },
+  "array_format": "little-endian complex128 C-order"
+}

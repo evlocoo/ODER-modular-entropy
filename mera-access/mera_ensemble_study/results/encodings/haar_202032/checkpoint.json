@@ -1,0 +1,38 @@
+{
+  "seed": 202032,
+  "haar": {
+    "encoder": "haar",
+    "seed": 202032,
+    "contiguous_mean": 0.13626996353706253,
+    "uniform_mean": 0.1356533330228513,
+    "gap": 0.000616630514211236,
+    "means_by_path": {
+      "network": {
+        "contiguous": 0.13626996353706253,
+        "uniform": 0.1356533330228513
+      },
+      "dense": {
+        "contiguous": 0.1362699635370625,
+        "uniform": 0.13565333302285124
+      }
+    },
+    "complementary_five_site_means": {
+      "contiguous": 0.8637300364629203,
+      "uniform": 0.8643466669771315
+    },
+    "complementary_gap_residual": 1.1102230246251565e-16,
+    "maximum_validation_residual": 5.020428517354958e-13,
+    "passed": true
+  },
+  "wall_seconds": 0.45032959996024147,
+  "output_sha256": {
+    "haar/density_validation.csv": "94cd5da819c18ac50d88f529f168a94ca8f865ab1686ea1f33548f1276e9aa79",
+    "haar/encodings.npz": "28ca5c07f3d569b153115d0955ae41949ce47efbb7cb8914a0f941f21a9b6c38",
+    "haar/raw_eigenvalues.npz": "7fe7cba426362f8544d358852d32563658475273b57ea8696115b731d73f41db",
+    "haar/subset_scores.csv": "6aa49a7c01fbb4278cd905ca81ac6ea41180f1d68726ba288935674708d086b3",
+    "haar/summary.json": "807a8e2ed0349b75d3d2c69fc962cf8c622aa9e0750656a345affb43ee8fd453",
+    "haar/validation.json": "1aabaf4e8f8fdd9c99ddb8865b4971ec2ae0d88d1f5b6e999aa20f6172dab9cc",
+    "tensor_hashes.json": "c07cf3df2b76f191dd8207bb2b6976101caf30926937dd511ea96acfdd8f698b",
+    "tensors.npz": "cf4ecc8b48ba67ad5efb86a98d7e1918f3ee4a62d8547188ba14891beef92f5e"
+  }
+}

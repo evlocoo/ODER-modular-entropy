@@ -1,0 +1,53 @@
+{
+  "freeze_date": "2026-08-21",
+  "stage3_root": "../oder_integrated_stage3",
+  "time": {
+    "terminal_M": 120.0,
+    "dt_primary_M": 0.1,
+    "dt_refined_M": 0.05
+  },
+  "packet": {
+    "centers_Momega": [0.16, 0.16, 0.16, 0.16, 0.16],
+    "fractional_width": 0.2,
+    "arrival_centers_observer_input_M": [28.0, 40.0, 52.0, 64.0, 76.0],
+    "spectral_points_primary": 1601,
+    "spectral_points_refined": 2401
+  },
+  "observer": {
+    "radius_r_over_2M": 10.0,
+    "aperture_fraction": 0.72,
+    "efficiency": 0.88,
+    "proper_lifetime_M": 120.0,
+    "inherited_band_low_local_Momega": 0.035,
+    "inherited_band_high_local_Momega": 0.55
+  },
+  "filter": {
+    "center_local_Momega": 0.16865480854231357,
+    "kappa_total_per_M": 0.515,
+    "kappa_in_fraction": 0.5,
+    "kappa_detector_fraction": 0.5
+  },
+  "hp": {
+    "black_hole_qubits": 5,
+    "emitted_qubits": 5,
+    "ensemble_size": 32,
+    "first_seed": 2026082100,
+    "alpha_grid_count": 101
+  },
+  "sensitivity": {
+    "linewidth_factors": [0.5, 1.0, 2.0],
+    "center_detunings_local_Momega": [-0.1, -0.05, 0.0, 0.05, 0.1]
+  },
+  "gates": {
+    "arrival_peak_error_M": 0.06,
+    "energy_balance_residual": 2e-8,
+    "carrier_nesting_violation": 2e-9,
+    "source_data_processing_violation": 2e-9,
+    "hp_subset_monotonicity_violation": 2e-10,
+    "block_density_residual": 2e-10,
+    "terminal_refinement_difference": 0.0008,
+    "independent_carrier_difference": 0.0008,
+    "independent_supply_difference": 0.0015
+  }
+}
+

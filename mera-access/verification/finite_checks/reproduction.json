@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "array_count": 2037,
+  "maximum_absolute_array_difference": 0.0,
+  "tolerance": 1e-10,
+  "comparison": "Independent command-line process versus fresh saved-mode notebook kernel",
+  "notebook_code_cells": 14,
+  "MERA_comparator_tests": 14,
+  "MERA_validation_tests": 5
+}

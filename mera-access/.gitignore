@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+outputs/
+figures/*.pdf
+figures/*.svg
+verification/*
+!verification/source_identity.json
+!verification/current_regeneration.json
+!verification/RESULTS.md
+!verification/finite_checks/
+!verification/notebook_execution.json
+!verification/saved_execution.json

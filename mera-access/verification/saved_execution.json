@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "mode": "saved",
+  "result_source": "mera_ensemble_study/results",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "psutil": "7.2.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "nbconvert": "7.17.1",
+    "ipykernel": "7.3.0",
+    "jupyterlab": "4.6.3"
+  },
+  "platform": "Windows",
+  "blas_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "notebook_analysis_wall_seconds": 19.535890399998607,
+  "originals": {
+    "passed": true,
+    "files_checked": 1583
+  },
+  "finite_checks": {
+    "passed": true,
+    "tolerance": 1e-10,
+    "input_sha256": {
+      "mera": "d4038e44c7bec7fbfbe452f1de8c3095d6a1afd9ac2d5e198209e8698e4a214c",
+      "tree": "43931c80c681f3c195cea7586d5484f9630efa5b953e3e6b87c652e498873833"
+    },
+    "causal_cone_comparisons": 66,
+    "maximum_operator_frobenius_residual": 6.062157421615391e-16,
+    "invariants": {
+      "mera": {
+        "w0_0": 7.114312260401321e-16,
+        "w1_0": 2.4276213934271013e-16,
+        "w1_1": 5.035361726614877e-16,
+        "u4_0": 6.311643626863835e-16,
+        "u4_1": 8.044816357245838e-16,
+        "w2_0": 7.850462293418876e-17,
+        "w2_1": 2.2887833992611187e-16,
+        "w2_2": 2.7410826684981073e-16,
+        "w2_3": 5.095246377785861e-16,
+        "u8_0": 7.03506834359117e-16,
+        "u8_1": 7.463908564139252e-16,
+        "u8_2": 6.671449693641482e-16,
+        "u8_3": 5.257156698735968e-16,
+        "encoding_isometry": 9.174309423307194e-16,
+        "graph_encoding_agreement": 0.0,
+        "network_encoding_agreement": 0.0,
+        "dense_encoding_agreement": 6.262193948640122e-16,
+        "state_norm": 6.661338147750939e-16,
+        "reference_state": 5.577129230613316e-16,
+        "empty_access": 3.3306690738754696e-16,
+        "full_access": 1.283417816466681e-13,
+        "three_five_complement": 2.8199664825478976e-14,
+        "depolarized_product_state": 1.1186798153083626e-16,
+        "depolarized_boundary": 1.572671003731835e-16,
+        "three_site_network_regression": 2.220446049250313e-16,
+        "three_site_dense_regression": 1.3322676295501878e-15
+      },
+      "tree": {
+        "w0_0": 7.114312260401321e-16,
+        "w1_0": 2.4276213934271013e-16,
+        "w1_1": 5.035361726614877e-16,
+        "u4_0": 0.0,
+        "u4_1": 0.0,
+        "w2_0": 7.850462293418876e-17,
+        "w2_1": 2.2887833992611187e-16,
+        "w2_2": 2.7410826684981073e-16,
+        "w2_3": 5.095246377785861e-16,
+        "u8_0": 0.0,
+        "u8_1": 0.0,
+        "u8_2": 0.0,
+        "u8_3": 0.0,
+        "encoding_isometry": 1.2658490090568385e-15,
+        "graph_encoding_agreement": 0.0,
+        "network_encoding_agreement": 0.0,
+        "dense_encoding_agreement": 4.2260734517468236e-16,
+        "state_norm": 7.771561172376096e-16,
+        "reference_state": 6.796220632915539e-16,
+        "empty_access": 3.3306690738754696e-16,
+        "full_access": 2.1893598045608087e-13,
+        "three_five_complement": 4.574118861455645e-14,
+        "depolarized_product_state": 1.0910193461274818e-16,
+        "depolarized_boundary": 1.532468317596012e-16,
+        "three_site_network_regression": 4.440892098500626e-16,
+        "three_site_dense_regression": 4.218847493575595e-15
+      }
+    },
+    "exact_nulls": {
+      "mera": {
+        "depolarized_subset_count": 256,
+        "maximum_depolarized_information": 3.4638958368304884e-14,
+        "complement_pair_residual": 8.659739592076221e-15,
+        "four_contiguous_mean": 0.49999999999999667,
+        "four_uniform_mean": 0.49999999999999667,
+        "four_gap": 0.0,
+        "permutation_count": 40320,
+        "triple_frequency": 5760,
+        "permutation_gap_residual": 0.0,
+        "three_site_gap": 0.04494522203208565
+      },
+      "tree": {
+        "depolarized_subset_count": 256,
+        "maximum_depolarized_information": 4.418687638008123e-14,
+        "complement_pair_residual": 1.0880185641326534e-14,
+        "four_contiguous_mean": 0.4999999999999964,
+        "four_uniform_mean": 0.49999999999999667,
+        "four_gap": 2.7755575615628914e-16,
+        "permutation_count": 40320,
+        "triple_frequency": 5760,
+        "permutation_gap_residual": 0.0,
+        "three_site_gap": 0.03296403574460205
+      }
+    },
+    "maximum_invariant_residual": 2.1893598045608087e-13,
+    "scope": "Frozen exploratory MERA/tree, seed 20260918; unoptimized finite encoding."
+  },
+  "worked_pair_maximum_residual": 2.9566202706095393e-15,
+  "statistics_maximum_residual": 6.439293542825908e-14,
+  "complement_mean_maximum_residual": 4.6851411639181606e-14,
+  "level_change_identity_residual": 0.0,
+  "regeneration": null,
+  "verification_rows": [
+    [
+      "Numerical file integrity",
+      "Executed now",
+      "1583 files verified"
+    ],
+    [
+      "First ensemble pair: 112 subsets, independent encodings and reductions",
+      "Executed now",
+      "maximum residual 2.957e-15"
+    ],
+    [
+      "192 encoding summaries and 20,000-resample statistics",
+      "Executed now",
+      "maximum disagreement 6.439e-14"
+    ],
+    [
+      "Complementary scores, all 10,752 subset rows",
+      "Compared supplied arrays",
+      "maximum residual 6.439e-14"
+    ],
+    [
+      "Constraint null-space witness",
+      "Executed now",
+      "residual 4.201e-16"
+    ],
+    [
+      "66 causal-cone contraction checks",
+      "Executed now",
+      "66 cases; maximum residual 6.062e-16"
+    ],
+    [
+      "Three exact-null controls on both frozen encoders",
+      "Executed now",
+      "256 decorrelated subsets, 70 four-site subsets, and 40,320 permutations per encoder"
+    ],
+    [
+      "Full ensemble numerical invariants",
+      "Supplied ensemble validation",
+      "maximum residual 5.209e-13"
+    ]
+  ]
+}

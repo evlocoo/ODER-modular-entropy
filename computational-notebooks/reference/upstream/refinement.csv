@@ -1,0 +1,7 @@
+comparison,quantity,maximum_absolute_change
+baseline to grid_refined,envelopes,1.2611485304150614e-09
+baseline to grid_refined,global_carriers,4.897263261582907e-09
+baseline to grid_refined,observer_carriers,3.1258764465746935e-09
+grid_refined to physical_refined,envelopes,3.7351269186758867e-07
+grid_refined to physical_refined,global_carriers,1.3153511724262046e-08
+grid_refined to physical_refined,observer_carriers,7.673306379185618e-09

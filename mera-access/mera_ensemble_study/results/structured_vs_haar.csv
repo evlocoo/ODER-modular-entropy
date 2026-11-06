@@ -1,0 +1,7 @@
+contrast,estimate,percentile95_low,percentile95_high,sampling
+mera_minus_Haar_gap,0.045616010713158524,0.04329358625443793,0.04789175757086046,Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar.
+mera_minus_Haar_C,0.16556971242344848,0.1619233347009343,0.16923549178913502,Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar.
+mera_minus_Haar_U,0.11995370171029002,0.1156659154839496,0.12427483372642933,Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar.
+tree_minus_Haar_gap,0.021489323865500176,0.01804270335236682,0.025067294352457005,Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar.
+tree_minus_Haar_C,0.2153997015319224,0.2108831555785474,0.2197749548594155,Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar.
+tree_minus_Haar_U,0.19391037766642222,0.18900782004235062,0.19863937211491778,Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar.

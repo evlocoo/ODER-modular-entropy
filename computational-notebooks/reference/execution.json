@@ -1,0 +1,175 @@
+{
+  "python": "3.12.14",
+  "system": "Windows",
+  "BLAS_threads": 1,
+  "notebooks": [
+    {
+      "notebook": "Upstream_Regeneration.ipynb",
+      "fresh_kernel": true,
+      "code_cells": 5,
+      "seconds": 95.61486150000019,
+      "passed": true,
+      "run_name": "companion_20261103_complete"
+    },
+    {
+      "notebook": "Observer_Access_Reading_Guide.ipynb",
+      "fresh_kernel": true,
+      "code_cells": 10,
+      "seconds": 41.509358300012536,
+      "passed": true,
+      "executed_notebook": "outputs/runs/minimax_20261104/notebooks/Observer_Access_Reading_Guide.ipynb",
+      "run_name": "minimax_20261104"
+    },
+    {
+      "notebook": "Schwarzschild_Propagation_Controls.ipynb",
+      "fresh_kernel": true,
+      "code_cells": 4,
+      "seconds": 111.26520470000014,
+      "passed": true,
+      "run_name": "companion_20261103_complete"
+    },
+    {
+      "notebook": "Modular_Realization.ipynb",
+      "fresh_kernel": true,
+      "code_cells": 6,
+      "seconds": 5.867144599999847,
+      "passed": true,
+      "run_name": "companion_20261103_complete"
+    },
+    {
+      "notebook": "Finite_Receiver.ipynb",
+      "fresh_kernel": true,
+      "code_cells": 5,
+      "seconds": 6.142935700000635,
+      "passed": true,
+      "run_name": "companion_20261103_complete"
+    },
+    {
+      "notebook": "Receiver_and_Storage.ipynb",
+      "fresh_kernel": true,
+      "code_cells": 9,
+      "seconds": 14.922430800000257,
+      "passed": true,
+      "run_name": "companion_20261103_complete"
+    },
+    {
+      "notebook": "Causal_Phase_and_Delay.ipynb",
+      "fresh_kernel": true,
+      "code_cells": 3,
+      "seconds": 64.98519019999912,
+      "passed": true,
+      "run_name": "companion_20261103_complete"
+    }
+  ],
+  "passed": true,
+  "total_code_cells": 42,
+  "environment": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0",
+    "jupyterlab": "4.6.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "channel_and_event_tests": {
+    "passed": true,
+    "tests": 15
+  },
+  "MERA_comparator_tests": {
+    "passed": true,
+    "tests": 14
+  },
+  "full_MERA_ensemble_regeneration_performed": false,
+  "event_witness_verification": {
+    "primal_dual_witnesses_checked": 3524,
+    "maximum_raw_residual": 8.497004527882514e-09,
+    "tolerance": 1e-08,
+    "passed": true,
+    "raw_numerical_records_unchanged": true,
+    "zero_headroom_tie_tolerance": 1e-08
+  },
+  "input_sha256": {
+    "inputs/hp_joint_information.npy": "5f84ced8dac8ceb1c64767f699ecbd3e0db4181b0a009ef68e9bf04fedbed035",
+    "inputs/closure_reproduction_inputs.npz": "fa86ef616bfc8be16f26b7d640c693211fe8d7d35552b090b23e3920340ba37e"
+  },
+  "baseline_complete_run": "companion_20261103_complete",
+  "runner_tests": {
+    "passed": true,
+    "tests": 3
+  },
+  "runner_preservation_check": {
+    "passed": true,
+    "fresh_kernel": true,
+    "distributed_notebook": "Finite_Receiver.ipynb",
+    "sha256_before_and_after": "f08d4304f3dfd138224406ae60e2a180e52bae908a65353f8a354590d9878dd3",
+    "executed_copy": "outputs/runs/runner_preservation_20261103/notebooks/Finite_Receiver.ipynb"
+  },
+  "minimax_tests": {
+    "passed": true,
+    "tests": 4
+  },
+  "minimax_witness_verification": {
+    "passed": true,
+    "witness_pairs_checked": 3,
+    "upper_certificate_tables": "Independent 60-step binary-divergence bisection",
+    "tolerance": 1e-10,
+    "maximum_raw_residual": 5.440092820663267e-15,
+    "witnesses": [
+      {
+        "witness": "printed",
+        "upper_certificate": 0.44694738737294115,
+        "dual_value": 0.44694738737294126,
+        "residuals": {
+          "marginal_linf": 2.220446049250313e-16,
+          "primal_nonnegativity": 0.0,
+          "source_inequality": 5.551115123125783e-17,
+          "dual_nonnegativity": 0.0,
+          "dual_normalization": 0.0,
+          "dual_inequality": 1.6653345369377348e-16,
+          "primal_dual_gap": 1.6653345369377348e-16,
+          "mask_complementarity_linf": 1.8333307582319037e-17,
+          "source_complementarity_linf": 5.551115123125783e-17
+        }
+      },
+      {
+        "witness": "highs_ds",
+        "upper_certificate": 0.44694738737294204,
+        "dual_value": 0.4469473873729411,
+        "residuals": {
+          "marginal_linf": 5.440092820663267e-15,
+          "primal_nonnegativity": 0.0,
+          "source_inequality": 0.0,
+          "dual_nonnegativity": 0.0,
+          "dual_normalization": 0.0,
+          "dual_inequality": 2.220446049250313e-16,
+          "primal_dual_gap": 9.43689570931383e-16,
+          "mask_complementarity_linf": 2.6915594509158338e-17,
+          "source_complementarity_linf": 0.0
+        }
+      },
+      {
+        "witness": "highs_ipm",
+        "upper_certificate": 0.4469473873729412,
+        "dual_value": 0.4469473873729413,
+        "residuals": {
+          "marginal_linf": 1.1102230246251565e-16,
+          "primal_nonnegativity": 0.0,
+          "source_inequality": 5.551115123125783e-17,
+          "dual_nonnegativity": 0.0,
+          "dual_normalization": 0.0,
+          "dual_inequality": 2.220446049250313e-16,
+          "primal_dual_gap": 1.6653345369377348e-16,
+          "mask_complementarity_linf": 1.8333307582319034e-17,
+          "source_complementarity_linf": 5.551115123125783e-17
+        }
+      }
+    ]
+  },
+  "core_tests": {
+    "passed": true,
+    "tests": 22
+  }
+}

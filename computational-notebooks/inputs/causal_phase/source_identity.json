@@ -1,0 +1,8 @@
+{
+  "archive_name": "Causal_Phase_Comparison_2026-09-16.zip",
+  "archive_sha256": "8f2325289230faf6e90af53645ca83bf8f973b8f2b95d5e47e6593dfd4c29ffc",
+  "original_entry_point": "Causal_Phase_Comparison/run_experiment.py",
+  "original_entry_sha256": "fbf2d90e9bb63618023e866f797b29e7d109969c469edd9663b9b8d05f3bd46a",
+  "current_entry_sha256": "176b5b61d56ca3ef02a457b3d36e379408cae1605b7c91992ccc89fedb341cf1",
+  "adaptation": "Paths, callable name, fresh output argument, and explicit UTF-8 reads only. Numerical statements and solver settings retained."
+}

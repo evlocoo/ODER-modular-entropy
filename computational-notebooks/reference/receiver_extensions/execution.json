@@ -1,0 +1,62 @@
+{
+  "run_name": "integration_process_20261105",
+  "python": "3.12.14",
+  "system": "Linux",
+  "method": "One fresh Python process per notebook; ordered plain-Python cell execution; explicit display/plot capture",
+  "reason": "Jupyter TCP kernel startup is prohibited in this execution environment",
+  "fresh_kernel": false,
+  "BLAS_threads": 1,
+  "notebooks": [
+    {
+      "notebook": "Gaussian_Noise_and_Recovery.ipynb",
+      "code_cells": 7,
+      "passed": true,
+      "fresh_process": true,
+      "fresh_kernel": false,
+      "seconds": 1.3490859339999588,
+      "environment": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "matplotlib": "3.10.8",
+        "pandas": "2.2.3",
+        "nbformat": "5.11.1",
+        "ipykernel": "7.4.0"
+      }
+    },
+    {
+      "notebook": "Joint_Record_Access.ipynb",
+      "code_cells": 5,
+      "passed": true,
+      "fresh_process": true,
+      "fresh_kernel": false,
+      "seconds": 0.6282717109997975,
+      "environment": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "matplotlib": "3.10.8",
+        "pandas": "2.2.3",
+        "nbformat": "5.11.1",
+        "ipykernel": "7.4.0"
+      }
+    },
+    {
+      "notebook": "Observer_Trajectories_and_Physical_Scales.ipynb",
+      "code_cells": 8,
+      "passed": true,
+      "fresh_process": true,
+      "fresh_kernel": false,
+      "seconds": 17.36932726899977,
+      "environment": {
+        "numpy": "2.3.5",
+        "scipy": "1.17.0",
+        "matplotlib": "3.10.8",
+        "pandas": "2.2.3",
+        "nbformat": "5.11.1",
+        "ipykernel": "7.4.0"
+      }
+    }
+  ],
+  "passed": true,
+  "note": "Final Gaussian: integration_gaussian_checked_20261105; final trajectory/plot layout: integration_trajectory_final_20261105; records: integration_process_20261105. Unchanged original notebooks were not rerun.",
+  "executed_code_cells": 20
+}

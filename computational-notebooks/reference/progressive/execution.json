@@ -1,0 +1,78 @@
+{
+  "notebook": "Receiver_and_Storage.ipynb",
+  "passed": true,
+  "fresh_process": true,
+  "fresh_jupyter_kernel": false,
+  "execution_method": "Sequential notebook code in a clean Python process; display and figures captured",
+  "runtime_constraint": "Jupyter TCP and local IPC socket binding unavailable in this execution environment",
+  "code_cells": 10,
+  "seconds": 8.967514231000678,
+  "cells": [
+    {
+      "cell_index": 1,
+      "seconds": 0.5501081639959011,
+      "source_sha256": "72bf2e7d08e2850c1a8a0c450e65543d2adb0939dca1e82be3bf3235f3de05e6",
+      "passed": true
+    },
+    {
+      "cell_index": 3,
+      "seconds": 0.7117808369948762,
+      "source_sha256": "52c47f586c2648106e417ff54b98d7eab1301e4b8598155db2834015df2580c9",
+      "passed": true
+    },
+    {
+      "cell_index": 5,
+      "seconds": 4.55626716799452,
+      "source_sha256": "948269d84ceda4a829b6eb689be2d0b772743b1764168572c8ed3dcfc8be3566",
+      "passed": true
+    },
+    {
+      "cell_index": 7,
+      "seconds": 1.4917413219955051,
+      "source_sha256": "1e23d399b9daa33258fc90adaab0a9ed5731793431042dfa777fcaa95272aa1d",
+      "passed": true
+    },
+    {
+      "cell_index": 9,
+      "seconds": 0.0661161460011499,
+      "source_sha256": "81dc287bdea277ed34dde80f85194b8d93daa7a34ed878676303a9b9970a81f7",
+      "passed": true
+    },
+    {
+      "cell_index": 11,
+      "seconds": 0.2521581309993053,
+      "source_sha256": "a8590d16b27504e4993f8be1148d067dcb9d4ca8527f89ced048b4780e6bad0e",
+      "passed": true
+    },
+    {
+      "cell_index": 13,
+      "seconds": 0.1703878190019168,
+      "source_sha256": "354b786e8bbd409372a7128035fa038d5a65184fafe4bc771b6486f9c030c928",
+      "passed": true
+    },
+    {
+      "cell_index": 15,
+      "seconds": 0.008048615010920912,
+      "source_sha256": "8f46d120ef04fce3d3f5d5cd165914d16764768761e704dd94124f89f669a60e",
+      "passed": true
+    },
+    {
+      "cell_index": 17,
+      "seconds": 0.2036940389953088,
+      "source_sha256": "35f686ad6cf197d1bcd4d9659f9cff2807c34c53f1a6431dc3c8600108f4696e",
+      "passed": true
+    },
+    {
+      "cell_index": 19,
+      "seconds": 0.9499054879997857,
+      "source_sha256": "2346d2dfd42e462fedaca2ed51b147b29caa878098f15be47da4a5602a60b3c0",
+      "passed": true
+    }
+  ],
+  "input_sha256": {
+    "inputs/hp_joint_information.npy": "5f84ced8dac8ceb1c64767f699ecbd3e0db4181b0a009ef68e9bf04fedbed035",
+    "reference/upstream/baseline.npz": "5f82eec6b3e8482362c675a258676ffbad12097bcaf6b9de3d20966d8ff60db0",
+    "reference/upstream/grid_refined.npz": "d1fbfcb780ed9ef8ca32ab5e6aa1a7b73242d68a65258b491a369deefdc2b0c9",
+    "reference/upstream/physical_refined.npz": "99030453011fdfbf6529984ad8b132f9251f10e0e756f6dd6331ba7a42c259ed"
+  }
+}

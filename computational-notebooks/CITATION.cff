@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these notebooks, cite the accompanying manuscript and the applicable software version."
+title: "From Preservation to Possession: Black-Hole Computational Companion"
+version: "3.0"
+type: software
+authors:
+  - family-names: Cooper
+    given-names: Evlondo
+    name-suffix: III
+license: MIT
+repository-code: "https://github.com/evlocoo/ODER-modular-entropy"
+keywords:
+  - black-hole information
+  - modular entropy
+  - observer access
+  - finite receivers
+  - Gaussian channels
+  - observer trajectories
+  - joint records
+  - reproducibility

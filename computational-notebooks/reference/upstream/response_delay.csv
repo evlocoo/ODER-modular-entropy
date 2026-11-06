@@ -1,0 +1,4 @@
+run,mean_response_delay_M,difference_from_archived_primary_M
+baseline,3.79540885542474,-5.4175157693237e-09
+grid_refined,3.7954088560666492,-4.775606576856717e-09
+physical_refined,3.7954087642681045,-9.657415134256553e-08

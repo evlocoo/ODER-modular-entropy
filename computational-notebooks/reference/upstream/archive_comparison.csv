@@ -1,0 +1,10 @@
+run,quantity,maximum_absolute_difference
+baseline,envelopes,8.697447268707874e-09
+baseline,global_carriers,6.797483520504244e-09
+baseline,observer_carriers,4.361953576115241e-09
+grid_refined,envelopes,9.085742149523958e-09
+grid_refined,global_carriers,1.0761553315141725e-08
+grid_refined,observer_carriers,6.882924952211766e-09
+physical_refined,envelopes,3.8259730026218883e-07
+physical_refined,global_carriers,2.18430584730811e-08
+physical_refined,observer_carriers,1.3158213019170972e-08

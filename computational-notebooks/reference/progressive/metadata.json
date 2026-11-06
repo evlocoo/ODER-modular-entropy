@@ -1,0 +1,33 @@
+{
+  "instrument": "Rail-independent, time-recorded collection with m=d^2/(epsilon+d)",
+  "interpolation": "Piecewise-linear CDF on each supplied detector time grid",
+  "source_policy": "The same gate and receiving parameters apply to every frozen source",
+  "score": "All-trial deterministic Bell-fidelity lower certificate; source minimum taken after integration",
+  "constant_mode": "Common absolute-time constant hazard; exact recorded-cohort information identity",
+  "chain_mode": "h=1 finite Jacobi chain, clock reset at loading completion, then source isolation and lossless hold",
+  "resource_scope": "Matched chain length and coupling scale; routing, packing, time records and early-memory storage are additional declared resources",
+  "readout_scope": "Diary decoding occurs after designated-memory acquisition; no efficient decoder circuit is asserted",
+  "rows": 150,
+  "source_count": 32,
+  "parameters": {
+    "total": 120.0,
+    "loading_times": [
+      0.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0
+    ],
+    "epsilon": 1e-06,
+    "rate": 0.025,
+    "omega": 0.025,
+    "largest_node": 62,
+    "h": 1,
+    "cutoff": 57.15,
+    "quadrature_order": 8,
+    "check_quadrature_order": 4
+  },
+  "maximum_gate_mass_residual": 3.6637359812630166e-15,
+  "maximum_quadrature_weight_difference": 2.220446049250313e-15,
+  "maximum_quadrature_fidelity_difference": 1.2212453270876722e-15
+}

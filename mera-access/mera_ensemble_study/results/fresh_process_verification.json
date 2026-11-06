@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "fresh_process_exit_code": 0,
+  "numeric_archives_compared": 518,
+  "arrays_compared": 91000,
+  "maximum_array_residual": 0.0,
+  "all_arrays_bitwise_equal": true,
+  "csv_tables_compared": 394,
+  "all_csv_tables_byte_equal": true,
+  "validation_records_compared": 194,
+  "validation_records_exact": true,
+  "numerical_summary_exact": true,
+  "inputs_unchanged": true,
+  "fresh_study_process_wall_seconds_including_imports": 99.70784360001562,
+  "verification_wall_seconds_including_study": 118.23093049996532,
+  "fresh_study_resources": {
+    "peak_sampled_rss_bytes": 132112384,
+    "wall_seconds": 98.87215489998925,
+    "cpu_seconds": 89.40625,
+    "timing_scope": "Per-process study after Python imports through generation, validation, checkpointing, statistics and figures; excludes final report/summary.",
+    "memory_measurement": "Process RSS sampled every 10 ms; brief peaks may be missed.",
+    "os_peak_working_set_bytes": 132149248
+  },
+  "execution_record": "Initial complete study and one full fresh-process reproduction. Scientific design, seeds, and thresholds unchanged."
+}

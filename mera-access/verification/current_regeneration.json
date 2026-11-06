@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "tolerance": 1e-10,
+  "arrays_compared": 91000,
+  "maximum_array_residual": 0.0,
+  "maximum_discrepancy": 0.0,
+  "maximum_discrepancy_location": "all_subset_scores.csv:row2.r_network",
+  "numeric_archives_compared": 518,
+  "csv_tables_compared": 394,
+  "validation_records_compared": 194,
+  "summary_records_compared": 195,
+  "all_arrays_bitwise_equal": true,
+  "all_csv_tables_byte_equal": true,
+  "validation_records_exact": true,
+  "exact_summary_equality": true,
+  "file_inventory_exact": true,
+  "fresh_study_resources": {
+    "peak_sampled_rss_bytes": 131317760,
+    "wall_seconds": 111.67071769999893,
+    "cpu_seconds": 98.515625,
+    "timing_scope": "Per-process study after Python imports through generation, validation, checkpointing, statistics and figures; excludes final report/summary.",
+    "memory_measurement": "Process RSS sampled every 10 ms; brief peaks may be missed.",
+    "os_peak_working_set_bytes": 131317760
+  },
+  "fresh_study_process_wall_seconds_including_imports": 112.69242840000152,
+  "execution_method": "Distributed study.py in a fresh subprocess",
+  "run_local_eigenvalue_diagnostics": {
+    "reference": {
+      "passed": true,
+      "density_groups_checked": 194,
+      "density_states_checked": 88852,
+      "total_negative_eigenvalues": 972232,
+      "minimum_eigenvalue": -1.4877277316380076e-15
+    },
+    "generated": {
+      "passed": true,
+      "density_groups_checked": 194,
+      "density_states_checked": 88852,
+      "total_negative_eigenvalues": 972232,
+      "minimum_eigenvalue": -1.4877277316380076e-15
+    }
+  },
+  "norms": "Frobenius for matrices, Euclidean for states and flattened general arrays; absolute scalar differences. No relative tolerance.",
+  "platform": "Windows",
+  "source_hashes": {
+    "reference": "cd59b5bab8d1aa7224ac5aa70c0178981ac4d41293ec6b88fb9315290cb95963",
+    "generated": "3437793b222fbaaa7a614c4dd73dbf4197487393562814494c221d7c1202b2e2"
+  }
+}

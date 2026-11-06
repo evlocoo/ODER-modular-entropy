@@ -1,0 +1,120 @@
+{
+  "status": "Exact conditional construction; executable verification; no hardware experiment.",
+  "source": "Uniform classical X; sites 1,2 contain X; sites 3,4 blank; source-independent masks.",
+  "protocols": {
+    "A": {
+      "ordered_pairs_one_based": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "nonzero_assignment_probability": 0.25,
+      "probability_both_readable": 0.5,
+      "local_mutual_information_bits": [
+        0.5,
+        0.5
+      ],
+      "optimal_individual_correctness": [
+        0.75,
+        0.75
+      ],
+      "optimal_both_correct_no_communication": 0.75,
+      "optimal_both_correct_communication_allowed": 0.75,
+      "pooled_mutual_information_bits": 0.5
+    },
+    "B": {
+      "ordered_pairs_one_based": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "nonzero_assignment_probability": 0.25,
+      "probability_both_readable": 0.0,
+      "local_mutual_information_bits": [
+        0.5,
+        0.5
+      ],
+      "optimal_individual_correctness": [
+        0.75,
+        0.75
+      ],
+      "optimal_both_correct_no_communication": 0.5,
+      "optimal_both_correct_communication_allowed": 1.0,
+      "pooled_mutual_information_bits": 1.0
+    }
+  },
+  "uniform_fragment_source_information_plot_bits": [
+    "0",
+    "1/2",
+    "5/6",
+    "1",
+    "1"
+  ],
+  "compatible_probability_both_readable_interval": [
+    0.0,
+    0.5
+  ],
+  "compatible_local_joint_correctness_interval": [
+    0.5,
+    0.75
+  ],
+  "calibration_matrix_rank_before_after_joint_statistic": [
+    7,
+    8
+  ],
+  "decoder_enumeration": {
+    "maps_per_observer": 64,
+    "map_pairs": 4096,
+    "mixture_cases_checked": 11
+  },
+  "source_independence_counterexample_public_mask_information_bits": 1.0,
+  "coherence_control": {
+    "full_register_Bell_fidelity_before_after_dephasing": [
+      0.9999999999999997,
+      0.49999999999999983
+    ],
+    "single_record_reference_state_maximum_difference": 0.0,
+    "pointer_readout_accuracy_before_after": [
+      1.0,
+      1.0
+    ],
+    "scope": "Distinct coherent/dephased sources; their full quantum mutual information differs."
+  },
+  "limitations": [
+    "Does not alter intrinsic source redundancy or establish objectivity of arbitrary quantum states.",
+    "The conventional uniform-fragment source curve is fixed; protocol-weighted pooled information changes.",
+    "Flag/source independence and communication rights are essential.",
+    "Noisy records require recalibration and a separate decoder optimization.",
+    "Fr\u00e9chet bounds and good-record/bad-record sources have established antecedents."
+  ],
+  "exact_rational_calibration_ranks": [
+    7,
+    8
+  ]
+}

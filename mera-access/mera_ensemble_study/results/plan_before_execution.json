@@ -1,0 +1,839 @@
+{
+  "study": "Eight-site random-encoding ensemble, fixed architecture, no optimization",
+  "source_sha256": "cd59b5bab8d1aa7224ac5aa70c0178981ac4d41293ec6b88fb9315290cb95963",
+  "input_identity": {
+    "files": {
+      "original_methods.py": {
+        "sha256": "ef0d49db371990a089091be5277f4fe3bd926fe1336162525b52666f2eacfbe3",
+        "original_path": "mera_pilot/reproduce.py",
+        "archive": "ODER_Finite_MERA_Pilot_2026-09-18.zip",
+        "member": "mera_pilot/reproduce.py"
+      },
+      "mera_tensors.npz": {
+        "sha256": "d4038e44c7bec7fbfbe452f1de8c3095d6a1afd9ac2d5e198209e8698e4a214c",
+        "original_path": "mera_pilot/results/frozen_tensors.npz",
+        "archive": "ODER_Finite_MERA_Pilot_2026-09-18.zip",
+        "member": "mera_pilot/results/frozen_tensors.npz"
+      },
+      "mera_hashes.json": {
+        "sha256": "002d00c73c47ef222b60dfb02bb644d85201046902dc31dbef48bffcae1a6f96",
+        "original_path": "mera_pilot/results/tensor_hashes.json",
+        "archive": "ODER_Finite_MERA_Pilot_2026-09-18.zip",
+        "member": "mera_pilot/results/tensor_hashes.json"
+      },
+      "original_plan.json": {
+        "sha256": "9116a7e03a9b37d9ef8a8056cc086c18a248ef97e273c0c1a12ef55d3bcb122f",
+        "original_path": "mera_pilot/results/plan_before_execution.json",
+        "archive": "ODER_Finite_MERA_Pilot_2026-09-18.zip",
+        "member": "mera_pilot/results/plan_before_execution.json"
+      },
+      "tree_tensors.npz": {
+        "sha256": "43931c80c681f3c195cea7586d5484f9630efa5b953e3e6b87c652e498873833",
+        "original_path": "mera_identity_ablation/results/tree_tensors.npz",
+        "archive": "ODER_MERA_Identity_Ablation_2026-09-18.zip",
+        "member": "mera_identity_ablation/results/tree_tensors.npz"
+      },
+      "tree_hashes.json": {
+        "sha256": "2c722241e688d03461eaae242bac72265e33fd9519037777e46a51f843e3c9c9",
+        "original_path": "mera_identity_ablation/results/hash_verification.json",
+        "archive": "ODER_MERA_Identity_Ablation_2026-09-18.zip",
+        "member": "mera_identity_ablation/results/hash_verification.json"
+      },
+      "ablation_summary.json": {
+        "sha256": "b21c731bb21dc4accb412f5042ccad7e8944c18e1379a6fa42f479e95f4f8865",
+        "original_path": "mera_identity_ablation/results/summary.json",
+        "archive": "ODER_MERA_Identity_Ablation_2026-09-18.zip",
+        "member": "mera_identity_ablation/results/summary.json"
+      },
+      "baseline_paired.csv": {
+        "sha256": "f9e6cf862501d49bae7ad8afccf260b54eaee8722598fe3823a2a047e9cdd480",
+        "original_path": "mera_identity_ablation/results/paired_subsets.csv",
+        "archive": "ODER_MERA_Identity_Ablation_2026-09-18.zip",
+        "member": "mera_identity_ablation/results/paired_subsets.csv"
+      },
+      "audited_architecture.json": {
+        "sha256": "80dc8f7c3051b3daa81bb0f0ad1dcddf5d9dbf0170b0a09c38fedbdf0819350c",
+        "original_path": "mera_architecture_audit/architecture.json"
+      },
+      "architecture_audit_summary.json": {
+        "sha256": "0f1a6bf2597e658ca7284e6137bb15b61956bf8623a45de6ed2f6d339cbcf852",
+        "original_path": "mera_architecture_audit/results/summary.json"
+      },
+      "architecture_audit_plan.json": {
+        "sha256": "a8ca698a674d149d0371e4e757f66ed6ce57d3d38e58493da6ce5d988c4c1c23",
+        "original_path": "mera_architecture_audit/results/plan_before_execution.json"
+      }
+    },
+    "preserved_packages": {
+      "ODER_Finite_MERA_Pilot_2026-09-18.zip": "ab888285bd6fec7d9605e61201f85f7b41232cb9d42cf285c9f18647b1381126",
+      "ODER_MERA_Identity_Ablation_2026-09-18.zip": "5fa57639a5d999c47e1e1481c9f1b711e54a734a7bc90082f2a7f4d1af2b73f9",
+      "ODER_MERA_Exact_Nulls_2026-09-18.zip": "54294993e7dcc3ee6b3f8a3342d8e3c0343347a3c3302a34368111d4e29376b0",
+      "ODER_MERA_Architecture_Audit_2026-09-18.zip": "5faa0b3c7d509e2240c8c1ebf35c418adf6f0254d077b9ab6292d87269b9047c"
+    }
+  },
+  "mera_seeds": [
+    101001,
+    101002,
+    101003,
+    101004,
+    101005,
+    101006,
+    101007,
+    101008,
+    101009,
+    101010,
+    101011,
+    101012,
+    101013,
+    101014,
+    101015,
+    101016,
+    101017,
+    101018,
+    101019,
+    101020,
+    101021,
+    101022,
+    101023,
+    101024,
+    101025,
+    101026,
+    101027,
+    101028,
+    101029,
+    101030,
+    101031,
+    101032,
+    101033,
+    101034,
+    101035,
+    101036,
+    101037,
+    101038,
+    101039,
+    101040,
+    101041,
+    101042,
+    101043,
+    101044,
+    101045,
+    101046,
+    101047,
+    101048,
+    101049,
+    101050,
+    101051,
+    101052,
+    101053,
+    101054,
+    101055,
+    101056,
+    101057,
+    101058,
+    101059,
+    101060,
+    101061,
+    101062,
+    101063,
+    101064
+  ],
+  "haar_seeds": [
+    202001,
+    202002,
+    202003,
+    202004,
+    202005,
+    202006,
+    202007,
+    202008,
+    202009,
+    202010,
+    202011,
+    202012,
+    202013,
+    202014,
+    202015,
+    202016,
+    202017,
+    202018,
+    202019,
+    202020,
+    202021,
+    202022,
+    202023,
+    202024,
+    202025,
+    202026,
+    202027,
+    202028,
+    202029,
+    202030,
+    202031,
+    202032,
+    202033,
+    202034,
+    202035,
+    202036,
+    202037,
+    202038,
+    202039,
+    202040,
+    202041,
+    202042,
+    202043,
+    202044,
+    202045,
+    202046,
+    202047,
+    202048,
+    202049,
+    202050,
+    202051,
+    202052,
+    202053,
+    202054,
+    202055,
+    202056,
+    202057,
+    202058,
+    202059,
+    202060,
+    202061,
+    202062,
+    202063,
+    202064
+  ],
+  "statistical_resampling_seed": 303001,
+  "exploratory_seed": 20260918,
+  "exploratory_policy": "Separate frozen-tensor regression; excluded from every ensemble estimate and bootstrap.",
+  "rng": "NumPy Generator(PCG64)",
+  "mera_generation": {
+    "method": "Call unchanged audited pilot generate() with only its in-memory SEED set to the declared seed.",
+    "draw_order": "For each expansion layer: w left to right, then u in listed pair order. Each matrix draws all real entries then all imaginary entries, in C order.",
+    "phase_convention": "Reduced QR; multiply column j of Q by R[j,j]/abs(R[j,j]), giving positive real diagonal of the corresponding R. No zero diagonals occurred.",
+    "architecture": {
+      "description": "Independent literal graph transcribed from the audit's declared architecture, without reading the implementation PAIRS constant or its generated leg labels.",
+      "input": [
+        "A"
+      ],
+      "boundary": [
+        "B0",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ],
+      "dimension_per_edge": 2,
+      "tensor_legs": {
+        "w": [
+          "left output",
+          "right output",
+          "input"
+        ],
+        "u": [
+          "first output",
+          "second output",
+          "first input",
+          "second input"
+        ]
+      },
+      "dense_order": "C-order; boundary site 0 is the most significant bit; V rows are B0,...,B7 and columns are logical A.",
+      "nodes": [
+        {
+          "name": "w0_0",
+          "kind": "w",
+          "stage": "expand2",
+          "inputs": [
+            "A"
+          ],
+          "outputs": [
+            "a0",
+            "a1"
+          ]
+        },
+        {
+          "name": "w1_0",
+          "kind": "w",
+          "stage": "expand4",
+          "inputs": [
+            "a0"
+          ],
+          "outputs": [
+            "b0",
+            "b1"
+          ]
+        },
+        {
+          "name": "w1_1",
+          "kind": "w",
+          "stage": "expand4",
+          "inputs": [
+            "a1"
+          ],
+          "outputs": [
+            "b2",
+            "b3"
+          ]
+        },
+        {
+          "name": "u4_0",
+          "kind": "u",
+          "stage": "disentangle4",
+          "ordered_sites": [
+            1,
+            2
+          ],
+          "inputs": [
+            "b1",
+            "b2"
+          ],
+          "outputs": [
+            "c1",
+            "c2"
+          ]
+        },
+        {
+          "name": "u4_1",
+          "kind": "u",
+          "stage": "disentangle4",
+          "ordered_sites": [
+            3,
+            0
+          ],
+          "inputs": [
+            "b3",
+            "b0"
+          ],
+          "outputs": [
+            "c3",
+            "c0"
+          ]
+        },
+        {
+          "name": "w2_0",
+          "kind": "w",
+          "stage": "expand8",
+          "inputs": [
+            "c0"
+          ],
+          "outputs": [
+            "d0",
+            "d1"
+          ]
+        },
+        {
+          "name": "w2_1",
+          "kind": "w",
+          "stage": "expand8",
+          "inputs": [
+            "c1"
+          ],
+          "outputs": [
+            "d2",
+            "d3"
+          ]
+        },
+        {
+          "name": "w2_2",
+          "kind": "w",
+          "stage": "expand8",
+          "inputs": [
+            "c2"
+          ],
+          "outputs": [
+            "d4",
+            "d5"
+          ]
+        },
+        {
+          "name": "w2_3",
+          "kind": "w",
+          "stage": "expand8",
+          "inputs": [
+            "c3"
+          ],
+          "outputs": [
+            "d6",
+            "d7"
+          ]
+        },
+        {
+          "name": "u8_0",
+          "kind": "u",
+          "stage": "disentangle8",
+          "ordered_sites": [
+            1,
+            2
+          ],
+          "inputs": [
+            "d1",
+            "d2"
+          ],
+          "outputs": [
+            "B1",
+            "B2"
+          ]
+        },
+        {
+          "name": "u8_1",
+          "kind": "u",
+          "stage": "disentangle8",
+          "ordered_sites": [
+            3,
+            4
+          ],
+          "inputs": [
+            "d3",
+            "d4"
+          ],
+          "outputs": [
+            "B3",
+            "B4"
+          ]
+        },
+        {
+          "name": "u8_2",
+          "kind": "u",
+          "stage": "disentangle8",
+          "ordered_sites": [
+            5,
+            6
+          ],
+          "inputs": [
+            "d5",
+            "d6"
+          ],
+          "outputs": [
+            "B5",
+            "B6"
+          ]
+        },
+        {
+          "name": "u8_3",
+          "kind": "u",
+          "stage": "disentangle8",
+          "ordered_sites": [
+            7,
+            0
+          ],
+          "inputs": [
+            "d7",
+            "d0"
+          ],
+          "outputs": [
+            "B7",
+            "B0"
+          ]
+        }
+      ],
+      "forward_stages": [
+        "expand2",
+        "expand4",
+        "disentangle4",
+        "expand8",
+        "disentangle8"
+      ],
+      "top_boundary": "One open logical qubit enters a 4x2 top isometry. No two-site disentangler follows the first expansion. The encoder has a two-dimensional image.",
+      "tree_intervention": "All six u matrices are identities, with the same seven w matrices and the same wire identifications. Exact identity simplification removes the u vertices.",
+      "canonical_reference": {
+        "authors": "G. Evenbly and G. Vidal",
+        "title": "Algorithms for entanglement renormalization",
+        "journal": "Physical Review B 79, 144108 (2009)",
+        "doi": "10.1103/PhysRevB.79.144108",
+        "url": "https://arxiv.org/abs/0707.1454",
+        "locations": "Figure 2; Sections II A, II C and III"
+      }
+    },
+    "legs": "w[out_left,out_right,in]; u[out_first,out_second,in_first,in_second]. Ordered pair (7,0) means first leg site 7. C-order reshape; logical and physical site 0 are most significant bits."
+  },
+  "paired_tree": "Copy all seven isometries exactly; replace six disentanglers with I4. No independent tree draw.",
+  "haar_generation": "Draw real standard_normal((256,2)), then imaginary standard_normal((256,2)); reduced QR; multiply Q columns by diag(R)/abs(diag(R)). One independent seed per encoding. Haar seed indices create no pairing with structured encodings.",
+  "source": "Bell(Q,A) then V on A; state axes [Q,B0,...,B7]. Unoptimized encoding.",
+  "access": {
+    "contiguous": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "uniform": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        1,
+        6
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        2,
+        7
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        0,
+        3,
+        5
+      ],
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        0,
+        3,
+        7
+      ],
+      [
+        0,
+        4,
+        5
+      ],
+      [
+        0,
+        4,
+        6
+      ],
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        0,
+        5,
+        6
+      ],
+      [
+        0,
+        5,
+        7
+      ],
+      [
+        0,
+        6,
+        7
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        7
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        5,
+        6
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        6
+      ],
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "weights": [
+      0.125,
+      0.017857142857142856
+    ],
+    "selection": "Input independent; subset identity retained as classical flag"
+  },
+  "outcomes": {
+    "score": "I(Q:B_S)/2 in bits, preserving the accessible classical subset flag",
+    "gap": "Delta=mean_contiguous-mean_uniform",
+    "amplification": "Gamma=Delta_MERA-Delta_tree",
+    "level_changes": "L_C=mean_C_MERA-mean_C_tree; L_U=mean_U_MERA-mean_U_tree; Gamma=L_C-L_U"
+  },
+  "primary_estimands": [
+    "E[Delta_MERA]",
+    "E[Gamma]"
+  ],
+  "secondary_estimands": [
+    "E[Delta_tree]",
+    "E[Delta_Haar]",
+    "All acquisition-level means",
+    "E[L_C]",
+    "E[L_U]",
+    "Structured minus Haar gap and acquisition-level contrasts"
+  ],
+  "summary_statistics": "Encoding-level mean, sample SD (ddof=1), median, Q1, Q3, IQR, minimum, maximum, and positive/unresolved/negative counts at 1e-8. NumPy linear quantiles.",
+  "bootstrap": {
+    "replicates": 20000,
+    "rng_seed": 303001,
+    "sampling_unit": "Encoding; MERA/tree are paired",
+    "draw_order": "PCG64(303001): first draw a (20000,64) int64 index array for pairs; then an independent (20000,64) int64 array for Haar. Use the same pair indices for every paired/structured estimand.",
+    "interval": "2.5th and 97.5th percentiles of encoding-level bootstrap means, method=linear; no centering or multiplicity adjustment.",
+    "label": "Approximate Monte Carlo uncertainty for the declared random-encoding distributions; not subset-level replication.",
+    "primary_interpretation": "Assess each primary question separately. Entire interval above zero supports positive ensemble mean; entire interval below zero supports negative mean; crossing zero leaves its sign unresolved by this interval. No omnibus success claim.",
+    "haar_rule": "Individual Haar gaps may be nonzero. Permutation symmetry implies zero ensemble expectation, not an exact-zero requirement on this sample."
+  },
+  "sign_classification_threshold": 1e-08,
+  "threshold_meaning": "Numerical resolution only, not a scientific effect-size threshold",
+  "validation_tolerance": 1e-10,
+  "norms": "Frobenius for matrices; Euclidean for states; absolute scalar differences; minimum eigenvalue >= -1e-10.",
+  "entropy": "Base two; record raw eigenvalues; reject values below -1e-10; set only negative eigenvalues to zero, retaining every positive eigenvalue. No trace renormalization.",
+  "validation": "Every structured encoding: original independent contraction/dense encodings and independent partial traces. Haar: both partial traces. All: tensor/full isometry, normalization, density trace/Hermiticity/positivity, empty/full information, all 56 subset states and scores, pure complement identities. Compare all eight-by-two logical columns, not only selected input states.",
+  "algebraic_consequence": "For pure Bell-reference preparation, complementary five-site ensemble scores equal 1 minus three-site scores, so Delta_5=-Delta_3. Report as an algebraic consequence, not new independent evidence.",
+  "execution": "Sequential. Save tensors before scoring. Checkpoint each completed MERA/tree seed pair or Haar seed; never substitute a failed seed.",
+  "resource_budget_per_process": {
+    "wall_seconds": 1800,
+    "cpu_seconds": 1800,
+    "peak_rss_bytes": 2147483648,
+    "policy": "Sample RSS every 10 ms; check soft budget before/after each seed. Finish the active seed, checkpoint and stop/report if exceeded."
+  },
+  "failure_policy": "Preserve failed seed outputs and failure record; diagnose implementation, document repairs/reruns, never reseed or discard negative results. No automatic replacement.",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "psutil": "7.2.2",
+    "platform": "Windows"
+  },
+  "scope": "No architecture changes, Hamiltonian optimization, larger systems or manuscript edits. Stop after this ensemble study.",
+  "identity_note": "Hashes establish artifact identity, not independent timestamped preregistration."
+}

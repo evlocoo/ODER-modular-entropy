@@ -1,0 +1,14 @@
+{
+  "resonance_Momega": 0.16,
+  "gamma_Momega": 0.032,
+  "delay_rule": "Baseline transmitted-spectrum-weighted group delay; frozen across refinement.",
+  "inputs_sha256": {
+    "control_transmission_refined.npz": "8228b253d1ce0ad49e1c9f49d12d6d8024aca8f46aff89e96ba53c3576aa9369",
+    "observer_registry.json": "38107307300a71464affc94396afcf0c32d1e3f5f064813054fe534ad2850dbe",
+    "control_refined_schwarzschild.npz": "08747463a642f02160adfdaf54d78d463b0a6ee87569da2a05dbfc79bee93b18",
+    "control_transmission_baseline.npz": "28eb911892e3670fa20d89748a8cdb43c554411aa2c87f856c2fd05526b29194",
+    "control_baseline_schwarzschild.npz": "b315710e623961b56474927d58df4c6ad0d2b08e831f35222cfa5710fe3410e9",
+    "control_source_information.npy": "a4194e13a9643f300cca86317af86b8754c50a6b95bcbb91590e0a164e6b6fe2",
+    "control_summary.json": "a5c608bad23b9fcc97ad745a52cbc115a604bb6e9c8f16a5c4b093e1fd6fbd3e"
+  }
+}

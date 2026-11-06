@@ -1,0 +1,14 @@
+{
+  "source_archive_name": "Black_Hole_Computational_Notebooks_2026-09-16.zip",
+  "source_archive_sha256": "e90a234db76d29c10905d96a6caed68cba3dd7434ea7e4df7219c7bb731aed44",
+  "recovered_files": {
+    "Schwarzschild_Propagation_Controls.ipynb": "a377aaf7330e142247db799a1f2c50cd1e0b4d34ef52c6f194abb2bae75557d0",
+    "code/schwarzschild_controls.py": "c2aa5dc8b44682b334a1079d34e57cecd8fb4accbf3c70493d27ccff3897a848"
+  },
+  "hash_scope": "recovered_files gives the original archive member identities before notebook integration.",
+  "current_files_sha256": {
+    "Schwarzschild_Propagation_Controls.ipynb": "eb85fcdfcf0f772fc82cd576fdae20f71b507e46e372248be49b7be182ca4503",
+    "code/schwarzschild_controls.py": "c2aa5dc8b44682b334a1079d34e57cecd8fb4accbf3c70493d27ccff3897a848"
+  },
+  "adaptation": "The numerical module is unchanged. Notebook explanation and fresh output locations were integrated."
+}

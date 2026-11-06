@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "tolerance": 1e-10,
+  "early_marginal": 0.65,
+  "late_marginals": [
+    0.4281480462467075,
+    0.4470597490925421,
+    0.450370444381079,
+    0.4506100730106799,
+    0.4494704592309984
+  ],
+  "a": 0.1651317543924014,
+  "upper_certificate": 0.4469473873729411,
+  "conservative_upper": 0.447,
+  "limiting_source_index": 10,
+  "limiting_source_ordinal": 11,
+  "limiting_seed": 2026082110,
+  "law": [
+    {
+      "late_mask": 0,
+      "early_mask": 31,
+      "probability": 0.4848682456075986
+    },
+    {
+      "late_mask": 15,
+      "early_mask": 0,
+      "probability": 0.06566129516140295
+    },
+    {
+      "late_mask": 23,
+      "early_mask": 0,
+      "probability": 0.06452168138172143
+    },
+    {
+      "late_mask": 27,
+      "early_mask": 0,
+      "probability": 0.06476131001132235
+    },
+    {
+      "late_mask": 29,
+      "early_mask": 0,
+      "probability": 0.06807200529985924
+    },
+    {
+      "late_mask": 30,
+      "early_mask": 0,
+      "probability": 0.08698370814569384
+    },
+    {
+      "late_mask": 31,
+      "early_mask": 31,
+      "probability": 0.1651317543924014
+    }
+  ],
+  "statewise_upper": [
+    0.44293874780515174,
+    0.44425390746342586,
+    0.4467192676427859,
+    0.4447831288731623,
+    0.4459660748342238,
+    0.44396045173318893,
+    0.4454059150998493,
+    0.4456515291948937,
+    0.4430812349035828,
+    0.44629817064572463,
+    0.4469473873729411,
+    0.44513196708373093,
+    0.4451380245221163,
+    0.44489114525267015,
+    0.44490296082855396,
+    0.4440907406607954,
+    0.4457276376376868,
+    0.44422338651081805,
+    0.4423554926155103,
+    0.44386600605145926,
+    0.4440437472872112,
+    0.44352013026230885,
+    0.44297712343063733,
+    0.44422391607402345,
+    0.4449290434140776,
+    0.44392593202082986,
+    0.44306024124114096,
+    0.44307444909454535,
+    0.44577964764403333,
+    0.4441731756386702,
+    0.44489992803371786,
+    0.4451743150562014
+  ],
+  "printed_witness": {
+    "primal_value": 0.4469473873729411,
+    "dual_value": 0.44694738737294126,
+    "residuals": {
+      "marginal_linf": 2.220446049250313e-16,
+      "primal_nonnegativity": 0.0,
+      "source_inequality": 0.0,
+      "dual_nonnegativity": 0.0,
+      "dual_normalization": 0.0,
+      "dual_inequality": 5.551115123125783e-17,
+      "primal_dual_gap": 1.6653345369377348e-16,
+      "mask_complementarity_linf": 1.8333307582319037e-17,
+      "source_complementarity_linf": 0.0
+    }
+  },
+  "solvers": [
+    {
+      "method": "highs-ds",
+      "primal_value": 0.44694738737294204,
+      "dual_value": 0.4469473873729411,
+      "residuals": {
+        "marginal_linf": 5.440092820663267e-15,
+        "primal_nonnegativity": 0.0,
+        "source_inequality": 0.0,
+        "dual_nonnegativity": 0.0,
+        "dual_normalization": 0.0,
+        "dual_inequality": 0.0,
+        "primal_dual_gap": 9.43689570931383e-16,
+        "mask_complementarity_linf": 2.6915594509158338e-17,
+        "source_complementarity_linf": 0.0
+      }
+    },
+    {
+      "method": "highs-ipm",
+      "primal_value": 0.44694738737294115,
+      "dual_value": 0.4469473873729413,
+      "residuals": {
+        "marginal_linf": 1.1102230246251565e-16,
+        "primal_nonnegativity": 0.0,
+        "source_inequality": 0.0,
+        "dual_nonnegativity": 0.0,
+        "dual_normalization": 0.0,
+        "dual_inequality": 5.551115123125783e-17,
+        "primal_dual_gap": 1.6653345369377348e-16,
+        "mask_complementarity_linf": 4.8285657775312056e-18,
+        "source_complementarity_linf": 0.0
+      }
+    }
+  ],
+  "cross_solver_objective_difference": 8.881784197001252e-16,
+  "residual_norms": "Maximum absolute component for constraints; absolute scalar objective gaps.",
+  "interpretation": "Optimum of the upper-certificate problem, not equality with optimal quantum decoding fidelity."
+}

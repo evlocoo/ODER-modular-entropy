@@ -1,0 +1,6 @@
+quantity,exploratory_value,empirical_percentile_midrank,within_observed_range,within_sample_iqr,comparison
+Delta_MERA,0.044945222032085674,46.875,True,True,Descriptive placement against 64 new draws; exploratory seed excluded from estimation.
+Delta_tree,0.032964035744602105,81.25,True,False,Descriptive placement against 64 new draws; exploratory seed excluded from estimation.
+Gamma,0.01198118628748357,14.0625,True,False,Descriptive placement against 64 new draws; exploratory seed excluded from estimation.
+L_C,-0.04659158627096682,64.0625,True,True,Descriptive placement against 64 new draws; exploratory seed excluded from estimation.
+L_U,-0.05857277255845039,73.4375,True,True,Descriptive placement against 64 new draws; exploratory seed excluded from estimation.

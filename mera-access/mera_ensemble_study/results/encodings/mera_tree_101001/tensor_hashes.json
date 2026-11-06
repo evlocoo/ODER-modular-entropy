@@ -1,0 +1,32 @@
+{
+  "archive_sha256": "adf3795e62e80c25cb74596e018fec787b2e75c1cd9950676fbd4bae08ab0012",
+  "arrays": {
+    "mera_w0_0": "567bb6fe04ce4a83088b7c65f483f0ac4315a91158b06f3724c91cc63c2853c3",
+    "mera_w1_0": "cc293c2db0ec315363a2486e2b6ac8e452ef04b489a69d5f21ec9d9f905b766b",
+    "mera_w1_1": "e496fc4494d45fca28887d6521152f825e39991ace8d179fbce41758bd87fce6",
+    "mera_u4_0": "1669e4b1f911058723547d4a9a152c84a04366bf3b0abb77ae2ef2eb9302351a",
+    "mera_u4_1": "95acccb0a8d5cc02f9da61c6d9da2a69bf78c4d60f572e728b929d5f2e598eda",
+    "mera_w2_0": "039328da6e17f5a62a452194d4755e7e84938b6bd0f2e3cd1eca647a75714f8a",
+    "mera_w2_1": "ca5f517147f0c992fff4fdbfce98e4ace27d45ee0a71264deabd7f944933f9af",
+    "mera_w2_2": "ce3f9f26cfbae22fbf8674e9f4cc2ceaeb3959183d2a93dc8bf9b34c9f80ee5a",
+    "mera_w2_3": "d00aea0dca4b85694bbd34df9a1ba4fd5336fc5b60657532d8823b2dccaeecab",
+    "mera_u8_0": "6068b47e86a8008bdec1f68b0dd3c8612c7cc4958664e212e8916228c6e275c3",
+    "mera_u8_1": "dc6deca1a0024280aa2a22b1dd0bae3d3ac86ec2ffa920b2248a5f0a58e982dc",
+    "mera_u8_2": "7aef6b26da51d5c33193ee790323643484de58ef975e71ab2a0bfd0836cba85e",
+    "mera_u8_3": "147c262a2124a6fd99d87059a811c195b19f0d429afb996464f2a1965b49a26e",
+    "tree_w0_0": "567bb6fe04ce4a83088b7c65f483f0ac4315a91158b06f3724c91cc63c2853c3",
+    "tree_w1_0": "cc293c2db0ec315363a2486e2b6ac8e452ef04b489a69d5f21ec9d9f905b766b",
+    "tree_w1_1": "e496fc4494d45fca28887d6521152f825e39991ace8d179fbce41758bd87fce6",
+    "tree_u4_0": "e716c44f4faff7d006c4a9acf9af0622784eba1f11d135fc211cb4a967879f9e",
+    "tree_u4_1": "e716c44f4faff7d006c4a9acf9af0622784eba1f11d135fc211cb4a967879f9e",
+    "tree_w2_0": "039328da6e17f5a62a452194d4755e7e84938b6bd0f2e3cd1eca647a75714f8a",
+    "tree_w2_1": "ca5f517147f0c992fff4fdbfce98e4ace27d45ee0a71264deabd7f944933f9af",
+    "tree_w2_2": "ce3f9f26cfbae22fbf8674e9f4cc2ceaeb3959183d2a93dc8bf9b34c9f80ee5a",
+    "tree_w2_3": "d00aea0dca4b85694bbd34df9a1ba4fd5336fc5b60657532d8823b2dccaeecab",
+    "tree_u8_0": "e716c44f4faff7d006c4a9acf9af0622784eba1f11d135fc211cb4a967879f9e",
+    "tree_u8_1": "e716c44f4faff7d006c4a9acf9af0622784eba1f11d135fc211cb4a967879f9e",
+    "tree_u8_2": "e716c44f4faff7d006c4a9acf9af0622784eba1f11d135fc211cb4a967879f9e",
+    "tree_u8_3": "e716c44f4faff7d006c4a9acf9af0622784eba1f11d135fc211cb4a967879f9e"
+  },
+  "array_format": "little-endian complex128 C-order"
+}

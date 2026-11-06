@@ -1,0 +1,8 @@
+{
+  "primal_dual_witnesses_checked": 3524,
+  "maximum_raw_residual": 8.497004527882514e-09,
+  "tolerance": 1e-08,
+  "passed": true,
+  "raw_numerical_records_unchanged": true,
+  "zero_headroom_tie_tolerance": 1e-08
+}

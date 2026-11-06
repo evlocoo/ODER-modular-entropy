@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "witness_pairs_checked": 3,
+  "upper_certificate_tables": "Independent 60-step binary-divergence bisection",
+  "tolerance": 1e-10,
+  "maximum_raw_residual": 5.440092820663267e-15,
+  "witnesses": [
+    {
+      "witness": "printed",
+      "upper_certificate": 0.44694738737294115,
+      "dual_value": 0.44694738737294126,
+      "residuals": {
+        "marginal_linf": 2.220446049250313e-16,
+        "primal_nonnegativity": 0.0,
+        "source_inequality": 5.551115123125783e-17,
+        "dual_nonnegativity": 0.0,
+        "dual_normalization": 0.0,
+        "dual_inequality": 1.6653345369377348e-16,
+        "primal_dual_gap": 1.6653345369377348e-16,
+        "mask_complementarity_linf": 1.8333307582319037e-17,
+        "source_complementarity_linf": 5.551115123125783e-17
+      }
+    },
+    {
+      "witness": "highs_ds",
+      "upper_certificate": 0.44694738737294204,
+      "dual_value": 0.4469473873729411,
+      "residuals": {
+        "marginal_linf": 5.440092820663267e-15,
+        "primal_nonnegativity": 0.0,
+        "source_inequality": 0.0,
+        "dual_nonnegativity": 0.0,
+        "dual_normalization": 0.0,
+        "dual_inequality": 2.220446049250313e-16,
+        "primal_dual_gap": 9.43689570931383e-16,
+        "mask_complementarity_linf": 2.6915594509158338e-17,
+        "source_complementarity_linf": 0.0
+      }
+    },
+    {
+      "witness": "highs_ipm",
+      "upper_certificate": 0.4469473873729412,
+      "dual_value": 0.4469473873729413,
+      "residuals": {
+        "marginal_linf": 1.1102230246251565e-16,
+        "primal_nonnegativity": 0.0,
+        "source_inequality": 5.551115123125783e-17,
+        "dual_nonnegativity": 0.0,
+        "dual_normalization": 0.0,
+        "dual_inequality": 2.220446049250313e-16,
+        "primal_dual_gap": 1.6653345369377348e-16,
+        "mask_complementarity_linf": 1.8333307582319034e-17,
+        "source_complementarity_linf": 5.551115123125783e-17
+      }
+    }
+  ]
+}

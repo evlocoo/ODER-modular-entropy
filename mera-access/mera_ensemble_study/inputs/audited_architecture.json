@@ -1,0 +1,27 @@
+{
+  "description": "Independent literal graph transcribed from the audit's declared architecture, without reading the implementation PAIRS constant or its generated leg labels.",
+  "input": ["A"],
+  "boundary": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"],
+  "dimension_per_edge": 2,
+  "tensor_legs": {"w": ["left output", "right output", "input"], "u": ["first output", "second output", "first input", "second input"]},
+  "dense_order": "C-order; boundary site 0 is the most significant bit; V rows are B0,...,B7 and columns are logical A.",
+  "nodes": [
+    {"name":"w0_0","kind":"w","stage":"expand2","inputs":["A"],"outputs":["a0","a1"]},
+    {"name":"w1_0","kind":"w","stage":"expand4","inputs":["a0"],"outputs":["b0","b1"]},
+    {"name":"w1_1","kind":"w","stage":"expand4","inputs":["a1"],"outputs":["b2","b3"]},
+    {"name":"u4_0","kind":"u","stage":"disentangle4","ordered_sites":[1,2],"inputs":["b1","b2"],"outputs":["c1","c2"]},
+    {"name":"u4_1","kind":"u","stage":"disentangle4","ordered_sites":[3,0],"inputs":["b3","b0"],"outputs":["c3","c0"]},
+    {"name":"w2_0","kind":"w","stage":"expand8","inputs":["c0"],"outputs":["d0","d1"]},
+    {"name":"w2_1","kind":"w","stage":"expand8","inputs":["c1"],"outputs":["d2","d3"]},
+    {"name":"w2_2","kind":"w","stage":"expand8","inputs":["c2"],"outputs":["d4","d5"]},
+    {"name":"w2_3","kind":"w","stage":"expand8","inputs":["c3"],"outputs":["d6","d7"]},
+    {"name":"u8_0","kind":"u","stage":"disentangle8","ordered_sites":[1,2],"inputs":["d1","d2"],"outputs":["B1","B2"]},
+    {"name":"u8_1","kind":"u","stage":"disentangle8","ordered_sites":[3,4],"inputs":["d3","d4"],"outputs":["B3","B4"]},
+    {"name":"u8_2","kind":"u","stage":"disentangle8","ordered_sites":[5,6],"inputs":["d5","d6"],"outputs":["B5","B6"]},
+    {"name":"u8_3","kind":"u","stage":"disentangle8","ordered_sites":[7,0],"inputs":["d7","d0"],"outputs":["B7","B0"]}
+  ],
+  "forward_stages": ["expand2","expand4","disentangle4","expand8","disentangle8"],
+  "top_boundary": "One open logical qubit enters a 4x2 top isometry. No two-site disentangler follows the first expansion. The encoder has a two-dimensional image.",
+  "tree_intervention": "All six u matrices are identities, with the same seven w matrices and the same wire identifications. Exact identity simplification removes the u vertices.",
+  "canonical_reference": {"authors":"G. Evenbly and G. Vidal","title":"Algorithms for entanglement renormalization","journal":"Physical Review B 79, 144108 (2009)","doi":"10.1103/PhysRevB.79.144108","url":"https://arxiv.org/abs/0707.1454","locations":"Figure 2; Sections II A, II C and III"}
+}

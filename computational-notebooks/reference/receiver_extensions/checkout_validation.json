@@ -1,0 +1,91 @@
+{
+  "platform": "Windows",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0",
+    "jupyterlab": "4.6.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "installed_from": "requirements.txt in a new isolated Python 3.12 environment",
+  "dependency_check": "passed",
+  "core_tests": {
+    "tests": 31,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "seconds": 10.780081300006714
+  },
+  "notebooks": [
+    {
+      "notebook": "Gaussian_Noise_and_Recovery.ipynb",
+      "code_cells": 7,
+      "seconds": 5.481491500017,
+      "fresh_kernel": true,
+      "passed": true
+    },
+    {
+      "notebook": "Joint_Record_Access.ipynb",
+      "code_cells": 5,
+      "seconds": 3.1730963999871165,
+      "fresh_kernel": true,
+      "passed": true
+    },
+    {
+      "notebook": "Observer_Trajectories_and_Physical_Scales.ipynb",
+      "code_cells": 8,
+      "seconds": 28.304840500000864,
+      "fresh_kernel": true,
+      "passed": true
+    },
+    {
+      "notebook": "Receiver_and_Storage.ipynb",
+      "code_cells": 10,
+      "seconds": 16.85860700000194,
+      "fresh_kernel": true,
+      "passed": true
+    }
+  ],
+  "total_fresh_kernel_cells": 30,
+  "reference_outputs_modified": false,
+  "extension_comparisons": [
+    {
+      "file": "gaussian_noise_and_recovery.json",
+      "values_compared": 1009,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "location": "gaussian_noise_and_recovery.json.special_channels.Squeezing, r=0.45.pauli_weights.I",
+      "tolerance": 1e-10
+    },
+    {
+      "file": "joint_record_access.json",
+      "values_compared": 28,
+      "maximum_absolute_difference": 0.0,
+      "location": null,
+      "tolerance": 1e-10
+    },
+    {
+      "file": "observer_trajectories_and_scales.json",
+      "values_compared": 1834,
+      "maximum_absolute_difference": 4.440892098500626e-16,
+      "location": "observer_trajectories_and_scales.json.trajectory_runs[2].cases.4.0.infall_adaptive.scores.full_early.bell_lower_min",
+      "tolerance": 1e-10
+    }
+  ],
+  "progressive_comparison": {
+    "arrays_compared": 612,
+    "maximum_absolute_difference": 2.220446049250313e-16,
+    "tolerance": 1e-10,
+    "passed": true,
+    "summary_rows": 150,
+    "summary_numeric_entries": 2400,
+    "maximum_summary_absolute_difference": 2.220446049250313e-16,
+    "independent_replay_cases": 45,
+    "independent_replay_sources": 32,
+    "independent_maximum_sourcewise_difference": 6.661338147750939e-16
+  }
+}

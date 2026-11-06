@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "encoders": 2,
+  "observables_per_encoder": 33,
+  "maximum_validation_residual": 3.774758283725532e-15,
+  "maximum_operator_error_fro": 6.841675495967089e-16,
+  "maximum_encoding_error_fro": 5.892405972826673e-16,
+  "maximum_gap_regression_residual": 4.996003610813204e-16,
+  "maximum_temporary_cone_support": {
+    "mera": 5,
+    "tree": 3
+  },
+  "maximum_coarse_layer_support": {
+    "mera": 3,
+    "tree": 2
+  },
+  "gaps": {
+    "mera": 0.04494522203208559,
+    "tree": 0.032964035744601605
+  },
+  "resources": {
+    "peak_sampled_rss_bytes": 110166016,
+    "wall_seconds": 1.293906299979426,
+    "cpu_seconds": 0.6875,
+    "timing_scope": "After imports through numerical checks and artifact writes, excluding report/summary.",
+    "memory_measurement": "RSS sampled every 10 ms; brief peaks may be missed.",
+    "os_peak_working_set_bytes": 110190592
+  }
+}

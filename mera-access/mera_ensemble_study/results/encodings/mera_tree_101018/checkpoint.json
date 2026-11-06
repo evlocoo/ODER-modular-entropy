@@ -1,0 +1,71 @@
+{
+  "seed": 101018,
+  "mera": {
+    "encoder": "mera",
+    "seed": 101018,
+    "contiguous_mean": 0.28281379219787967,
+    "uniform_mean": 0.22008696340428097,
+    "gap": 0.0627268287935987,
+    "means_by_path": {
+      "network": {
+        "contiguous": 0.28281379219787967,
+        "uniform": 0.22008696340428097
+      },
+      "dense": {
+        "contiguous": 0.2828137921978793,
+        "uniform": 0.22008696340428072
+      }
+    },
+    "complementary_five_site_means": {
+      "contiguous": 0.7171862078020954,
+      "uniform": 0.7799130365956971
+    },
+    "complementary_gap_residual": -2.9976021664879227e-15,
+    "maximum_validation_residual": 5.024869409453459e-13,
+    "passed": true
+  },
+  "tree": {
+    "encoder": "tree",
+    "seed": 101018,
+    "contiguous_mean": 0.38914023599837033,
+    "uniform_mean": 0.34328641274788757,
+    "gap": 0.04585382325048276,
+    "means_by_path": {
+      "network": {
+        "contiguous": 0.38914023599837033,
+        "uniform": 0.34328641274788757
+      },
+      "dense": {
+        "contiguous": 0.3891402359983699,
+        "uniform": 0.34328641274788735
+      }
+    },
+    "complementary_five_site_means": {
+      "contiguous": 0.610859764001592,
+      "uniform": 0.656713587252079
+    },
+    "complementary_gap_residual": -4.163336342344337e-15,
+    "maximum_validation_residual": 4.622968674539152e-13,
+    "passed": true
+  },
+  "gamma": 0.016873005543115938,
+  "L_C": -0.10632644380049067,
+  "L_U": -0.1231994493436066,
+  "wall_seconds": 0.9809256999869831,
+  "output_sha256": {
+    "mera/density_validation.csv": "61feabddf7b41d74a96ad01c4c9bee6b700a362546860efdbb29397552db180b",
+    "mera/encodings.npz": "deb3bda79e47ca6d6f78e05f6be4cd3056868cc10dbb716331e07fb508c47d53",
+    "mera/raw_eigenvalues.npz": "2451906797b9be0bb9c3dd9b3051a83c35266911520256cac6fd5c87927a3db6",
+    "mera/subset_scores.csv": "d0cd7e45c2e39cd224bc7c238dd70d7b9f97df84521e2c283a40d666f2131a1a",
+    "mera/summary.json": "d951c61d1fdbd13b308974c3372d1594dde3172e62f96013c0926c01c7bf9b52",
+    "mera/validation.json": "b1744be78d4e7df2c1e678fe951f8a6dba10252529687eccef37f0eaba9b7271",
+    "tensor_hashes.json": "5ea8ac296db3bdded781733422f2b63e0c007c016902b1016a145aae916f46fa",
+    "tensors.npz": "a406b5a95fb0965324b29db8d08c1ffc15a8a99e9caec42185796400da6e5669",
+    "tree/density_validation.csv": "8293e55c28c613f066aa81d85b9e2aa846cd1c84085e55e6f17abbc00d1f4b1f",
+    "tree/encodings.npz": "e8340c9425b9ffe24adc0f76526b54819ea0e22d3a013fa226e4da82c0cb8750",
+    "tree/raw_eigenvalues.npz": "4929aa5f288d72f62aa0f4e8457748604c4f6f388c77c2f4a39d55d1f17c1298",
+    "tree/subset_scores.csv": "e58845efe4e88cf6f6645245b9048ba467e0a575314c823933d2f14121dd68a8",
+    "tree/summary.json": "b732ddec26cdc5af65719ac60a939b481fc573bcc5c9c48901273135e75b903f",
+    "tree/validation.json": "610e0658593d1d67b29afbe44a25e998d9679c52a6bbe883e27cc8470c27c686"
+  }
+}

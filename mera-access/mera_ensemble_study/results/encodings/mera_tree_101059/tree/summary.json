@@ -1,0 +1,24 @@
+{
+  "encoder": "tree",
+  "seed": 101059,
+  "contiguous_mean": 0.3445187284306513,
+  "uniform_mean": 0.3431022312534985,
+  "gap": 0.001416497177152809,
+  "means_by_path": {
+    "network": {
+      "contiguous": 0.3445187284306513,
+      "uniform": 0.3431022312534985
+    },
+    "dense": {
+      "contiguous": 0.3445187284306517,
+      "uniform": 0.34310223125349854
+    }
+  },
+  "complementary_five_site_means": {
+    "contiguous": 0.6554812715693124,
+    "uniform": 0.6568977687464701
+  },
+  "complementary_gap_residual": -4.9404924595819466e-15,
+  "maximum_validation_residual": 4.765077221691172e-13,
+  "passed": true
+}

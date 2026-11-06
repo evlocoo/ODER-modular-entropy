@@ -1,0 +1,24 @@
+{
+  "encoder": "haar",
+  "seed": 202053,
+  "contiguous_mean": 0.1392925349821177,
+  "uniform_mean": 0.13514560585300875,
+  "gap": 0.004146929129108939,
+  "means_by_path": {
+    "network": {
+      "contiguous": 0.1392925349821177,
+      "uniform": 0.13514560585300875
+    },
+    "dense": {
+      "contiguous": 0.13929253498211738,
+      "uniform": 0.13514560585300858
+    }
+  },
+  "complementary_five_site_means": {
+    "contiguous": 0.8607074650178641,
+    "uniform": 0.8648543941469737
+  },
+  "complementary_gap_residual": -6.938893903907228e-16,
+  "maximum_validation_residual": 4.629630012686903e-13,
+  "passed": true
+}

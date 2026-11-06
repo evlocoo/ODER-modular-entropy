@@ -1,0 +1,27 @@
+{
+  "new_notebooks": 3,
+  "executed_code_cells": 20,
+  "all_passed": true,
+  "gaussian_quadrature_max_residual": 9.325873406851315e-14,
+  "thermal_predecessor_cases": 64,
+  "thermal_predecessor_max_residual": 4.440892098500626e-16,
+  "matched_calibration_residual": 5.551115123125783e-17,
+  "N2_matrix_residual": 2.220446049250313e-16,
+  "trajectory_solver_refinement_max": 2.0883295093199195e-13,
+  "trajectory_input_refinement_max": 3.4041810481610923e-08,
+  "trajectory_passivity_residual_max": 1.4016565685892601e-15,
+  "adaptive_static_probability_residual_max": 2.1466162181127402e-13,
+  "limits": [
+    "No new full local moving-field apparatus result",
+    "No 40-record radial Gaussian table",
+    "LC reference bound is stationary and packet restricted",
+    "No global optimality claim for N=2 extraction",
+    "Fresh processes, not fresh Jupyter kernels"
+  ],
+  "existing_core_tests": {
+    "command": "python -m unittest discover -s code -p test_*.py",
+    "tests": 31,
+    "passed": true,
+    "elapsed_seconds": 2.839
+  }
+}

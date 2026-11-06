@@ -1,0 +1,2739 @@
+{
+  "physical_scales": {
+    "units": "G=c=hbar=kB=M=1; infinity fluxes per Schwarzschild time",
+    "source": "Prepared five-qubit HP register, exactly one excitation per dual rail, ten distinguishable scalar channels",
+    "proper_lapse_r20": 0.9486832980505138,
+    "proper_window": 120.0,
+    "coordinate_window": 126.49110640673518,
+    "proper_peak_spacing": 12.0,
+    "coordinate_peak_spacing": 12.649110640673518,
+    "proper_peaks": [
+      28,
+      40,
+      52,
+      64,
+      76
+    ],
+    "coordinate_peaks": [
+      29.514591494904874,
+      42.16370213557839,
+      54.81281277625191,
+      67.46192341692543,
+      80.11103405759894
+    ],
+    "flux_rows": [
+      {
+        "sector": "ell0",
+        "field_copies": 1,
+        "number_rate_infinity": 0.000636198341323781,
+        "entropy_bit_rate_infinity": 0.004603455837647096,
+        "power_infinity": 6.70044010028058e-05,
+        "photon_mean_interval_coordinate": 1571.836855027368,
+        "photon_mean_interval_proper_r20": 1491.1753716247108,
+        "entropy_bit_interval_coordinate": 217.22810759299406,
+        "entropy_bit_interval_proper_r20": 206.08067754059346,
+        "expected_photons_in_120_proper": 0.08047343208817481,
+        "stationary_entropy_budget_in_120_proper": 0.5822962221985251,
+        "expected_infinity_energy_in_120_proper": 0.008475460816965461,
+        "photon_interval_over_prepared_peak_spacing": 124.26461430205923,
+        "entropy_bit_interval_over_prepared_peak_spacing": 17.173389795049456
+      },
+      {
+        "sector": "ell0",
+        "field_copies": 10,
+        "number_rate_infinity": 0.00636198341323781,
+        "entropy_bit_rate_infinity": 0.04603455837647096,
+        "power_infinity": 0.000670044010028058,
+        "photon_mean_interval_coordinate": 157.1836855027368,
+        "photon_mean_interval_proper_r20": 149.11753716247108,
+        "entropy_bit_interval_coordinate": 21.722810759299406,
+        "entropy_bit_interval_proper_r20": 20.608067754059345,
+        "expected_photons_in_120_proper": 0.8047343208817481,
+        "stationary_entropy_budget_in_120_proper": 5.82296222198525,
+        "expected_infinity_energy_in_120_proper": 0.08475460816965462,
+        "photon_interval_over_prepared_peak_spacing": 12.426461430205924,
+        "entropy_bit_interval_over_prepared_peak_spacing": 1.7173389795049454
+      },
+      {
+        "sector": "ell0to2",
+        "field_copies": 1,
+        "number_rate_infinity": 0.0006648532023947758,
+        "entropy_bit_rate_infinity": 0.005001908727139234,
+        "power_infinity": 7.438476116123616e-05,
+        "photon_mean_interval_coordinate": 1504.091424088864,
+        "photon_mean_interval_proper_r20": 1426.9064127741174,
+        "entropy_bit_interval_coordinate": 199.92368004922292,
+        "entropy_bit_interval_proper_r20": 189.6642561474925,
+        "expected_photons_in_120_proper": 0.08409801716897622,
+        "stationary_entropy_budget_in_120_proper": 0.6326969690413461,
+        "expected_infinity_energy_in_120_proper": 0.009409010739085505,
+        "photon_interval_over_prepared_peak_spacing": 118.90886773117644,
+        "entropy_bit_interval_over_prepared_peak_spacing": 15.805354678957707
+      },
+      {
+        "sector": "ell0to2",
+        "field_copies": 10,
+        "number_rate_infinity": 0.006648532023947758,
+        "entropy_bit_rate_infinity": 0.050019087271392336,
+        "power_infinity": 0.0007438476116123616,
+        "photon_mean_interval_coordinate": 150.4091424088864,
+        "photon_mean_interval_proper_r20": 142.69064127741174,
+        "entropy_bit_interval_coordinate": 19.99236800492229,
+        "entropy_bit_interval_proper_r20": 18.96642561474925,
+        "expected_photons_in_120_proper": 0.8409801716897622,
+        "stationary_entropy_budget_in_120_proper": 6.326969690413461,
+        "expected_infinity_energy_in_120_proper": 0.09409010739085505,
+        "photon_interval_over_prepared_peak_spacing": 11.890886773117645,
+        "entropy_bit_interval_over_prepared_peak_spacing": 1.580535467895771
+      }
+    ],
+    "packet": {
+      "center": 0.16,
+      "sigma": 0.032,
+      "norm": 1.0000000000000095,
+      "transmission": 0.7222117972236304,
+      "emitted_mean_energy": 0.16000004757503963,
+      "transmitted_mean_energy_unnormalized": 0.12086591056568338,
+      "gaussian_mode_thermal_occupation": 0.014661437174161605,
+      "normalized_transmitted_mode_thermal_occupation": 0.013028995474194553,
+      "normalized_stationary_cavity_filtered_mode_occupation": 0.01305847281937756,
+      "stationary_matched_output_thermal_occupation_before_aperture": 0.01289529375298597,
+      "gaussian_mode_thermal_occupation_after_aperture": 0.009289486593548793,
+      "transmitted_mode_thermal_occupation_after_aperture": 0.00825517153244967,
+      "filtered_mode_thermal_occupation_after_aperture": 0.008273848378357623,
+      "stationary_matched_output_thermal_occupation_after_aperture": 0.008170458121891912,
+      "stationary_cavity_filtered_signal_norm": 0.7113636520939408
+    },
+    "clocks": {
+      "Hawking_temperature_infinity": 0.039788735772973836,
+      "UP_Tolman_temperature_r20": 0.04194101008707253,
+      "static_proper_acceleration_r20": 0.0026352313834736496,
+      "acceleration_Unruh_temperature_r20": 0.00041941010087072534,
+      "acceleration_temperature_over_UP_temperature": 0.01,
+      "thermal_clock_char_proper": 7.58946638440411,
+      "thermal_clock_char_coordinate": 8.0,
+      "boost_clock_char_proper": 758.946638440411,
+      "boost_clock_char_coordinate": 800.0,
+      "lab_Omega025_char_proper": 40.0,
+      "lab_Omega025_char_coordinate": 42.16370213557839,
+      "thermal_latency_proper": 5.26061722630419,
+      "thermal_latency_coordinate": 5.545177444479562,
+      "cavity_inverse_kappa_proper": 1.941747572815534,
+      "cavity_omega": 0.16865480854231357,
+      "cavity_linewidth_over_resonance": 3.0535743656000913
+    },
+    "source_grid_sha256": "bce2857e3e25c9e32292ea2b4e66e2e7eab0a7485444873208453c0ebfa89c0a",
+    "limitations": [
+      "ell>=3 omitted from base flux table; existing quadrature refinement checks are not a total radial error bound",
+      "Stationary entropy flux times a finite interval is a thermodynamic budget estimate, not exact finite-window entropy",
+      "No entropy-bit-to-diary-qubit or photon-to-logical-carrier identification",
+      "Thermal-clock and acceleration-clock rows are alternative stipulated realizations; KMS alone selects neither receiver nor hazard",
+      "Mode occupations are distinct calibrated asymptotic modes, not a universal local detector noise rate"
+    ]
+  },
+  "static_network": {
+    "scope": "Asymptotic static scattering only; no finite-deadline stored-cavity equivalence or moving-field coupling claim.",
+    "Omega": 0.16865480854231357,
+    "kappa": 0.515,
+    "linewidth_over_Omega": 3.0535743656000913,
+    "source_gaussian": {
+      "legacy_transmitted_probability": 0.9836561171241746,
+      "lc_transmitted_probability": 0.9810049162404103,
+      "weighted_complex_amplitude_rms": 0.027960068375034734,
+      "twoport_scattering_vector_rms": 0.03954150790085319,
+      "conditional_output_mode_overlap": 0.9993859522783861
+    },
+    "transmitted_gaussian": {
+      "legacy_transmitted_probability": 0.984979274540526,
+      "lc_transmitted_probability": 0.9852756925036346,
+      "weighted_complex_amplitude_rms": 0.019308720603707308,
+      "twoport_scattering_vector_rms": 0.027306654549835687,
+      "conditional_output_mode_overlap": 0.9997348380644009
+    },
+    "unitarity_diagonal_residual": 5.551115123125783e-16,
+    "unitarity_offdiagonal_residual": 3.3724583322066198e-16,
+    "network_parameters_normalized": {
+      "C": 1.0,
+      "L": 35.15625,
+      "each_port_Z": 3.883495145631068
+    },
+    "pole_values": [
+      [
+        -0.45208110277094116,
+        0.0
+      ],
+      [
+        -0.06291889722905887,
+        0.0
+      ]
+    ],
+    "finite_time_warning": "Do not reinterpret classical LC energy as bare-photon probability; quantum memory is dressed at strong coupling."
+  },
+  "asymptotic_reference_certificate": {
+    "scope": "Static stationary scattering of the full prepared positive-frequency packet, not switch-on-at-zero or finite-deadline possession. Each carrier is one photon in two identical independent rails. All environments vacuum; greybody and eta dilations identical in both comparisons.",
+    "eta": 0.6336,
+    "greybody_probability": 0.7222117972236237,
+    "carriers": 5,
+    "certificate": [
+      {
+        "scope": "conditional_transmitted_packet",
+        "one_carrier_overlap": [
+          0.9996271733086478,
+          0.010953237306527272
+        ],
+        "one_carrier_global_trace_distance": 0.025010817169165173,
+        "five_carrier_global_trace_distance": 0.055890914370879154
+      },
+      {
+        "scope": "common_greybody",
+        "one_carrier_overlap": [
+          0.9997307401651856,
+          0.007910557200563904
+        ],
+        "one_carrier_global_trace_distance": 0.021814450567150964,
+        "five_carrier_global_trace_distance": 0.04875538760091178
+      },
+      {
+        "scope": "common_greybody_and_eta",
+        "one_carrier_overlap": [
+          0.9998293969686616,
+          0.00501212904227729
+        ],
+        "one_carrier_global_trace_distance": 0.01777795038091053,
+        "five_carrier_global_trace_distance": 0.03974014347578791
+      }
+    ],
+    "embedding_nonidentifiability_witness": {
+      "model": "Two resonant positive-frequency modes with H=Omega(Na+Nb)+g(r)(a\u2020b+b\u2020a); profile1 g0, profile2 g0*r/r0 on [4,20]. Positive single-particle Hamiltonian, vacuum invariant. Distinct possible spatial embeddings, not same fully specified hardware.",
+      "g0": 0.02,
+      "minimum_single_particle_eigenvalue": 0.14865480854231358,
+      "proper_duration": 38.39246596925013,
+      "profile2_weighted_duration": 24.845672941387644,
+      "static_both_capture_probability": 0.4824547586828513,
+      "moving_profile1_capture_probability": 0.4824547586828513,
+      "moving_profile2_capture_probability": 0.22725677602278857,
+      "interpretation": "All static dynamics coincide because g1(20)=g2(20). Static calibration cannot select their off-worldline coupling profiles. This is an identifiability witness, not a Schwarzschild detector prediction."
+    }
+  },
+  "trajectory_runs": [
+    {
+      "input_grid": "baseline",
+      "max_solver_step": 0.05,
+      "model": "effective outgoing chiral, number-preserving vacuum channel; fixed upstream packet; not full scalar-field local detector",
+      "eta": 0.6336,
+      "kappa_static": 0.515,
+      "omega_static": 0.16865480854231357,
+      "cases": {
+        "6.0": {
+          "infall_fixed": {
+            "proper_duration": 35.23549890530289,
+            "mode": "fixed",
+            "p": [
+              0.3522847208268297,
+              0.3168610647407466,
+              0.22333772808958005,
+              0.1125498260397768,
+              0.03701400981759756
+            ],
+            "G": [
+              0.6652554233088296,
+              0.6037478400982013,
+              0.43354096795763447,
+              0.2240095987878725,
+              0.07606653923556073
+            ],
+            "cavity_population": [
+              0.025376636201487966,
+              0.05088252008322601,
+              0.061384095471482165,
+              0.043647680979208445,
+              0.017938162754003444
+            ],
+            "detector_output": [
+              0.32690808462534177,
+              0.2659785446575206,
+              0.1619536326180979,
+              0.06890214506056835,
+              0.01907584706359412
+            ],
+            "reflected": [
+              0.06922111538164477,
+              0.06567356674547406,
+              0.051353829208376854,
+              0.029382655752219256,
+              0.011181749442053721
+            ],
+            "max_balance_error": 4.3021142204224816e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.5595501634810467,
+                "information_mean": 0.5633658225756779,
+                "information_max": 0.5655182877476704,
+                "bell_lower_min": 0.6101378681098926,
+                "bell_lower_max": 0.6163453103054245,
+                "bell_upper_min": 0.7351505498700615,
+                "bell_upper_max": 0.7373209821995961
+              },
+              "no_early": {
+                "information_min": 0.001981392975437768,
+                "information_mean": 0.002468900192941953,
+                "information_max": 0.002926671740083079,
+                "bell_lower_min": 0.2506967522130763,
+                "bell_lower_max": 0.2510283017245058,
+                "bell_upper_min": 0.27134187904570584,
+                "bell_upper_max": 0.2781688293723054
+              }
+            },
+            "broadband_ideal_p": [
+              0.4215058362084745,
+              0.38253463148622036,
+              0.27469155729795725,
+              0.14193248179199602,
+              0.04819575925965128
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.6418329334095926,
+                "information_mean": 0.6459968348824973,
+                "information_max": 0.6482922148706984,
+                "bell_lower_min": 0.6709294619031434,
+                "bell_lower_max": 0.6778264089744643,
+                "bell_upper_min": 0.7973225006333895,
+                "bell_upper_max": 0.7995499929688116
+              },
+              "no_early": {
+                "information_min": 0.00305930276648506,
+                "information_mean": 0.0037102114577919525,
+                "information_max": 0.004291178950956354,
+                "bell_lower_min": 0.2510822235248864,
+                "bell_lower_max": 0.2515160933261404,
+                "bell_upper_min": 0.27775039581369165,
+                "bell_upper_max": 0.2855697086679062
+              }
+            }
+          },
+          "infall_adaptive": {
+            "proper_duration": 35.23549890530289,
+            "mode": "adaptive",
+            "p": [
+              0.41106329596347124,
+              0.37739306897356273,
+              0.2709890239245329,
+              0.13877575375662377,
+              0.04635970656678305
+            ],
+            "G": [
+              0.6652554233088261,
+              0.6037478400982104,
+              0.43354096795765246,
+              0.22400959878788665,
+              0.07606653923556556
+            ],
+            "cavity_population": [
+              0.014085246632470919,
+              0.032131782230417065,
+              0.04300692863953963,
+              0.03334081354141837,
+              0.014759944505879181
+            ],
+            "detector_output": [
+              0.39697804933100034,
+              0.34526128674314566,
+              0.22798209528499327,
+              0.10543494021520539,
+              0.03159976206090387
+            ],
+            "reflected": [
+              0.010442540245000067,
+              0.005141562512663207,
+              0.003702533373435644,
+              0.0031567280353811734,
+              0.0018360526928713101
+            ],
+            "max_balance_error": 1.0581813203458523e-15,
+            "scores": {
+              "full_early": {
+                "information_min": 0.6335547373363838,
+                "information_mean": 0.6376889004047342,
+                "information_max": 0.6399776868986945,
+                "bell_lower_min": 0.6646950712028906,
+                "bell_lower_max": 0.671537102899559,
+                "bell_upper_min": 0.7912061883869372,
+                "bell_upper_max": 0.7934286222922832
+              },
+              "no_early": {
+                "information_min": 0.0029236748343101247,
+                "information_mean": 0.003559525566679161,
+                "information_max": 0.0041269838254907815,
+                "bell_lower_min": 0.2510334880852133,
+                "bell_lower_max": 0.25145708271792494,
+                "bell_upper_min": 0.27699831054427715,
+                "bell_upper_max": 0.28475209614175223
+              }
+            },
+            "broadband_ideal_p": [
+              0.42150583620847226,
+              0.38253463148622613,
+              0.2746915572979686,
+              0.141932481792005,
+              0.04819575925965434
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.641832933409601,
+                "information_mean": 0.6459968348825054,
+                "information_max": 0.6482922148707065,
+                "bell_lower_min": 0.6709294619031503,
+                "bell_lower_max": 0.6778264089744711,
+                "bell_upper_min": 0.7973225006333953,
+                "bell_upper_max": 0.7995499929688173
+              },
+              "no_early": {
+                "information_min": 0.0030593027664852375,
+                "information_mean": 0.0037102114577921537,
+                "information_max": 0.004291178950956558,
+                "bell_lower_min": 0.2510822235248864,
+                "bell_lower_max": 0.2515160933261404,
+                "bell_upper_min": 0.27775039581369243,
+                "bell_upper_max": 0.285569708667907
+              }
+            }
+          },
+          "static_same_retarded_support": {
+            "proper_duration": 56.246176971376855,
+            "mode": "static",
+            "p": [
+              0.4110632959634419,
+              0.37739306897353997,
+              0.27098902392451263,
+              0.13877575375661094,
+              0.04635970656677929
+            ],
+            "G": [
+              0.6652554233087777,
+              0.6037478400981736,
+              0.4335409679576192,
+              0.22400959878786572,
+              0.07606653923555941
+            ],
+            "cavity_population": [
+              0.014085246632469864,
+              0.03213178223041367,
+              0.04300692863953476,
+              0.03334081354141513,
+              0.014759944505878277
+            ],
+            "detector_output": [
+              0.396978049330972,
+              0.3452612867431263,
+              0.22798209528497784,
+              0.10543494021519582,
+              0.03159976206090101
+            ],
+            "reflected": [
+              0.010442540244999368,
+              0.005141562512663026,
+              0.003702533373435211,
+              0.003156728035380701,
+              0.0018360526928711558
+            ],
+            "max_balance_error": 6.409803243734302e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.6335547373363531,
+                "information_mean": 0.6376889004047035,
+                "information_max": 0.6399776868986643,
+                "bell_lower_min": 0.6646950712028676,
+                "bell_lower_max": 0.6715371028995357,
+                "bell_upper_min": 0.7912061883869146,
+                "bell_upper_max": 0.7934286222922604
+              },
+              "no_early": {
+                "information_min": 0.002923674834309648,
+                "information_mean": 0.0035595255666786172,
+                "information_max": 0.0041269838254901926,
+                "bell_lower_min": 0.2510334880852129,
+                "bell_lower_max": 0.25145708271792466,
+                "bell_upper_min": 0.2769983105442745,
+                "bell_upper_max": 0.28475209614174923
+              }
+            },
+            "broadband_ideal_p": [
+              0.4215058362084416,
+              0.3825346314862028,
+              0.27469155729794753,
+              0.14193248179199172,
+              0.048195759259650445
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.6418329334095701,
+                "information_mean": 0.6459968348824743,
+                "information_max": 0.6482922148706755,
+                "bell_lower_min": 0.6709294619031262,
+                "bell_lower_max": 0.6778264089744472,
+                "bell_upper_min": 0.7973225006333726,
+                "bell_upper_max": 0.7995499929687945
+              },
+              "no_early": {
+                "information_min": 0.0030593027664847284,
+                "information_mean": 0.0037102114577915735,
+                "information_max": 0.004291178950955929,
+                "bell_lower_min": 0.25108222352488613,
+                "bell_lower_max": 0.2515160933261401,
+                "bell_upper_min": 0.27775039581368965,
+                "bell_upper_max": 0.28556970866790393
+              }
+            }
+          },
+          "static_same_proper_duration": {
+            "proper_duration": 35.23549890530289,
+            "mode": "static",
+            "p": [
+              0.28065918555637415,
+              0.1664857868140195,
+              0.06331455850234546,
+              0.014731934221689169,
+              0.0020085428735104214
+            ],
+            "G": [
+              0.45689537711546396,
+              0.2698382751222327,
+              0.10363511025186738,
+              0.024586779769162088,
+              0.0034391657364087644
+            ],
+            "cavity_population": [
+              0.0420655398517778,
+              0.03741125978263774,
+              0.0190709996743636,
+              0.005483185137655939,
+              0.0008732498987628074
+            ],
+            "detector_output": [
+              0.23859364570459632,
+              0.12907452703138175,
+              0.044243558827981866,
+              0.00924874908403323,
+              0.0011352929747476142
+            ],
+            "reflected": [
+              0.008829725383983841,
+              0.004483744303427059,
+              0.002348647353237762,
+              0.0008462494400519264,
+              0.00017051253707817352
+            ],
+            "max_balance_error": 1.6306400674181987e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.32917348678631636,
+                "information_mean": 0.33273527409836384,
+                "information_max": 0.33450783291068564,
+                "bell_lower_min": 0.4507342774235945,
+                "bell_lower_max": 0.45577259112397506,
+                "bell_upper_min": 0.5488667554479301,
+                "bell_upper_max": 0.5509975449839019
+              },
+              "no_early": {
+                "information_min": 0.0005043161167541145,
+                "information_mean": 0.0006783923316948967,
+                "information_max": 0.0009544613117680825,
+                "bell_lower_min": 0.25017525178614614,
+                "bell_lower_max": 0.25033200745304407,
+                "bell_upper_min": 0.2595295803252393,
+                "bell_upper_max": 0.2637558122677626
+              }
+            },
+            "broadband_ideal_p": [
+              0.289488910940358,
+              0.17096953111744664,
+              0.06566320585558318,
+              0.0155781836617411,
+              0.002179055410588593
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.33835749677145543,
+                "information_mean": 0.34199695414640896,
+                "information_max": 0.34381105372418896,
+                "bell_lower_min": 0.456632609813337,
+                "bell_lower_max": 0.46178902751271,
+                "bell_upper_min": 0.5568458899239579,
+                "bell_upper_max": 0.5590219053414686
+              },
+              "no_early": {
+                "information_min": 0.0005291281969309846,
+                "information_mean": 0.0007095734178413657,
+                "information_max": 0.0009948263877863355,
+                "bell_lower_min": 0.250183892668415,
+                "bell_lower_max": 0.25034608419592114,
+                "bell_upper_min": 0.259867912535531,
+                "bell_upper_max": 0.26419927130036425
+              }
+            }
+          },
+          "geometry": {
+            "r_end": 6.0,
+            "proper_duration": 35.23549890530289,
+            "static_equivalent_duration": 56.246176971376855,
+            "clock_rate_initial": 1.3874258867227929,
+            "clock_rate_final": 2.24460878333352,
+            "adaptive_kappa_final": 1.155973523416763,
+            "adaptive_omega_final": 0.37856406460551023
+          },
+          "control_errors": {
+            "adaptive_vs_static_p": 2.936539900133539e-14,
+            "input_norm_equal_support": 5.184741524999481e-14
+          }
+        },
+        "4.0": {
+          "infall_fixed": {
+            "proper_duration": 38.39246596925014,
+            "mode": "fixed",
+            "p": [
+              0.3559508489475474,
+              0.33749300848197106,
+              0.27106158295356614,
+              0.16967034683169668,
+              0.07425695764815651
+            ],
+            "G": [
+              0.6858643343892011,
+              0.6709308949353318,
+              0.5622648697019621,
+              0.3674017122002385,
+              0.16795708487132668
+            ],
+            "cavity_population": [
+              0.01337081114602553,
+              0.035763153095814376,
+              0.05913753374807525,
+              0.05886373178391547,
+              0.03449297249161286
+            ],
+            "detector_output": [
+              0.3425800378015219,
+              0.3017298553861567,
+              0.21192404920549088,
+              0.1108066150477812,
+              0.03976398515654365
+            ],
+            "reflected": [
+              0.07861279332145028,
+              0.08760880654905571,
+              0.08518943848959672,
+              0.06311537801837447,
+              0.03216065132631613
+            ],
+            "max_balance_error": 7.91033905045424e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.616058074580417,
+                "information_mean": 0.6201103257390176,
+                "information_max": 0.6225126272738081,
+                "bell_lower_min": 0.6525925001167536,
+                "bell_lower_max": 0.659420776346719,
+                "bell_upper_min": 0.7770784103944604,
+                "bell_upper_max": 0.7793323751826842
+              },
+              "no_early": {
+                "information_min": 0.0029806731434592606,
+                "information_mean": 0.0035478089769847973,
+                "information_max": 0.00402509481158424,
+                "bell_lower_min": 0.25105773937039166,
+                "bell_lower_max": 0.25142589795888565,
+                "bell_upper_min": 0.276539443929513,
+                "bell_upper_max": 0.2833615136508171
+              }
+            },
+            "broadband_ideal_p": [
+              0.43456364226899785,
+              0.42510181503102623,
+              0.35625102144316323,
+              0.23278572485007112,
+              0.1064176089744726
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143290044183,
+                "information_mean": 0.7260469268935028,
+                "information_max": 0.7285579112331769,
+                "bell_lower_min": 0.7344353973697283,
+                "bell_lower_max": 0.7419533628836483,
+                "bell_upper_min": 0.8525925300751049,
+                "bell_upper_max": 0.8548552868449573
+              },
+              "no_early": {
+                "information_min": 0.005561162966568931,
+                "information_mean": 0.006396165959538911,
+                "information_max": 0.007035538805972336,
+                "bell_lower_min": 0.2520015551787874,
+                "bell_lower_max": 0.25252639235695107,
+                "bell_upper_min": 0.2881260811458838,
+                "bell_upper_max": 0.29600926874824923
+              }
+            }
+          },
+          "infall_adaptive": {
+            "proper_duration": 38.39246596925014,
+            "mode": "adaptive",
+            "p": [
+              0.4232936230458134,
+              0.4191592931733124,
+              0.3523447940553388,
+              0.22926584586651208,
+              0.10360134349360625
+            ],
+            "G": [
+              0.685864334389202,
+              0.6709308949353765,
+              0.5622648697020808,
+              0.36740171220038514,
+              0.16795708487141428
+            ],
+            "cavity_population": [
+              0.005902247901128656,
+              0.019270736148510596,
+              0.03728242500741873,
+              0.04214878410830967,
+              0.027484345680009993
+            ],
+            "detector_output": [
+              0.4173913751446848,
+              0.3998885570248018,
+              0.31506236904792007,
+              0.18711706175820242,
+              0.07611699781359625
+            ],
+            "reflected": [
+              0.011270019223183695,
+              0.005942521857742161,
+              0.0039062273878997006,
+              0.0035198789836518724,
+              0.0028162654809218263
+            ],
+            "max_balance_error": 1.4016565685892601e-15,
+            "scores": {
+              "full_early": {
+                "information_min": 0.7141356502202266,
+                "information_mean": 0.7184592832931308,
+                "information_max": 0.7209814231378133,
+                "bell_lower_min": 0.728394552612383,
+                "bell_lower_max": 0.7358937359082135,
+                "bell_upper_min": 0.8473668246191579,
+                "bell_upper_max": 0.8496401082635214
+              },
+              "no_early": {
+                "information_min": 0.005312968718914403,
+                "information_mean": 0.006128008461823166,
+                "information_max": 0.0067507051233037406,
+                "bell_lower_min": 0.2519100436498399,
+                "bell_lower_max": 0.252421407547456,
+                "bell_upper_min": 0.28710842808891324,
+                "bell_upper_max": 0.2949260180617921
+              }
+            },
+            "broadband_ideal_p": [
+              0.43456364226899846,
+              0.4251018150310546,
+              0.3562510214432384,
+              0.23278572485016405,
+              0.1064176089745281
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143290044815,
+                "information_mean": 0.7260469268935659,
+                "information_max": 0.7285579112332402,
+                "bell_lower_min": 0.7344353973697798,
+                "bell_lower_max": 0.741953362883701,
+                "bell_upper_min": 0.8525925300751469,
+                "bell_upper_max": 0.8548552868449992
+              },
+              "no_early": {
+                "information_min": 0.005561162966571678,
+                "information_mean": 0.006396165959541827,
+                "information_max": 0.007035538805975293,
+                "bell_lower_min": 0.25200155517878836,
+                "bell_lower_max": 0.25252639235695207,
+                "bell_upper_min": 0.28812608114589383,
+                "bell_upper_max": 0.29600926874825917
+              }
+            }
+          },
+          "static_same_retarded_support": {
+            "proper_duration": 64.50559302747537,
+            "mode": "static",
+            "p": [
+              0.4232936230457882,
+              0.4191592931733392,
+              0.35234479405547353,
+              0.2292658458667123,
+              0.10360134349373956
+            ],
+            "G": [
+              0.6858643343891583,
+              0.6709308949354116,
+              0.5622648697022858,
+              0.36740171220070933,
+              0.1679570848716404
+            ],
+            "cavity_population": [
+              0.005902247901132243,
+              0.019270736148547702,
+              0.03728242500753042,
+              0.04214878410846041,
+              0.027484345680105746
+            ],
+            "detector_output": [
+              0.41739137514465596,
+              0.39988855702479154,
+              0.3150623690479431,
+              0.1871170617582519,
+              0.07611699781363382
+            ],
+            "reflected": [
+              0.011270019223182067,
+              0.005942521857737232,
+              0.003906227387894806,
+              0.0035198789836569985,
+              0.002816265480931848
+            ],
+            "max_balance_error": 6.262351748276274e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.7141356502203435,
+                "information_mean": 0.7184592832932477,
+                "information_max": 0.7209814231379307,
+                "bell_lower_min": 0.7283945526124784,
+                "bell_lower_max": 0.7358937359083098,
+                "bell_upper_min": 0.8473668246192358,
+                "bell_upper_max": 0.8496401082635995
+              },
+              "no_early": {
+                "information_min": 0.0053129687189196455,
+                "information_mean": 0.006128008461828658,
+                "information_max": 0.00675070512330926,
+                "bell_lower_min": 0.25191004364984193,
+                "bell_lower_max": 0.2524214075474582,
+                "bell_upper_min": 0.28710842808893244,
+                "bell_upper_max": 0.2949260180618104
+              }
+            },
+            "broadband_ideal_p": [
+              0.4345636422689707,
+              0.4251018150310768,
+              0.35625102144336834,
+              0.23278572485036944,
+              0.10641760897467137
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143290045955,
+                "information_mean": 0.7260469268936802,
+                "information_max": 0.7285579112333549,
+                "bell_lower_min": 0.7344353973698741,
+                "bell_lower_max": 0.741953362883796,
+                "bell_upper_min": 0.8525925300752222,
+                "bell_upper_max": 0.8548552868450745
+              },
+              "no_early": {
+                "information_min": 0.005561162966577233,
+                "information_mean": 0.0063961659595476155,
+                "information_max": 0.007035538805981109,
+                "bell_lower_min": 0.2520015551787906,
+                "bell_lower_max": 0.2525263923569543,
+                "bell_upper_min": 0.28812608114591365,
+                "bell_upper_max": 0.29600926874827793
+              }
+            }
+          },
+          "static_same_proper_duration": {
+            "proper_duration": 38.39246596925014,
+            "mode": "static",
+            "p": [
+              0.31151440407104436,
+              0.20160514213377811,
+              0.08580365135248602,
+              0.022756305102849792,
+              0.003581570094326779
+            ],
+            "G": [
+              0.5057162651686323,
+              0.3254643686045298,
+              0.13972505019393253,
+              0.03773969358669601,
+              0.0060876987058701105
+            ],
+            "cavity_population": [
+              0.03962348306641322,
+              0.04069902197436884,
+              0.02405280681907712,
+              0.0080537020257802,
+              0.0015009111976304467
+            ],
+            "detector_output": [
+              0.27189092100463114,
+              0.16090612015940928,
+              0.0617508445334089,
+              0.014702603077069592,
+              0.002080658896696332
+            ],
+            "reflected": [
+              0.008907421539801298,
+              0.004609081814052139,
+              0.0027261404503896376,
+              0.0011555647536807992,
+              0.00027559580571252546
+            ],
+            "max_balance_error": 2.5153490401663703e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.38053714374940034,
+                "information_mean": 0.38436054230344635,
+                "information_max": 0.3863184456776253,
+                "bell_lower_min": 0.48444690962116504,
+                "bell_lower_max": 0.48995590385156296,
+                "bell_upper_min": 0.592607468065079,
+                "bell_upper_max": 0.5948956793336626
+              },
+              "no_early": {
+                "information_min": 0.000664082840942031,
+                "information_mean": 0.0008906601125490661,
+                "information_max": 0.001221233636373252,
+                "bell_lower_min": 0.25023098086148776,
+                "bell_lower_max": 0.25042515118739117,
+                "bell_upper_min": 0.2614518680675224,
+                "bell_upper_max": 0.2664249906819426
+              }
+            },
+            "broadband_ideal_p": [
+              0.3204218256108455,
+              0.20621422394783012,
+              0.08852979180287565,
+              0.023911869856530592,
+              0.0038571659000393023
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.3897217467431674,
+                "information_mean": 0.39361247275120337,
+                "information_max": 0.3956075725504127,
+                "bell_lower_min": 0.49047917078176856,
+                "bell_lower_max": 0.49609463128457176,
+                "bell_upper_min": 0.6004273290824809,
+                "bell_upper_max": 0.6027539222508369
+              },
+              "no_early": {
+                "information_min": 0.0006956355912951139,
+                "information_mean": 0.0009296368788791412,
+                "information_max": 0.001269900669304989,
+                "bell_lower_min": 0.2502419890707169,
+                "bell_lower_max": 0.25044215284285504,
+                "bell_upper_min": 0.2618303575043291,
+                "bell_upper_max": 0.26690244512202355
+              }
+            }
+          },
+          "geometry": {
+            "r_end": 4.0,
+            "proper_duration": 38.39246596925014,
+            "static_equivalent_duration": 64.50559302747537,
+            "clock_rate_initial": 1.3874258867227929,
+            "clock_rate_final": 3.239007382600897,
+            "adaptive_kappa_final": 1.668088802039462,
+            "adaptive_omega_final": 0.5462741699796945
+          },
+          "control_errors": {
+            "adaptive_vs_static_p": 2.0022872249114698e-13,
+            "input_norm_equal_support": 4.708455847435289e-13
+          }
+        }
+      },
+      "static_120": {
+        "proper_duration": 120.0,
+        "mode": "static",
+        "p": [
+          0.4281480469805836,
+          0.4470597515199622,
+          0.45037044752235866,
+          0.4506100763891019,
+          0.449470463013538
+        ],
+        "G": [
+          0.6948306568104309,
+          0.7182471615741843,
+          0.7218687583540419,
+          0.7219595492482965,
+          0.7196839932001954
+        ],
+        "cavity_population": [
+          9.927421558673095e-08,
+          1.7468608989960298e-06,
+          2.6888040018784616e-05,
+          0.00029993281018563043,
+          0.0021800986833107245
+        ],
+        "detector_output": [
+          0.42814794770636805,
+          0.4470580046590632,
+          0.4503435594823399,
+          0.45031014357891624,
+          0.4472903643302273
+        ],
+        "reflected": [
+          0.012096657174506703,
+          0.008021650053441673,
+          0.007005597770762357,
+          0.006823494014618413,
+          0.006521315078105403
+        ],
+        "max_balance_error": 1.3739009929736312e-15,
+        "scores": {
+          "full_early": {
+            "information_min": 0.8529647852209277,
+            "information_mean": 0.8568544225262479,
+            "information_max": 0.8591748361997281,
+            "bell_lower_min": 0.8476083666180524,
+            "bell_lower_max": 0.8547121206431896,
+            "bell_upper_min": 0.9338965263999164,
+            "bell_upper_max": 0.9358150339518285
+          },
+          "no_early": {
+            "information_min": 0.017686779424603855,
+            "information_mean": 0.01887551720813517,
+            "information_max": 0.020411904805146694,
+            "bell_lower_min": 0.25667802956458485,
+            "bell_lower_max": 0.2577189102434716,
+            "bell_upper_min": 0.3221556183718672,
+            "bell_upper_max": 0.330718446767192
+          }
+        },
+        "broadband_ideal_p": [
+          0.44024470415508904,
+          0.4550814015734032,
+          0.457376045293121,
+          0.45743357040372074,
+          0.4559917780916438
+        ],
+        "broadband_scores": {
+          "full_early": {
+            "information_min": 0.8592649201660013,
+            "information_mean": 0.8631075460997817,
+            "information_max": 0.8653812307382458,
+            "bell_lower_min": 0.85332177681645,
+            "bell_lower_max": 0.8603448865870506,
+            "bell_upper_min": 0.9375008363484449,
+            "bell_upper_max": 0.9393774873589895
+          },
+          "no_early": {
+            "information_min": 0.01868195946815492,
+            "information_mean": 0.01991044909919016,
+            "information_max": 0.02149743167179714,
+            "bell_lower_min": 0.257069623317198,
+            "bell_lower_max": 0.2581491235194009,
+            "bell_upper_min": 0.32448941826436734,
+            "bell_upper_max": 0.3331163200976251
+          }
+        }
+      }
+    },
+    {
+      "input_grid": "baseline",
+      "max_solver_step": 0.025,
+      "model": "effective outgoing chiral, number-preserving vacuum channel; fixed upstream packet; not full scalar-field local detector",
+      "eta": 0.6336,
+      "kappa_static": 0.515,
+      "omega_static": 0.16865480854231357,
+      "cases": {
+        "6.0": {
+          "infall_fixed": {
+            "proper_duration": 35.23549890530289,
+            "mode": "fixed",
+            "p": [
+              0.3522847208268189,
+              0.31686106474074915,
+              0.22333772808958535,
+              0.1125498260397792,
+              0.03701400981759832
+            ],
+            "G": [
+              0.6652554233088097,
+              0.603747840098206,
+              0.43354096795764546,
+              0.22400959878787788,
+              0.0760665392355624
+            ],
+            "cavity_population": [
+              0.02537663620148801,
+              0.05088252008322621,
+              0.061384095471483394,
+              0.04364768097921043,
+              0.017938162754004616
+            ],
+            "detector_output": [
+              0.3269080846253309,
+              0.26597854465752296,
+              0.16195363261810197,
+              0.06890214506056877,
+              0.019075847063593707
+            ],
+            "reflected": [
+              0.06922111538164309,
+              0.06567356674547456,
+              0.051353829208378596,
+              0.029382655752220505,
+              0.011181749442054044
+            ],
+            "max_balance_error": 5.551115123125783e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.5595501634810461,
+                "information_mean": 0.5633658225756775,
+                "information_max": 0.5655182877476697,
+                "bell_lower_min": 0.6101378681098926,
+                "bell_lower_max": 0.6163453103054239,
+                "bell_upper_min": 0.7351505498700609,
+                "bell_upper_max": 0.7373209821995954
+              },
+              "no_early": {
+                "information_min": 0.001981392975437776,
+                "information_mean": 0.0024689001929419675,
+                "information_max": 0.0029266717400830895,
+                "bell_lower_min": 0.2506967522130762,
+                "bell_lower_max": 0.25102830172450585,
+                "bell_upper_min": 0.2713418790457057,
+                "bell_upper_max": 0.2781688293723054
+              }
+            },
+            "broadband_ideal_p": [
+              0.4215058362084619,
+              0.38253463148622335,
+              0.2746915572979642,
+              0.14193248179199944,
+              0.048195759259652346
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.6418329334095925,
+                "information_mean": 0.6459968348824972,
+                "information_max": 0.6482922148706981,
+                "bell_lower_min": 0.6709294619031435,
+                "bell_lower_max": 0.6778264089744644,
+                "bell_upper_min": 0.7973225006333893,
+                "bell_upper_max": 0.7995499929688112
+              },
+              "no_early": {
+                "information_min": 0.0030593027664850858,
+                "information_mean": 0.003710211457791988,
+                "information_max": 0.004291178950956381,
+                "bell_lower_min": 0.25108222352488635,
+                "bell_lower_max": 0.25151609332614044,
+                "bell_upper_min": 0.27775039581369165,
+                "bell_upper_max": 0.2855697086679062
+              }
+            }
+          },
+          "infall_adaptive": {
+            "proper_duration": 35.23549890530289,
+            "mode": "adaptive",
+            "p": [
+              0.41106329596346264,
+              0.37739306897356,
+              0.2709890239245269,
+              0.13877575375661755,
+              0.04635970656678073
+            ],
+            "G": [
+              0.665255423308811,
+              0.6037478400982061,
+              0.43354096795764296,
+              0.2240095987878763,
+              0.07606653923556177
+            ],
+            "cavity_population": [
+              0.014085246632470358,
+              0.03213178223041524,
+              0.04300692863953702,
+              0.03334081354141665,
+              0.01475994450587872
+            ],
+            "detector_output": [
+              0.3969780493309923,
+              0.34526128674314477,
+              0.2279820952849899,
+              0.10543494021520089,
+              0.03159976206090201
+            ],
+            "reflected": [
+              0.01044254024499999,
+              0.005141562512663372,
+              0.0037025333734355074,
+              0.0031567280353808976,
+              0.0018360526928712288
+            ],
+            "max_balance_error": 4.666406150377611e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.6335547373363755,
+                "information_mean": 0.6376889004047257,
+                "information_max": 0.6399776868986863,
+                "bell_lower_min": 0.6646950712028844,
+                "bell_lower_max": 0.6715371028995525,
+                "bell_upper_min": 0.7912061883869309,
+                "bell_upper_max": 0.793428622292277
+              },
+              "no_early": {
+                "information_min": 0.0029236748343099703,
+                "information_mean": 0.003559525566678991,
+                "information_max": 0.004126983825490604,
+                "bell_lower_min": 0.2510334880852131,
+                "bell_lower_max": 0.2514570827179249,
+                "bell_upper_min": 0.27699831054427637,
+                "bell_upper_max": 0.2847520961417514
+              }
+            },
+            "broadband_ideal_p": [
+              0.4215058362084627,
+              0.38253463148622346,
+              0.27469155729796263,
+              0.14193248179199844,
+              0.04819575925965194
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.6418329334095921,
+                "information_mean": 0.6459968348824965,
+                "information_max": 0.6482922148706977,
+                "bell_lower_min": 0.670929461903143,
+                "bell_lower_max": 0.677826408974464,
+                "bell_upper_min": 0.7973225006333888,
+                "bell_upper_max": 0.7995499929688108
+              },
+              "no_early": {
+                "information_min": 0.00305930276648507,
+                "information_mean": 0.0037102114577919703,
+                "information_max": 0.004291178950956367,
+                "bell_lower_min": 0.2510822235248863,
+                "bell_lower_max": 0.25151609332614044,
+                "bell_upper_min": 0.2777503958136916,
+                "bell_upper_max": 0.2855697086679061
+              }
+            }
+          },
+          "static_same_retarded_support": {
+            "proper_duration": 56.246176971376855,
+            "mode": "static",
+            "p": [
+              0.4110632959634579,
+              0.37739306897355446,
+              0.270989023924523,
+              0.1387757537566156,
+              0.04635970656678032
+            ],
+            "G": [
+              0.6652554233088036,
+              0.603747840098197,
+              0.4335409679576364,
+              0.22400959878787327,
+              0.0760665392355611
+            ],
+            "cavity_population": [
+              0.01408524663247023,
+              0.03213178223041491,
+              0.04300692863953666,
+              0.03334081354141647,
+              0.01475994450587872
+            ],
+            "detector_output": [
+              0.3969780493309877,
+              0.34526128674313955,
+              0.22798209528498636,
+              0.10543494021519913,
+              0.0315997620609016
+            ],
+            "reflected": [
+              0.01044254024499985,
+              0.005141562512663279,
+              0.0037025333734354393,
+              0.003156728035380859,
+              0.001836052692871233
+            ],
+            "max_balance_error": 5.741934705483231e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.6335547373363696,
+                "information_mean": 0.6376889004047198,
+                "information_max": 0.6399776868986804,
+                "bell_lower_min": 0.6646950712028796,
+                "bell_lower_max": 0.6715371028995483,
+                "bell_upper_min": 0.7912061883869266,
+                "bell_upper_max": 0.7934286222922726
+              },
+              "no_early": {
+                "information_min": 0.0029236748343098853,
+                "information_mean": 0.003559525566678892,
+                "information_max": 0.004126983825490498,
+                "bell_lower_min": 0.25103348808521303,
+                "bell_lower_max": 0.2514570827179249,
+                "bell_upper_min": 0.2769983105442758,
+                "bell_upper_max": 0.2847520961417508
+              }
+            },
+            "broadband_ideal_p": [
+              0.421505836208458,
+              0.3825346314862177,
+              0.27469155729795847,
+              0.14193248179199652,
+              0.04819575925965152
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.6418329334095865,
+                "information_mean": 0.6459968348824908,
+                "information_max": 0.6482922148706917,
+                "bell_lower_min": 0.670929461903139,
+                "bell_lower_max": 0.6778264089744594,
+                "bell_upper_min": 0.7973225006333847,
+                "bell_upper_max": 0.7995499929688066
+              },
+              "no_early": {
+                "information_min": 0.0030593027664849804,
+                "information_mean": 0.003710211457791866,
+                "information_max": 0.004291178950956251,
+                "bell_lower_min": 0.25108222352488624,
+                "bell_lower_max": 0.25151609332614033,
+                "bell_upper_min": 0.2777503958136911,
+                "bell_upper_max": 0.2855697086679056
+              }
+            }
+          },
+          "static_same_proper_duration": {
+            "proper_duration": 35.23549890530289,
+            "mode": "static",
+            "p": [
+              0.28065918555638564,
+              0.1664857868140256,
+              0.06331455850234718,
+              0.014731934221689346,
+              0.002008542873510399
+            ],
+            "G": [
+              0.4568953771154826,
+              0.2698382751222424,
+              0.10363511025187035,
+              0.024586779769162386,
+              0.00343916573640873
+            ],
+            "cavity_population": [
+              0.04206553985177955,
+              0.037411259782639344,
+              0.019070999674364222,
+              0.005483185137656032,
+              0.0008732498987628011
+            ],
+            "detector_output": [
+              0.2385936457046061,
+              0.12907452703138625,
+              0.044243558827982955,
+              0.009248749084033314,
+              0.0011352929747475975
+            ],
+            "reflected": [
+              0.008829725383984197,
+              0.00448374430342724,
+              0.00234864735323786,
+              0.0008462494400519496,
+              0.00017051253707817395
+            ],
+            "max_balance_error": 2.3245294578089215e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.32917348678632724,
+                "information_mean": 0.3327352740983749,
+                "information_max": 0.33450783291069686,
+                "bell_lower_min": 0.45073427742360156,
+                "bell_lower_max": 0.4557725911239822,
+                "bell_upper_min": 0.5488667554479396,
+                "bell_upper_max": 0.5509975449839115
+              },
+              "no_early": {
+                "information_min": 0.0005043161167541418,
+                "information_mean": 0.000678392331694931,
+                "information_max": 0.0009544613117681298,
+                "bell_lower_min": 0.2501752517861462,
+                "bell_lower_max": 0.2503320074530441,
+                "bell_upper_min": 0.25952958032523976,
+                "bell_upper_max": 0.26375581226776323
+              }
+            },
+            "broadband_ideal_p": [
+              0.2894889109403698,
+              0.1709695311174528,
+              0.06566320585558506,
+              0.01557818366174129,
+              0.0021790554105885714
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.33835749677146654,
+                "information_mean": 0.34199695414642023,
+                "information_max": 0.3438110537242004,
+                "bell_lower_min": 0.4566326098133439,
+                "bell_lower_max": 0.46178902751271717,
+                "bell_upper_min": 0.5568458899239677,
+                "bell_upper_max": 0.5590219053414784
+              },
+              "no_early": {
+                "information_min": 0.0005291281969310134,
+                "information_mean": 0.0007095734178414018,
+                "information_max": 0.0009948263877863851,
+                "bell_lower_min": 0.250183892668415,
+                "bell_lower_max": 0.2503460841959212,
+                "bell_upper_min": 0.2598679125355314,
+                "bell_upper_max": 0.26419927130036475
+              }
+            }
+          },
+          "geometry": {
+            "r_end": 6.0,
+            "proper_duration": 35.23549890530289,
+            "static_equivalent_duration": 56.246176971376855,
+            "clock_rate_initial": 1.3874258867227929,
+            "clock_rate_final": 2.24460878333352,
+            "adaptive_kappa_final": 1.155973523416763,
+            "adaptive_omega_final": 0.37856406460551023
+          },
+          "control_errors": {
+            "adaptive_vs_static_p": 5.551115123125783e-15,
+            "input_norm_equal_support": 9.048317650695026e-15
+          }
+        },
+        "4.0": {
+          "infall_fixed": {
+            "proper_duration": 38.39246596925014,
+            "mode": "fixed",
+            "p": [
+              0.35595084894751833,
+              0.33749300848196695,
+              0.2710615829536537,
+              0.16967034683187124,
+              0.07425695764829228
+            ],
+            "G": [
+              0.6858643343891904,
+              0.670930894935444,
+              0.5622648697023086,
+              0.36740171220071516,
+              0.1679570848716376
+            ],
+            "cavity_population": [
+              0.01337081114600989,
+              0.03576315309580918,
+              0.05913753374814859,
+              0.05886373178406728,
+              0.03449297249173169
+            ],
+            "detector_output": [
+              0.3425800378015084,
+              0.30172985538615776,
+              0.2119240492055051,
+              0.11080661504780395,
+              0.03976398515656059
+            ],
+            "reflected": [
+              0.07861279332147296,
+              0.08760880654913082,
+              0.08518943848972893,
+              0.06311537801850217,
+              0.032160651326377326
+            ],
+            "max_balance_error": 5.134781488891349e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.6160580745805289,
+                "information_mean": 0.6201103257391297,
+                "information_max": 0.6225126272739213,
+                "bell_lower_min": 0.6525925001168401,
+                "bell_lower_max": 0.6594207763468065,
+                "bell_upper_min": 0.7770784103945404,
+                "bell_upper_max": 0.7793323751827645
+              },
+              "no_early": {
+                "information_min": 0.0029806731434621056,
+                "information_mean": 0.003547808976987727,
+                "information_max": 0.0040250948115871515,
+                "bell_lower_min": 0.25105773937039283,
+                "bell_lower_max": 0.25142589795888665,
+                "bell_upper_min": 0.27653944392952606,
+                "bell_upper_max": 0.2833615136508288
+              }
+            },
+            "broadband_ideal_p": [
+              0.4345636422689911,
+              0.42510181503109734,
+              0.3562510214433828,
+              0.23278572485037313,
+              0.10641760897466959
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143290046117,
+                "information_mean": 0.7260469268936964,
+                "information_max": 0.728557911233371,
+                "bell_lower_min": 0.734435397369887,
+                "bell_lower_max": 0.7419533628838088,
+                "bell_upper_min": 0.8525925300752335,
+                "bell_upper_max": 0.8548552868450858
+              },
+              "no_early": {
+                "information_min": 0.005561162966577685,
+                "information_mean": 0.006396165959548134,
+                "information_max": 0.007035538805981664,
+                "bell_lower_min": 0.2520015551787906,
+                "bell_lower_max": 0.2525263923569545,
+                "bell_upper_min": 0.28812608114591565,
+                "bell_upper_max": 0.2960092687482802
+              }
+            }
+          },
+          "infall_adaptive": {
+            "proper_duration": 38.39246596925014,
+            "mode": "adaptive",
+            "p": [
+              0.4232936230458093,
+              0.4191592931733601,
+              0.3523447940554897,
+              0.2292658458667209,
+              0.10360134349374178
+            ],
+            "G": [
+              0.6858643343891921,
+              0.6709308949354454,
+              0.5622648697023123,
+              0.36740171220072293,
+              0.1679570848716441
+            ],
+            "cavity_population": [
+              0.0059022479011323304,
+              0.01927073614854801,
+              0.03728242500753111,
+              0.04214878410846103,
+              0.027484345680105986
+            ],
+            "detector_output": [
+              0.417391375144677,
+              0.3998885570248121,
+              0.3150623690479586,
+              0.18711706175825987,
+              0.07611699781363579
+            ],
+            "reflected": [
+              0.011270019223182742,
+              0.005942521857737694,
+              0.0039062273878951808,
+              0.003519878983657177,
+              0.0028162654809318994
+            ],
+            "max_balance_error": 6.245004513516506e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.714135650220363,
+                "information_mean": 0.7184592832932672,
+                "information_max": 0.7209814231379504,
+                "bell_lower_min": 0.7283945526124938,
+                "bell_lower_max": 0.7358937359083252,
+                "bell_upper_min": 0.8473668246192493,
+                "bell_upper_max": 0.8496401082636129
+              },
+              "no_early": {
+                "information_min": 0.005312968718920219,
+                "information_mean": 0.006128008461829297,
+                "information_max": 0.006750705123309938,
+                "bell_lower_min": 0.2519100436498421,
+                "bell_lower_max": 0.2524214075474584,
+                "bell_upper_min": 0.2871084280889348,
+                "bell_upper_max": 0.294926018061813
+              }
+            },
+            "broadband_ideal_p": [
+              0.4345636422689922,
+              0.4251018150310983,
+              0.3562510214433851,
+              0.23278572485037807,
+              0.10641760897467371
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143290046147,
+                "information_mean": 0.7260469268936995,
+                "information_max": 0.7285579112333743,
+                "bell_lower_min": 0.7344353973698898,
+                "bell_lower_max": 0.7419533628838111,
+                "bell_upper_min": 0.8525925300752356,
+                "bell_upper_max": 0.8548552868450878
+              },
+              "no_early": {
+                "information_min": 0.005561162966577839,
+                "information_mean": 0.006396165959548294,
+                "information_max": 0.007035538805981831,
+                "bell_lower_min": 0.25200155517879064,
+                "bell_lower_max": 0.2525263923569545,
+                "bell_upper_min": 0.2881260811459161,
+                "bell_upper_max": 0.2960092687482807
+              }
+            }
+          },
+          "static_same_retarded_support": {
+            "proper_duration": 64.50559302747537,
+            "mode": "static",
+            "p": [
+              0.4232936230458056,
+              0.4191592931733557,
+              0.3523447940554869,
+              0.22926584586672102,
+              0.10360134349374277
+            ],
+            "G": [
+              0.6858643343891856,
+              0.6709308949354361,
+              0.5622648697023084,
+              0.3674017122007229,
+              0.16795708487164554
+            ],
+            "cavity_population": [
+              0.005902247901132341,
+              0.01927073614854832,
+              0.0372824250075319,
+              0.042148784108462234,
+              0.02748434568010677
+            ],
+            "detector_output": [
+              0.4173913751446732,
+              0.3998885570248074,
+              0.31506236904795504,
+              0.1871170617582588,
+              0.076116997813636
+            ],
+            "reflected": [
+              0.011270019223182597,
+              0.005942521857737542,
+              0.003906227387895073,
+              0.003519878983657199,
+              0.0028162654809319857
+            ],
+            "max_balance_error": 9.8879238130678e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.7141356502203603,
+                "information_mean": 0.7184592832932644,
+                "information_max": 0.7209814231379474,
+                "bell_lower_min": 0.7283945526124918,
+                "bell_lower_max": 0.7358937359083231,
+                "bell_upper_min": 0.8473668246192474,
+                "bell_upper_max": 0.8496401082636109
+              },
+              "no_early": {
+                "information_min": 0.005312968718920152,
+                "information_mean": 0.006128008461829218,
+                "information_max": 0.006750705123309852,
+                "bell_lower_min": 0.2519100436498421,
+                "bell_lower_max": 0.2524214075474584,
+                "bell_upper_min": 0.28710842808893455,
+                "bell_upper_max": 0.29492601806181273
+              }
+            },
+            "broadband_ideal_p": [
+              0.434563642268988,
+              0.42510181503109234,
+              0.3562510214433826,
+              0.23278572485037805,
+              0.10641760897467463
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143290046116,
+                "information_mean": 0.7260469268936962,
+                "information_max": 0.728557911233371,
+                "bell_lower_min": 0.7344353973698867,
+                "bell_lower_max": 0.7419533628838086,
+                "bell_upper_min": 0.8525925300752331,
+                "bell_upper_max": 0.8548552868450855
+              },
+              "no_early": {
+                "information_min": 0.005561162966577755,
+                "information_mean": 0.006396165959548194,
+                "information_max": 0.007035538805981718,
+                "bell_lower_min": 0.25200155517879064,
+                "bell_lower_max": 0.2525263923569545,
+                "bell_upper_min": 0.28812608114591576,
+                "bell_upper_max": 0.29600926874828026
+              }
+            }
+          },
+          "static_same_proper_duration": {
+            "proper_duration": 38.39246596925014,
+            "mode": "static",
+            "p": [
+              0.31151440407105685,
+              0.20160514213378553,
+              0.08580365135248856,
+              0.022756305102850163,
+              0.0035815700943267574
+            ],
+            "G": [
+              0.505716265168653,
+              0.3254643686045419,
+              0.1397250501939368,
+              0.03773969358669664,
+              0.006087698705870083
+            ],
+            "cavity_population": [
+              0.03962348306641483,
+              0.04069902197437053,
+              0.024052806819077965,
+              0.008053702025780382,
+              0.0015009111976304463
+            ],
+            "detector_output": [
+              0.271890921004642,
+              0.160906120159415,
+              0.06175084453341059,
+              0.01470260307706978,
+              0.002080658896696311
+            ],
+            "reflected": [
+              0.008907421539801659,
+              0.00460908181405233,
+              0.0027261404503897647,
+              0.0011555647536808363,
+              0.0002755958057125281
+            ],
+            "max_balance_error": 2.0122792321330962e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.38053714374941244,
+                "information_mean": 0.3843605423034585,
+                "information_max": 0.38631844567763746,
+                "bell_lower_min": 0.48444690962117265,
+                "bell_lower_max": 0.4899559038515709,
+                "bell_upper_min": 0.5926074680650892,
+                "bell_upper_max": 0.5948956793336728
+              },
+              "no_early": {
+                "information_min": 0.0006640828409420682,
+                "information_mean": 0.0008906601125491131,
+                "information_max": 0.0012212336363733151,
+                "bell_lower_min": 0.25023098086148765,
+                "bell_lower_max": 0.2504251511873911,
+                "bell_upper_min": 0.2614518680675228,
+                "bell_upper_max": 0.26642499068194314
+              }
+            },
+            "broadband_ideal_p": [
+              0.3204218256108586,
+              0.20621422394783778,
+              0.08852979180287836,
+              0.023911869856530994,
+              0.003857165900039285
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.38972174674317983,
+                "information_mean": 0.393612472751216,
+                "information_max": 0.3956075725504252,
+                "bell_lower_min": 0.4904791707817766,
+                "bell_lower_max": 0.4960946312845801,
+                "bell_upper_min": 0.6004273290824915,
+                "bell_upper_max": 0.6027539222508478
+              },
+              "no_early": {
+                "information_min": 0.0006956355912951536,
+                "information_mean": 0.0009296368788791916,
+                "information_max": 0.0012699006693050556,
+                "bell_lower_min": 0.2502419890707169,
+                "bell_lower_max": 0.25044215284285504,
+                "bell_upper_min": 0.26183035750432954,
+                "bell_upper_max": 0.2669024451220242
+              }
+            }
+          },
+          "geometry": {
+            "r_end": 4.0,
+            "proper_duration": 38.39246596925014,
+            "static_equivalent_duration": 64.50559302747537,
+            "clock_rate_initial": 1.3874258867227929,
+            "clock_rate_final": 3.239007382600897,
+            "adaptive_kappa_final": 1.668088802039462,
+            "adaptive_omega_final": 0.5462741699796945
+          },
+          "control_errors": {
+            "adaptive_vs_static_p": 4.385380947269368e-15,
+            "input_norm_equal_support": 7.93809462606987e-15
+          }
+        }
+      },
+      "static_120": {
+        "proper_duration": 120.0,
+        "mode": "static",
+        "p": [
+          0.4281480469806001,
+          0.44705975151997857,
+          0.4503704475223749,
+          0.4506100763891184,
+          0.4494704630135542
+        ],
+        "G": [
+          0.6948306568104596,
+          0.7182471615742099,
+          0.7218687583540678,
+          0.7219595492483196,
+          0.719683993200221
+        ],
+        "cavity_population": [
+          9.927421558672723e-08,
+          1.746860898995953e-06,
+          2.688804001878354e-05,
+          0.0002999328101856237,
+          0.0021800986833107145
+        ],
+        "detector_output": [
+          0.42814794770638454,
+          0.4470580046590796,
+          0.4503435594823561,
+          0.45031014357893273,
+          0.4472903643302435
+        ],
+        "reflected": [
+          0.012096657174507247,
+          0.008021650053442108,
+          0.007005597770762784,
+          0.006823494014618837,
+          0.006521315078105836
+        ],
+        "max_balance_error": 2.2551405187698492e-15,
+        "scores": {
+          "full_early": {
+            "information_min": 0.8529647852209403,
+            "information_mean": 0.8568544225262609,
+            "information_max": 0.8591748361997409,
+            "bell_lower_min": 0.8476083666180644,
+            "bell_lower_max": 0.8547121206432012,
+            "bell_upper_min": 0.9338965263999238,
+            "bell_upper_max": 0.9358150339518361
+          },
+          "no_early": {
+            "information_min": 0.017686779424605822,
+            "information_mean": 0.018875517208137214,
+            "information_max": 0.02041190480514885,
+            "bell_lower_min": 0.2566780295645855,
+            "bell_lower_max": 0.2577189102434724,
+            "bell_upper_min": 0.3221556183718719,
+            "bell_upper_max": 0.33071844676719675
+          }
+        },
+        "broadband_ideal_p": [
+          0.44024470415510725,
+          0.4550814015734194,
+          0.4573760452931374,
+          0.45743357040373533,
+          0.4559917780916601
+        ],
+        "broadband_scores": {
+          "full_early": {
+            "information_min": 0.859264920166014,
+            "information_mean": 0.863107546099794,
+            "information_max": 0.8653812307382583,
+            "bell_lower_min": 0.8533217768164612,
+            "bell_lower_max": 0.8603448865870618,
+            "bell_upper_min": 0.9375008363484519,
+            "bell_upper_max": 0.9393774873589966
+          },
+          "no_early": {
+            "information_min": 0.018681959468156963,
+            "information_mean": 0.01991044909919229,
+            "information_max": 0.021497431671799384,
+            "bell_lower_min": 0.2570696233171989,
+            "bell_lower_max": 0.2581491235194018,
+            "bell_upper_min": 0.32448941826437205,
+            "bell_upper_max": 0.33311632009763004
+          }
+        }
+      }
+    },
+    {
+      "input_grid": "physical_refined",
+      "max_solver_step": 0.05,
+      "model": "effective outgoing chiral, number-preserving vacuum channel; fixed upstream packet; not full scalar-field local detector",
+      "eta": 0.6336,
+      "kappa_static": 0.515,
+      "omega_static": 0.16865480854231357,
+      "cases": {
+        "6.0": {
+          "infall_fixed": {
+            "proper_duration": 35.23549890530289,
+            "mode": "fixed",
+            "p": [
+              0.3522846982105544,
+              0.31686105531171,
+              0.22333772610805222,
+              0.11254982803109542,
+              0.03701401322616278
+            ],
+            "G": [
+              0.6652554265112652,
+              0.6037478533169508,
+              0.4335409829432645,
+              0.22400961149053442,
+              0.07606654850937981
+            ],
+            "cavity_population": [
+              0.0253766274699811,
+              0.05088251458896798,
+              0.0613840924451497,
+              0.04364767976429008,
+              0.017938163483460143
+            ],
+            "detector_output": [
+              0.3269080707405733,
+              0.265978540722742,
+              0.16195363366290252,
+              0.06890214826680534,
+              0.019075849742702634
+            ],
+            "reflected": [
+              0.06922114002698376,
+              0.06567358454990994,
+              0.05135384068479995,
+              0.02938266180930718,
+              0.011181751909380287
+            ],
+            "max_balance_error": 6.106226635438361e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.5595501512486974,
+                "information_mean": 0.5633658102825679,
+                "information_max": 0.5655182754684307,
+                "bell_lower_min": 0.6101378595037622,
+                "bell_lower_max": 0.6163453016295113,
+                "bell_upper_min": 0.7351505401667509,
+                "bell_upper_max": 0.7373209724591526
+              },
+              "no_early": {
+                "information_min": 0.0019813928910626176,
+                "information_mean": 0.002468900089317775,
+                "information_max": 0.0029266716102883433,
+                "bell_lower_min": 0.2506967521834993,
+                "bell_lower_max": 0.25102830167891926,
+                "bell_upper_min": 0.2713418783270283,
+                "bell_upper_max": 0.27816882845393975
+              }
+            },
+            "broadband_ideal_p": [
+              0.4215058382375377,
+              0.38253463986162006,
+              0.2746915667928524,
+              0.14193248984040263,
+              0.04819576513554306
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.6418329440171413,
+                "information_mean": 0.6459968455238427,
+                "information_max": 0.6482922254875312,
+                "bell_lower_min": 0.6709294700868813,
+                "bell_lower_max": 0.6778264171960056,
+                "bell_upper_min": 0.7973225082490809,
+                "bell_upper_max": 0.7995500005750578
+              },
+              "no_early": {
+                "information_min": 0.003059302989571073,
+                "information_mean": 0.0037102117043293107,
+                "information_max": 0.004291179208804312,
+                "bell_lower_min": 0.2510822236056667,
+                "bell_lower_max": 0.25151609341956105,
+                "bell_upper_min": 0.27775039689156855,
+                "bell_upper_max": 0.2855697098236611
+              }
+            }
+          },
+          "infall_adaptive": {
+            "proper_duration": 35.23549890530289,
+            "mode": "adaptive",
+            "p": [
+              0.41106329598611857,
+              0.37739307604986905,
+              0.27098903280244047,
+              0.1387757615926748,
+              0.04635971235444284
+            ],
+            "G": [
+              0.6652554265112649,
+              0.603747853316945,
+              0.43354098294325627,
+              0.2240096114905296,
+              0.07606654850937822
+            ],
+            "cavity_population": [
+              0.014085245222656738,
+              0.032131781717816436,
+              0.04300692903260061,
+              0.033340814102283324,
+              0.014759945552322776
+            ],
+            "detector_output": [
+              0.3969780507634618,
+              0.3452612943320526,
+              0.22798210376983985,
+              0.10543494749039146,
+              0.031599766802120066
+            ],
+            "reflected": [
+              0.010442542251418803,
+              0.005141563811747968,
+              0.003702533990406982,
+              0.003156728247724706,
+              0.001836052781099199
+            ],
+            "max_balance_error": 6.860831347488272e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.6335547466432556,
+                "information_mean": 0.637688909742379,
+                "information_max": 0.6399776962088637,
+                "bell_lower_min": 0.6646950783759409,
+                "bell_lower_max": 0.6715371101009067,
+                "bell_upper_min": 0.7912061950773243,
+                "bell_upper_max": 0.7934286289956491
+              },
+              "no_early": {
+                "information_min": 0.002923675029178525,
+                "information_mean": 0.0035595257814804394,
+                "information_max": 0.004126984048341628,
+                "bell_lower_min": 0.2510334881557668,
+                "bell_lower_max": 0.2514570827986795,
+                "bell_upper_min": 0.27699831148446075,
+                "bell_upper_max": 0.28475209713993954
+              }
+            },
+            "broadband_ideal_p": [
+              0.42150583823753746,
+              0.3825346398616164,
+              0.2746915667928472,
+              0.14193248984039955,
+              0.048195765135542044
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.6418329440171374,
+                "information_mean": 0.6459968455238386,
+                "information_max": 0.6482922254875269,
+                "bell_lower_min": 0.670929470086878,
+                "bell_lower_max": 0.6778264171960023,
+                "bell_upper_min": 0.7973225082490779,
+                "bell_upper_max": 0.7995500005750547
+              },
+              "no_early": {
+                "information_min": 0.003059302989570993,
+                "information_mean": 0.0037102117043292192,
+                "information_max": 0.004291179208804219,
+                "bell_lower_min": 0.25108222360566673,
+                "bell_lower_max": 0.251516093419561,
+                "bell_upper_min": 0.2777503968915682,
+                "bell_upper_max": 0.2855697098236607
+              }
+            }
+          },
+          "static_same_retarded_support": {
+            "proper_duration": 56.246176971376855,
+            "mode": "static",
+            "p": [
+              0.41106329598608893,
+              0.3773930760498469,
+              0.27098903280242187,
+              0.13877576159266317,
+              0.04635971235443946
+            ],
+            "G": [
+              0.665255426511217,
+              0.6037478533169108,
+              0.43354098294322674,
+              0.2240096114905103,
+              0.07606654850937271
+            ],
+            "cavity_population": [
+              0.014085245222655746,
+              0.0321317817178134,
+              0.043006929032596404,
+              0.03334081410228063,
+              0.014759945552322054
+            ],
+            "detector_output": [
+              0.3969780507634332,
+              0.3452612943320335,
+              0.22798210376982544,
+              0.10543494749038254,
+              0.03159976680211741
+            ],
+            "reflected": [
+              0.010442542251418082,
+              0.005141563811747756,
+              0.0037025339904065775,
+              0.003156728247724285,
+              0.001836052781099078
+            ],
+            "max_balance_error": 4.0245584642661925e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.633554746643226,
+                "information_mean": 0.6376889097423495,
+                "information_max": 0.6399776962088342,
+                "bell_lower_min": 0.6646950783759188,
+                "bell_lower_max": 0.6715371101008841,
+                "bell_upper_min": 0.7912061950773026,
+                "bell_upper_max": 0.7934286289956274
+              },
+              "no_early": {
+                "information_min": 0.0029236750291780707,
+                "information_mean": 0.0035595257814799225,
+                "information_max": 0.004126984048341063,
+                "bell_lower_min": 0.25103348815576665,
+                "bell_lower_max": 0.25145708279867923,
+                "bell_upper_min": 0.2769983114844582,
+                "bell_upper_max": 0.2847520971399367
+              }
+            },
+            "broadband_ideal_p": [
+              0.42150583823750715,
+              0.38253463986159475,
+              0.27469156679282847,
+              0.14193248984038734,
+              0.048195765135538554
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.641832944017108,
+                "information_mean": 0.6459968455238092,
+                "information_max": 0.6482922254874978,
+                "bell_lower_min": 0.6709294700868561,
+                "bell_lower_max": 0.6778264171959799,
+                "bell_upper_min": 0.7973225082490563,
+                "bell_upper_max": 0.7995500005750331
+              },
+              "no_early": {
+                "information_min": 0.0030593029895705174,
+                "information_mean": 0.0037102117043286784,
+                "information_max": 0.004291179208803631,
+                "bell_lower_min": 0.2510822236056665,
+                "bell_lower_max": 0.2515160934195608,
+                "bell_upper_min": 0.27775039689156555,
+                "bell_upper_max": 0.2855697098236577
+              }
+            }
+          },
+          "static_same_proper_duration": {
+            "proper_duration": 35.23549890530289,
+            "mode": "static",
+            "p": [
+              0.2806591908051883,
+              0.16648579370628563,
+              0.06331456478629585,
+              0.014731937484150248,
+              0.002008543717297753
+            ],
+            "G": [
+              0.45689538711827365,
+              0.2698382868768352,
+              0.10363512042561042,
+              0.024586785064483033,
+              0.0034391671417425725
+            ],
+            "cavity_population": [
+              0.04206554015413153,
+              0.03741126025886945,
+              0.01907100063914815,
+              0.005483186034178375,
+              0.0008732502155312616
+            ],
+            "detector_output": [
+              0.23859365065105675,
+              0.12907453344741618,
+              0.0442435641471477,
+              0.009248751449971873,
+              0.0011352935017664917
+            ],
+            "reflected": [
+              0.008829726472950179,
+              0.00448374485887701,
+              0.0023486475153708638,
+              0.0008462495327062073,
+              0.00017051258371034096
+            ],
+            "max_balance_error": 3.0531133177191805e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.32917349867920276,
+                "information_mean": 0.3327352860306689,
+                "information_max": 0.3345078448777246,
+                "bell_lower_min": 0.4507342852153315,
+                "bell_lower_max": 0.4557725989976707,
+                "bell_upper_min": 0.5488667655899149,
+                "bell_upper_max": 0.5509975551503197
+              },
+              "no_early": {
+                "information_min": 0.0005043161532654676,
+                "information_mean": 0.0006783923797094022,
+                "information_max": 0.0009544613686918044,
+                "bell_lower_min": 0.2501752517988824,
+                "bell_lower_max": 0.25033200747291834,
+                "bell_upper_min": 0.25952958076481025,
+                "bell_upper_max": 0.26375581285259575
+              }
+            },
+            "broadband_ideal_p": [
+              0.2894889172781382,
+              0.17096953856516278,
+              0.06566321230166677,
+              0.01557818701685645,
+              0.0021790563010080943
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.33835750962232625,
+                "information_mean": 0.3419969670449651,
+                "information_max": 0.3438110666609178,
+                "bell_lower_min": 0.4566326182471808,
+                "bell_lower_max": 0.46178903604053106,
+                "bell_upper_min": 0.5568459008663392,
+                "bell_upper_max": 0.5590219163125392
+              },
+              "no_early": {
+                "information_min": 0.0005291282374585947,
+                "information_mean": 0.0007095734706535468,
+                "information_max": 0.0009948264508075281,
+                "bell_lower_min": 0.2501838926825538,
+                "bell_lower_max": 0.2503460842179275,
+                "bell_upper_min": 0.2598679130792697,
+                "bell_upper_max": 0.264199271940204
+              }
+            }
+          },
+          "geometry": {
+            "r_end": 6.0,
+            "proper_duration": 35.23549890530289,
+            "static_equivalent_duration": 56.246176971376855,
+            "clock_rate_initial": 1.3874258867227929,
+            "clock_rate_final": 2.24460878333352,
+            "adaptive_kappa_final": 1.155973523416763,
+            "adaptive_omega_final": 0.37856406460551023
+          },
+          "control_errors": {
+            "adaptive_vs_static_p": 2.964295475749168e-14,
+            "input_norm_equal_support": 4.8183679268731794e-14
+          }
+        },
+        "4.0": {
+          "infall_fixed": {
+            "proper_duration": 38.39246596925014,
+            "mode": "fixed",
+            "p": [
+              0.35595081490573693,
+              0.3374929879519764,
+              0.27106157425803057,
+              0.16967034435574313,
+              0.07425695929499626
+            ],
+            "G": [
+              0.6858643347223369,
+              0.6709309042212721,
+              0.5622648851258358,
+              0.3674017266205268,
+              0.16795709676726928
+            ],
+            "cavity_population": [
+              0.013370799291771802,
+              0.03576314270504831,
+              0.059137527523324254,
+              0.058863728003101225,
+              0.03449297142894576
+            ],
+            "detector_output": [
+              0.3425800156139651,
+              0.3017298452469281,
+              0.21192404673470633,
+              0.1108066163526419,
+              0.0397639878660505
+            ],
+            "reflected": [
+              0.07861282757433646,
+              0.08760883296262169,
+              0.08518945695769879,
+              0.06311538963102264,
+              0.0321606572167456
+            ],
+            "max_balance_error": 7.91033905045424e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.6160580513843029,
+                "information_mean": 0.620110302457859,
+                "information_max": 0.6225126040033373,
+                "bell_lower_min": 0.6525924829920466,
+                "bell_lower_max": 0.6594207590921044,
+                "bell_upper_min": 0.7770783928619875,
+                "bell_upper_max": 0.7793323576473815
+              },
+              "no_early": {
+                "information_min": 0.002980672824305126,
+                "information_mean": 0.0035478086118590534,
+                "information_max": 0.0040250943991526665,
+                "bell_lower_min": 0.25105773925584973,
+                "bell_lower_max": 0.25142589781106905,
+                "bell_upper_min": 0.27653944207457914,
+                "bell_upper_max": 0.2833615114461295
+              }
+            },
+            "broadband_ideal_p": [
+              0.4345636424800727,
+              0.425101820914598,
+              0.3562510312157296,
+              0.23278573398676577,
+              0.10641761651174182
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143372398609,
+                "information_mean": 0.7260469351373595,
+                "information_max": 0.7285579194918508,
+                "bell_lower_min": 0.7344354040793026,
+                "bell_lower_max": 0.7419533696416742,
+                "bell_upper_min": 0.8525925355936769,
+                "bell_upper_max": 0.8548552923605921
+              },
+              "no_early": {
+                "information_min": 0.005561163312568182,
+                "information_mean": 0.00639616632963379,
+                "information_max": 0.007035539184333697,
+                "bell_lower_min": 0.25200155530752033,
+                "bell_lower_max": 0.2525263924979233,
+                "bell_upper_min": 0.2881260824160041,
+                "bell_upper_max": 0.2960092700416841
+              }
+            }
+          },
+          "infall_adaptive": {
+            "proper_duration": 38.39246596925014,
+            "mode": "adaptive",
+            "p": [
+              0.4232936211574806,
+              0.4191592973552709,
+              0.3523448029074691,
+              0.2292658545668206,
+              0.10360135089000234
+            ],
+            "G": [
+              0.6858643347223345,
+              0.6709309042212518,
+              0.5622648851257824,
+              0.3674017266204606,
+              0.1679570967672282
+            ],
+            "cavity_population": [
+              0.005902247090218815,
+              0.019270734812377642,
+              0.03728242492113475,
+              0.042148784534790686,
+              0.027484346404086483
+            ],
+            "detector_output": [
+              0.4173913740672618,
+              0.3998885625428933,
+              0.31506237798633435,
+              0.18711707003202993,
+              0.07611700448591587
+            ],
+            "reflected": [
+              0.011270021322590655,
+              0.005942523559314758,
+              0.0039062283082269937,
+              0.0035198794199031466,
+              0.002816265621713455
+            ],
+            "max_balance_error": 8.612902058224847e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.7141356571282007,
+                "information_mean": 0.7184592902093097,
+                "information_max": 0.720981430072311,
+                "bell_lower_min": 0.7283945582355426,
+                "bell_lower_max": 0.7358937415788748,
+                "bell_upper_min": 0.8473668292541245,
+                "bell_upper_max": 0.8496401128987636
+              },
+              "no_early": {
+                "information_min": 0.005312969009404992,
+                "information_mean": 0.006128008771130908,
+                "information_max": 0.0067507054369461686,
+                "bell_lower_min": 0.25191004375792536,
+                "bell_lower_max": 0.2524214076643956,
+                "bell_upper_min": 0.28710842915403045,
+                "bell_upper_max": 0.29492601912714267
+              }
+            },
+            "broadband_ideal_p": [
+              0.4345636424800712,
+              0.42510182091458515,
+              0.3562510312156958,
+              0.23278573398672386,
+              0.1064176165117158
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143372398321,
+                "information_mean": 0.7260469351373305,
+                "information_max": 0.7285579194918218,
+                "bell_lower_min": 0.7344354040792794,
+                "bell_lower_max": 0.7419533696416505,
+                "bell_upper_min": 0.8525925355936577,
+                "bell_upper_max": 0.8548552923605729
+              },
+              "no_early": {
+                "information_min": 0.005561163312566921,
+                "information_mean": 0.00639616632963245,
+                "information_max": 0.00703553918433234,
+                "bell_lower_min": 0.25200155530751983,
+                "bell_lower_max": 0.25252639249792286,
+                "bell_upper_min": 0.2881260824159995,
+                "bell_upper_max": 0.2960092700416796
+              }
+            }
+          },
+          "static_same_retarded_support": {
+            "proper_duration": 64.50559302747537,
+            "mode": "static",
+            "p": [
+              0.4232936211574555,
+              0.4191592973553021,
+              0.35234480290761583,
+              0.22926585456703527,
+              0.10360135089014406
+            ],
+            "G": [
+              0.6858643347222929,
+              0.670930904221294,
+              0.5622648851260059,
+              0.3674017266208073,
+              0.16795709676746873
+            ],
+            "cavity_population": [
+              0.005902247090222574,
+              0.019270734812416705,
+              0.037282424921252465,
+              0.04214878453494958,
+              0.0274843464041874
+            ],
+            "detector_output": [
+              0.4173913740672329,
+              0.3998885625428854,
+              0.3150623779863634,
+              0.1871170700320857,
+              0.07611700448595667
+            ],
+            "reflected": [
+              0.011270021322588968,
+              0.005942523559309612,
+              0.0039062283082219687,
+              0.0035198794199086305,
+              0.002816265621724045
+            ],
+            "max_balance_error": 6.175615574477433e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.7141356571283273,
+                "information_mean": 0.7184592902094362,
+                "information_max": 0.720981430072438,
+                "bell_lower_min": 0.7283945582356466,
+                "bell_lower_max": 0.7358937415789794,
+                "bell_upper_min": 0.8473668292542088,
+                "bell_upper_max": 0.849640112898848
+              },
+              "no_early": {
+                "information_min": 0.005312969009410645,
+                "information_mean": 0.006128008771136834,
+                "information_max": 0.006750705436952129,
+                "bell_lower_min": 0.2519100437579273,
+                "bell_lower_max": 0.25242140766439797,
+                "bell_upper_min": 0.28710842915405105,
+                "bell_upper_max": 0.29492601912716243
+              }
+            },
+            "broadband_ideal_p": [
+              0.4345636424800448,
+              0.4251018209146119,
+              0.3562510312158374,
+              0.23278573398694352,
+              0.1064176165118682
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.7217143372399564,
+                "information_mean": 0.7260469351374551,
+                "information_max": 0.728557919491947,
+                "bell_lower_min": 0.7344354040793819,
+                "bell_lower_max": 0.7419533696417543,
+                "bell_upper_min": 0.8525925355937399,
+                "bell_upper_max": 0.8548552923606552
+              },
+              "no_early": {
+                "information_min": 0.005561163312572918,
+                "information_mean": 0.00639616632963871,
+                "information_max": 0.007035539184338636,
+                "bell_lower_min": 0.25200155530752216,
+                "bell_lower_max": 0.2525263924979253,
+                "bell_upper_min": 0.288126082416021,
+                "bell_upper_max": 0.29600927004169997
+              }
+            }
+          },
+          "static_same_proper_duration": {
+            "proper_duration": 38.39246596925014,
+            "mode": "static",
+            "p": [
+              0.31151440929707064,
+              0.20160514935426826,
+              0.08580365823006751,
+              0.02275630925935239,
+              0.0035815713850269734
+            ],
+            "G": [
+              0.5057162753190725,
+              0.3254643810168141,
+              0.13972506133777654,
+              0.03773970029589685,
+              0.006087700837430425
+            ],
+            "cavity_population": [
+              0.039623483172427,
+              0.04069902241079713,
+              0.024052807646545233,
+              0.008053703037281455,
+              0.001500911650360648
+            ],
+            "detector_output": [
+              0.27189092612464366,
+              0.16090612694347114,
+              0.06175085058352228,
+              0.014702606222070933,
+              0.0020806597346663255
+            ],
+            "reflected": [
+              0.00890742274509391,
+              0.004609082457985119,
+              0.0027261406335476294,
+              0.0011555648481278663,
+              0.00027559586556894205
+            ],
+            "max_balance_error": 3.2439329000766293e-16,
+            "scores": {
+              "full_early": {
+                "information_min": 0.3805371560317132,
+                "information_mean": 0.38436055461367846,
+                "information_max": 0.38631845801476233,
+                "bell_lower_min": 0.4844469178578787,
+                "bell_lower_max": 0.4899559121554114,
+                "bell_upper_min": 0.592607478313109,
+                "bell_upper_max": 0.5948956895968975
+              },
+              "no_early": {
+                "information_min": 0.00066408289031766,
+                "information_mean": 0.0008906601749264056,
+                "information_max": 0.0012212337082038967,
+                "bell_lower_min": 0.2502309808787498,
+                "bell_lower_max": 0.25042515121252595,
+                "bell_upper_min": 0.26145186858336666,
+                "bell_upper_max": 0.26642499133688835
+              }
+            },
+            "broadband_ideal_p": [
+              0.32042183204216435,
+              0.2062142318122534,
+              0.08852979886361523,
+              0.023911874107480247,
+              0.0038571672505959176
+            ],
+            "broadband_scores": {
+              "full_early": {
+                "information_min": 0.3897217600375622,
+                "information_mean": 0.39361248608164356,
+                "information_max": 0.39560758591103634,
+                "bell_lower_min": 0.4904791797121704,
+                "bell_lower_max": 0.4960946402940867,
+                "bell_upper_min": 0.600427340158012,
+                "bell_upper_max": 0.6027539333456018
+              },
+              "no_early": {
+                "information_min": 0.0006956356460182649,
+                "information_mean": 0.0009296369475804264,
+                "information_max": 0.001269900749014053,
+                "bell_lower_min": 0.2502419890898512,
+                "bell_lower_max": 0.25044215287075083,
+                "bell_upper_min": 0.26183035807204,
+                "bell_upper_max": 0.26690244584091116
+              }
+            }
+          },
+          "geometry": {
+            "r_end": 4.0,
+            "proper_duration": 38.39246596925014,
+            "static_equivalent_duration": 64.50559302747537,
+            "clock_rate_initial": 1.3874258867227929,
+            "clock_rate_final": 3.239007382600897,
+            "adaptive_kappa_final": 1.668088802039462,
+            "adaptive_omega_final": 0.5462741699796945
+          },
+          "control_errors": {
+            "adaptive_vs_static_p": 2.1466162181127402e-13,
+            "input_norm_equal_support": 2.804978471715458e-13
+          }
+        }
+      },
+      "static_120": {
+        "proper_duration": 120.0,
+        "mode": "static",
+        "p": [
+          0.4281480476048898,
+          0.4470597549012778,
+          0.45037045186451957,
+          0.4506100801214328,
+          0.44947046522004463
+        ],
+        "G": [
+          0.6948306596552764,
+          0.7182471685310396,
+          0.7218687665661352,
+          0.7219595567466327,
+          0.7196839989964672
+        ],
+        "cavity_population": [
+          9.927094360089606e-08,
+          1.7468833797553276e-06,
+          2.688823581947851e-05,
+          0.0002999332837692331,
+          0.0021800986981293817
+        ],
+        "detector_output": [
+          0.4281479483339462,
+          0.447058008017898,
+          0.4503435636287001,
+          0.4503101468376635,
+          0.44729036652191523
+        ],
+        "reflected": [
+          0.012096658352692993,
+          0.008021651079987997,
+          0.007005598631785562,
+          0.0068234950332347315,
+          0.006521316544116798
+        ],
+        "max_balance_error": 1.9550333574258616e-15,
+        "scores": {
+          "full_early": {
+            "information_min": 0.8529647874903813,
+            "information_mean": 0.856854424784594,
+            "information_max": 0.8591748384457928,
+            "bell_lower_min": 0.8476083686644319,
+            "bell_lower_max": 0.8547121226728082,
+            "bell_upper_min": 0.9338965277100979,
+            "bell_upper_max": 0.9358150352500001
+          },
+          "no_early": {
+            "information_min": 0.017686779766262206,
+            "information_mean": 0.018875517563529447,
+            "information_max": 0.020411905178759068,
+            "bell_lower_min": 0.25667802969876463,
+            "bell_lower_max": 0.2577189103912249,
+            "bell_upper_min": 0.32215561918674646,
+            "bell_upper_max": 0.33071844760785674
+          }
+        },
+        "broadband_ideal_p": [
+          0.44024470595758314,
+          0.4550814059812668,
+          0.4573760504963033,
+          0.45743357515466654,
+          0.45599178176416166
+        ],
+        "broadband_scores": {
+          "full_early": {
+            "information_min": 0.8592649232083082,
+            "information_mean": 0.8631075491240141,
+            "information_max": 0.865381233743461,
+            "bell_lower_min": 0.8533217795812728,
+            "bell_lower_max": 0.8603448893224286,
+            "bell_upper_min": 0.9375008380826211,
+            "bell_upper_max": 0.9393774890754463
+          },
+          "no_early": {
+            "information_min": 0.018681959964267372,
+            "information_mean": 0.019910449614902306,
+            "information_max": 0.02149743221510928,
+            "bell_lower_min": 0.2570696235125909,
+            "bell_lower_max": 0.25814912373486,
+            "bell_upper_min": 0.32448941942049114,
+            "bell_upper_max": 0.3331163212958179
+          }
+        }
+      }
+    }
+  ],
+  "convergence": [
+    {
+      "r_end": "6.0",
+      "receiver": "infall_fixed",
+      "solver_refinement": 1.0824674490095276e-14,
+      "physical_input_refinement": 2.2616275296982735e-08
+    },
+    {
+      "r_end": "6.0",
+      "receiver": "static_same_proper_duration",
+      "solver_refinement": 1.149080830487037e-14,
+      "physical_input_refinement": 6.8922661466963575e-09
+    },
+    {
+      "r_end": "6.0",
+      "receiver": "static_same_retarded_support",
+      "solver_refinement": 1.6042722705833512e-14,
+      "physical_input_refinement": 8.877909241089554e-09
+    },
+    {
+      "r_end": "6.0",
+      "receiver": "infall_adaptive",
+      "solver_refinement": 8.604228440844963e-15,
+      "physical_input_refinement": 8.877907575755017e-09
+    },
+    {
+      "r_end": "4.0",
+      "receiver": "infall_fixed",
+      "solver_refinement": 1.7455481504669024e-13,
+      "physical_input_refinement": 3.4041810481610923e-08
+    },
+    {
+      "r_end": "4.0",
+      "receiver": "static_same_proper_duration",
+      "solver_refinement": 1.2490009027033011e-14,
+      "physical_input_refinement": 7.220490150228187e-09
+    },
+    {
+      "r_end": "4.0",
+      "receiver": "static_same_retarded_support",
+      "solver_refinement": 1.73749903353837e-14,
+      "physical_input_refinement": 8.852142296955634e-09
+    },
+    {
+      "r_end": "4.0",
+      "receiver": "infall_adaptive",
+      "solver_refinement": 2.0883295093199195e-13,
+      "physical_input_refinement": 8.852130306546968e-09
+    }
+  ]
+}

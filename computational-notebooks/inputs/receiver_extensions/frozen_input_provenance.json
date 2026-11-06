@@ -1,0 +1,5 @@
+{
+  "inputs/hp_joint_information.npy": "5f84ced8dac8ceb1c64767f699ecbd3e0db4181b0a009ef68e9bf04fedbed035",
+  "reference/upstream/baseline.npz": "5f82eec6b3e8482362c675a258676ffbad12097bcaf6b9de3d20966d8ff60db0",
+  "reference/upstream/physical_refined.npz": "99030453011fdfbf6529984ad8b132f9251f10e0e756f6dd6331ba7a42c259ed"
+}

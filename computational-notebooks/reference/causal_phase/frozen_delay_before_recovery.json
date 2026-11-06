@@ -1,0 +1,5 @@
+{
+  "coordinate_delay_M": 41.90322984921114,
+  "proper_delay_M": 39.75289429231835,
+  "rule": "Baseline transmitted-spectrum-weighted group delay; frozen across refinement."
+}

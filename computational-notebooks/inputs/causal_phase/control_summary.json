@@ -1,0 +1,184 @@
+{
+  "settings": {
+    "source_calibration_delay_M": 5.041783756768098,
+    "frozen_source_coordinate_centers_M": [
+      24.200084781095686,
+      36.8491954217692,
+      49.49830606244272,
+      62.14741670311624,
+      74.79652734378976
+    ],
+    "observer_lapse": 0.9486832980505138,
+    "eta": 0.6335999999999999,
+    "collection_interval_M": [
+      0.0,
+      120.0
+    ],
+    "source_generated": true,
+    "conditions": [
+      "schwarzschild",
+      "unit_transmission",
+      "magnitude_only"
+    ],
+    "refinement": "Joint refinement of time, spectral quadrature, transmission grid, ODE tolerances and radial boundaries; source phases fixed.",
+    "interpretation": "Unit transmission is a declared potential-free transfer reference at the same lapse and source phase convention. Magnitude-only is a phase-removal diagnostic and need not be causal. The receiver is empty at time zero in every condition; positive-frequency packet prehistory is not collected."
+  },
+  "results": [
+    {
+      "setting": "baseline",
+      "condition": "schwarzschild",
+      "spectral_transmission": 0.7222117921183261,
+      "input_band_mass": 0.999999742580533,
+      "mean_terminal_incident": 0.7153180236205964,
+      "mean_terminal_collected": 0.44513175695128143,
+      "mean_no_early": 0.018875517191433377,
+      "mean_full_early": 0.8568544224208521,
+      "fidelity_ceiling": 0.3571621685237845,
+      "fidelity_floor": 0.8155976763593066,
+      "maximum_energy_balance_residual": 2.028759105154876e-15
+    },
+    {
+      "setting": "baseline",
+      "condition": "unit_transmission",
+      "spectral_transmission": 0.999999742580533,
+      "input_band_mass": 0.999999742580533,
+      "mean_terminal_incident": 0.98576788665569,
+      "mean_terminal_collected": 0.6114935733014585,
+      "mean_no_early": 0.050966826074217916,
+      "mean_full_early": 0.9487347330381695,
+      "fidelity_ceiling": 0.4278922809062889,
+      "fidelity_floor": 0.9277646826214827,
+      "maximum_energy_balance_residual": 4.152928001488476e-15
+    },
+    {
+      "setting": "baseline",
+      "condition": "magnitude_only",
+      "spectral_transmission": 0.7222117921183261,
+      "input_band_mass": 0.999999742580533,
+      "mean_terminal_incident": 0.7088477344460389,
+      "mean_terminal_collected": 0.44002907674868597,
+      "mean_no_early": 0.01822990235399502,
+      "mean_full_early": 0.8528716136128531,
+      "fidelity_ceiling": 0.3553568100813718,
+      "fidelity_floor": 0.8110596608282731,
+      "maximum_energy_balance_residual": 2.1822821327788233e-15
+    },
+    {
+      "setting": "refined",
+      "condition": "schwarzschild",
+      "spectral_transmission": 0.7222118004265581,
+      "input_band_mass": 0.9999997426010905,
+      "mean_terminal_incident": 0.7153178852760242,
+      "mean_terminal_collected": 0.445131640286003,
+      "mean_no_early": 0.018875502308818317,
+      "mean_full_early": 0.8568543319332321,
+      "fidelity_ceiling": 0.35716212745793374,
+      "fidelity_floor": 0.8155975728977053,
+      "maximum_energy_balance_residual": 2.5396351688300456e-15
+    },
+    {
+      "setting": "refined",
+      "condition": "unit_transmission",
+      "spectral_transmission": 0.9999997426010905,
+      "input_band_mass": 0.9999997426010905,
+      "mean_terminal_incident": 0.9857678869252651,
+      "mean_terminal_collected": 0.6114935734735469,
+      "mean_no_early": 0.05096682612195945,
+      "mean_full_early": 0.9487347330990945,
+      "fidelity_ceiling": 0.42789228099211124,
+      "fidelity_floor": 0.9277646827017035,
+      "maximum_energy_balance_residual": 4.028027911218146e-15
+    },
+    {
+      "setting": "refined",
+      "condition": "magnitude_only",
+      "spectral_transmission": 0.7222118004265581,
+      "input_band_mass": 0.9999997426010905,
+      "mean_terminal_incident": 0.7088477383889268,
+      "mean_terminal_collected": 0.4400290781399896,
+      "mean_no_early": 0.01822990252019439,
+      "mean_full_early": 0.8528716147432907,
+      "fidelity_ceiling": 0.3553568105727166,
+      "fidelity_floor": 0.8110596621069818,
+      "maximum_energy_balance_residual": 3.625572064791527e-15
+    }
+  ],
+  "refinement": [
+    {
+      "condition": "schwarzschild",
+      "maximum_terminal_probability_change": 5.176199724399311e-07,
+      "maximum_information_change": 1.7101503624328274e-07,
+      "maximum_fidelity_bound_change": 1.0484555146295094e-07
+    },
+    {
+      "condition": "unit_transmission",
+      "maximum_terminal_probability_change": 2.555112788016345e-10,
+      "maximum_information_change": 2.380121655320977e-10,
+      "maximum_fidelity_bound_change": 8.60823634596386e-11
+    },
+    {
+      "condition": "magnitude_only",
+      "maximum_terminal_probability_change": 3.163141804041203e-09,
+      "maximum_information_change": 1.9815805663014885e-09,
+      "maximum_fidelity_bound_change": 1.2904985968731353e-09
+    }
+  ],
+  "prewindow": [
+    {
+      "condition": "schwarzschild",
+      "packet": 1,
+      "incident_energy_minus800_to0": 0.0273821089447727,
+      "incident_energy_minus800_to_minus400": 4.235089133850306e-12
+    },
+    {
+      "condition": "unit_transmission",
+      "packet": 1,
+      "incident_energy_minus800_to0": 0.06069084748544531,
+      "incident_energy_minus800_to_minus400": 1.4716837909995564e-08
+    },
+    {
+      "condition": "magnitude_only",
+      "packet": 1,
+      "incident_energy_minus800_to0": 0.05440963948171852,
+      "incident_energy_minus800_to_minus400": 4.153372073904692e-12
+    }
+  ],
+  "time_cut_supply": [
+    {
+      "setting": "baseline",
+      "condition": "schwarzschild",
+      "mean_time_cut_supply": 0.9765888285641656,
+      "maximum_statewise_nesting_difference": -0.11816309168047001
+    },
+    {
+      "setting": "baseline",
+      "condition": "unit_transmission",
+      "mean_time_cut_supply": 0.9990372800963326,
+      "maximum_statewise_nesting_difference": -0.048967542458829505
+    },
+    {
+      "setting": "baseline",
+      "condition": "magnitude_only",
+      "mean_time_cut_supply": 0.9753602811536244,
+      "maximum_statewise_nesting_difference": -0.12089475121935311
+    },
+    {
+      "setting": "refined",
+      "condition": "schwarzschild",
+      "mean_time_cut_supply": 0.9765888026007838,
+      "maximum_statewise_nesting_difference": -0.11816315554235057
+    },
+    {
+      "setting": "refined",
+      "condition": "unit_transmission",
+      "mean_time_cut_supply": 0.999037280101297,
+      "maximum_statewise_nesting_difference": -0.048967542403788866
+    },
+    {
+      "setting": "refined",
+      "condition": "magnitude_only",
+      "mean_time_cut_supply": 0.9753602819572353,
+      "maximum_statewise_nesting_difference": -0.12089475087616264
+    }
+  ]
+}

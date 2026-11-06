@@ -1,141 +1,87 @@
-# ODER Black-Hole Retrieval Verification
+# From Preservation to Possession
 
-This repository contains the v2 verification artifact for the ODER black-hole retrieval paper.
+## The Physical Conditions for Black-Hole Information Recovery
 
-Manuscript: [Modular Entropy Retrieval in Black-Hole Information Recovery: A Proper-Time Saturation Model](https://doi.org/10.20944/preprints202503.2057.v10)
+A quantum diary falls into a black hole. Suppose its information survives in the outgoing radiation. What would it take for an observer to recover it, bring it into memory, and keep it?
 
-The notebook is intended to make the numerical claims auditable. It runs the retrieval-law checks, inverse-gamma recovery, finite-resolution proxy checks, and adversarial-null diagnostics used in the manuscript.
+That question is the starting point for this work. Observer-Dependent Entropy Retrieval (ODER) follows information through the physical steps between global preservation and retained possession: which correlations reach an observer, which arrive together, and how much time remains to acquire them. Each step can change the recovery outcome, even when the underlying radiation state stays the same.
 
-Canonical notebook:
+**A physical account of recovery must include the observer's access and receiving dynamics.** Establishing that information survives globally leaves those conditions to be determined. The calculations here show how those conditions change recovery and how their consequences can be tested.
 
-```text
-notebooks/ODER_BH_verification_artifact_v2.ipynb
-```
+The companion materials introduce the physical question before its mathematics. You can read the explanations and saved results, inspect an individual construction, or run the calculations yourself.
 
-Canonical outputs:
+## What the work shows
 
-```text
-outputs/verification_report.md
-outputs/validation_manifest.json
-outputs/figures/
-outputs/tables/
-```
+**Access can obstruct recovery even with unrestricted decoding computation.** In the finite black-hole diary calculation, the source, late-radiation detector, and collection lifetime stay fixed. Across all 32 tested source states, optimal deterministic entanglement-recovery fidelity is at most 0.3308 without early radiation and at least 0.8476 with it. The upper bound applies to every decoder acting on the available registers. The difference comes from which correlations the observer possesses.
 
-## Validation Scope
+**Individual collection efficiencies leave joint access unresolved.** Two observers can receive each carrier equally often and still acquire different information because different combinations arrive together. With every component efficiency fixed, one explicit law caps recovery fidelity at 0.4470 for all 32 source states. An additional joint-count measurement instead guarantees at least 0.5190. The paper gives sharp access envelopes and an exact criterion for deciding when the available calibration statistics determine the information value. It also constructs a reference-assisted verification task in which preservation and erasure give identical accessible channels below the required joint access, while sufficient access makes them distinguishable. Storage noise can even reverse which collection protocol performs better, although the individual terminal efficiencies remain matched.
 
-This repository supports synthetic and numerical verification of observer-indexed black-hole entropy retrieval under bounded modular access. It does not claim experimental confirmation, explicit tensor-network contractions, or a microscopic simulation of black-hole geometry.
+**The finite MERA tensor-network study makes the role of correlation structure concrete.** Both collection protocols receive exactly three of eight sites, and each site has the same inclusion probability. Yet contiguous collection yields more reference information in all 64 sampled MERA encodings. Removing the disentanglers raises mean acquisition under both protocols while reducing their mean difference. The comparison shows how an access pattern interacts with the encoding, even after collection size and individual efficiencies have been matched.
 
-The v2 artifact reproduces the retrieval-law checks, inverse-gamma recovery, finite-resolution robustness, and adversarial-null diagnostics reported in the manuscript.
+**Acquisition and storage have physical requirements of their own.** A controlled catcher carries the black-hole access separation into retained memory. A worked two-site receiver preserves that separation through finite switching, acquisition loss, and noisy storage. Its operating bounds show when the chosen recovery target remains guaranteed and when every decoder must fall short. An exact modular construction realizes the sharp activation envelope within the strip-holomorphic class, while finite receivers approximate its dynamics with explicit coupling, size, duration, and accuracy requirements.
 
-## What The Notebook Runs
+**Progressive collection can feed a smaller receiving code.** A separately specified time-recorded instrument admits the first selected number of late carriers. Exact cohort dynamics retain their partial Hayden–Preskill (HP) correlations, while a common capture clock gives scalar closure. On the frozen sources and staggered propagation profiles, a two-carrier gate uses five levels per receiving site and guarantees at least 0.6731 with ideal routing, or 0.6393 with a supplied 10M loading interval. The final decoder acts after acquisition. These values describe a receiving-register tradeoff; recording, routing, buffering and early storage remain separate resources.
 
-The notebook uses the publication preset:
+**Physical noise can be connected to the recovery task without discarding failed trials.** An exact reduction maps specified independent Gaussian rail channels into logical Pauli errors and recorded erasures. The Gaussian noise and recovery notebook composes those weights with all 32 source tables, exhibits two Gaussian channels with matched acceptance and Bell fidelity but different binary-task performance, and shows an achievable recovery gain from coherent access to an additional number sector.
 
-| Setting | Value |
+**Observer comparisons need an explicit resource budget.** The effective infalling calculation separates equal proper duration, equal incoming retarded support, and adaptive coupling. A passive stationary implementation has a quantified packet-restricted reference error, while its moving extension remains separately specified. Stationary Hawking flux, field multiplicity, mode occupation, and receiver-clock tables clarify how the prepared source relates to black-hole scales. A classical-record example also shows that the same individual access statistics can rank collection protocols differently when communication is permitted.
+
+Together, these results make preservation, access, and possession separately calculable. They also turn the framework toward experiment: the manuscript develops programmable-receiver tests and a staged program for Bose–Einstein condensate analogs.
+
+## Find your way through the companion materials
+
+Choose a notebook by the physical question or calculation you want to follow.
+
+| Material | What it helps you explore |
 | --- | --- |
-| Artifact | `ODER_BH_verification_artifact_v2` |
-| Version | `2.0` |
-| Run mode | `publication` |
-| Bootstrap traces | `200` per observer class |
-| Bond dimensions analyzed | `D=4`, `D=8` |
-| Observer classes | free-falling, accelerating, stationary |
-| External data | none |
+| [Observer access](computational-notebooks/Observer_Access_Reading_Guide.ipynb) | Recovery bounds and joint collection laws from supplied source inputs. |
+| [Upstream regeneration](computational-notebooks/Upstream_Regeneration.ipynb) | Source generation, scattering, packet propagation, and causal detection. |
+| [Propagation controls](computational-notebooks/Schwarzschild_Propagation_Controls.ipynb) | Schwarzschild, unit-transmission, and magnitude-only comparisons with fixed source phases and refinement checks. |
+| [Modular realization](computational-notebooks/Modular_Realization.ipynb) | Packet preparation, transfer, and normalized activation. |
+| [Finite receiver](computational-notebooks/Finite_Receiver.ipynb) | Finite-chain acquisition, error bounds, resource requirements, and retention. |
+| [Receiving and storage](computational-notebooks/Receiver_and_Storage.ipynb) | Controlled capture, finite switching, noisy storage, deadline allocation, recorded progressive collection, and verification. |
+| [Causal phase and delay](computational-notebooks/Causal_Phase_and_Delay.ipynb) | Matched spectral transmission and mean delay, with different finite-window access. |
+| [Gaussian noise and recovery](computational-notebooks/Gaussian_Noise_and_Recovery.ipynb) | Exact logical noise weights, all-trial source certificates, matched-calibration and additional-sector witnesses. |
+| [Observer trajectories and scales](computational-notebooks/Observer_Trajectories_and_Physical_Scales.ipynb) | Three-budget infall, stationary passive comparison, reference error, and source/mode/clock reconciliation. |
+| [Joint classical records](computational-notebooks/Joint_Record_Access.ipynb) | Exact decoder optimization, sufficient joint calibration, and a communication-dependent ranking reversal. |
+| [`MERA_Access_and_Encoding.ipynb`](mera-access/MERA_Access_and_Encoding.ipynb) | If observers collect the same number of sites equally often, does it matter which sites they receive together? Explicit tensor-network encodings, matched collection protocols, paired removal of disentanglers, 66 causal-cone contraction checks, exact nulls, and sufficient calibration. |
 
-The validation suite includes:
+The MERA companion also includes an [HTML reading edition](mera-access/MERA_Access_and_Encoding.html) with embedded figures and offline equation rendering. Download the complete companion folder before opening the HTML so its included equation renderer is available. Its saved-results mode reconstructs the worked encoding and recomputes the ensemble summaries; its regeneration mode rebuilds the full study and compares the outputs with the supplied results.
 
-- bounded and monotone retrieval-law checks
-- 90% Retrieval Horizon ordering
-- inverse-gamma recovery
-- D=4/D=8 finite-resolution proxy robustness
-- Matched Saturating Envelope Null
-- Shared-Observer Envelope Null
-- Observer-Label Permutation Null
-- Proper-Time Jitter Null
-- Non-Gap Dynamics Null
+The [computational companion](computational-notebooks/README.md) follows source preparation, propagation, collection, and receiving dynamics. The MERA companion evaluates the separate finite tensor-network study. The [coverage and execution record](computational-notebooks/VERIFICATION.md) identifies the calculations performed, numerical checks, and their scope.
 
-The final report includes a claim-to-artifact map. Each reported claim points to a table, figure, or manifest entry produced by the notebook.
+## Running the calculations
 
-## Repository Layout
+Both packages use Python 3.12. For the computational companion, work from `computational-notebooks/` and install `requirements.txt`. For the MERA companion, work from `mera-access/` and install `requirements-notebook.txt`. Create a virtual environment in the chosen package:
 
-```text
-ODER-modular-entropy/
-  README.md
-  notebooks/
-    ODER_BH_verification_artifact_v2.ipynb
-  outputs/
-    verification_report.md
-    validation_manifest.json
-    figures/
-    tables/
-  archive/
-    v1.1/
-      ODER_Black_Hole_Framework_Complete_Simulation_(V2).ipynb
-      ODER_Retrieval_Inversion_And_Validation.ipynb
-      Figures/
-  environment.yml
-  requirements.txt
-  LICENSE
-  CITATION.cff
+```sh
+python -m venv .venv
 ```
 
-The `archive/v1.1/` folder preserves the earlier simulation and inversion notebooks that document the MERA-inspired finite-resolution proxy lineage, including the 48-qubit parameterization and D=4/D=8 comparison structure. These archived notebooks are retained for provenance and continuity with earlier manuscript versions. The current v2 release is driven by `notebooks/ODER_BH_verification_artifact_v2.ipynb`, the canonical adversarial verification artifact for the present manuscript.
+Activate it with `.venv\Scripts\Activate.ps1` in Windows PowerShell or `source .venv/bin/activate` on macOS or Linux. For the computational companion:
 
-This repository separates the supporting proxy lineage from the current verification suite: v1.1 documents the MERA-inspired finite-resolution proxy history, while v2 provides the final retrieval-law checks, inverse-gamma recovery, finite-resolution robustness, and adversarial-null diagnostics. Neither artifact claims experimental confirmation, explicit tensor-network contractions, or a microscopic simulation of black-hole geometry.
-
-## Run The Artifact
-
-Create an environment:
-
-```bash
-conda env create -f environment.yml
-conda activate oder-bh-verification
+```sh
+python -m pip install -r requirements.txt
+python -m jupyterlab
 ```
 
-Or install the minimal Python requirements:
+For the MERA companion:
 
-```bash
-pip install -r requirements.txt
+```sh
+python -m pip install -r requirements-notebook.txt
+python -m jupyterlab
 ```
 
-Then open:
+Select that environment's kernel and choose **Restart Kernel and Run All Cells**. Keep each notebook with its supporting code, inputs, and verification files. The [core README](computational-notebooks/README.md) and [MERA README](mera-access/README.md) explain output locations and execution modes.
 
-```text
-notebooks/ODER_BH_verification_artifact_v2.ipynb
-```
+Numerical checks appear beside the results they support. The materials preserve the source inputs and distinguish numerical agreement from byte-for-byte identity, so the calculations can be checked across computing environments.
 
-Run the notebook top to bottom. It regenerates the report, manifest, figures, and tables in `outputs/`.
+## Citation and discussion
 
-## Expected Outputs
+The updated paper is *From Preservation to Possession: The Physical Conditions for Black-Hole Information Recovery*, by Evlondo Cooper III, November 5, 2026. When using these materials, please cite the manuscript and software version you actually used.
 
-The notebook writes:
+Questions, corrections, and extensions are welcome through the [issue tracker](https://github.com/evlocoo/ODER-modular-entropy/issues). For questions about a calculation, include the notebook, settings, and result.
 
-- `outputs/verification_report.md`
-- `outputs/validation_manifest.json`
-- CSV tables under `outputs/tables/`
-- PNG figures under `outputs/figures/`
+Both packages use the MIT license: [computational notebooks](computational-notebooks/LICENSE) and [MERA companion](mera-access/LICENSE).
 
-The manifest records the version, run mode, seed, bootstrap count, bond dimensions, thresholds, nulls executed, pass flags, and generated artifacts.
-
-## Boundary Notes
-
-This is a reproducibility artifact for the numerical validation suite. It uses synthetic/proxy traces and does not ingest external astrophysical data.
-
-The finite-resolution check is scoped to the bond dimensions listed in the manifest. No additional resolution-scaling claims are made in this release.
-
-## Citation
-
-If you use this repository, cite the manuscript and the archived software release.
-
-```bibtex
-@software{cooper_oder_bh_v2,
-  author = {Cooper, Evlondo},
-  title = {ODER Black-Hole Retrieval Verification Artifact},
-  version = {2.0},
-  year = {2026},
-  note = {v2 adversarial verification artifact}
-}
-```
-
-## License
-
-MIT License. See `LICENSE`.
+Earlier versions are available in the [release archive](https://github.com/evlocoo/ODER-modular-entropy/releases).

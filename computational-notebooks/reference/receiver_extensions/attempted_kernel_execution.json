@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "system": "Linux",
+  "run_name": "integration_20261105",
+  "BLAS_threads": 1,
+  "update_originals": true,
+  "notebooks": [],
+  "passed": false,
+  "failed_notebook": "Gaussian_Noise_and_Recovery.ipynb",
+  "failure_stage": "Kernel startup before executing notebook code",
+  "observed_error": "Operation not permitted (src/ip_resolver.cpp:542); Kernel died before replying to kernel_info",
+  "replacement_execution": "execution.json: fresh Python processes, not Jupyter kernels"
+}

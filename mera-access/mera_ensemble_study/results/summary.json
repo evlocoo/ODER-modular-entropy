@@ -1,0 +1,334 @@
+{
+  "complete": true,
+  "analysis": {
+    "primary": [
+      {
+        "estimand": "Delta_MERA",
+        "mean": 0.045109541682712584,
+        "percentile95_low": 0.04292409811319348,
+        "percentile95_high": 0.04725999319940601,
+        "interpretation": "positive mean supported by this interval"
+      },
+      {
+        "estimand": "Gamma",
+        "mean": 0.02412668684765835,
+        "percentile95_low": 0.019929447892990643,
+        "percentile95_high": 0.02812996244054377,
+        "interpretation": "positive mean supported by this interval"
+      }
+    ],
+    "descriptive_statistics": [
+      {
+        "estimand": "Delta_MERA",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.045109541682712584,
+        "sample_sd": 0.00899585316963792,
+        "median": 0.046002174398667856,
+        "q1": 0.038660624689116505,
+        "q3": 0.05114555353441271,
+        "iqr": 0.012484928845296207,
+        "minimum": 0.025981276601023395,
+        "maximum": 0.06342734476990322,
+        "positive": 64,
+        "unresolved": 0,
+        "negative": 0,
+        "percentile95_low": 0.04292409811319348,
+        "percentile95_high": 0.04725999319940601
+      },
+      {
+        "estimand": "Delta_tree",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.020982854835054236,
+        "sample_sd": 0.014100366063372565,
+        "median": 0.01869421086509937,
+        "q1": 0.01241095074971757,
+        "q3": 0.026869179100183993,
+        "iqr": 0.014458228350466423,
+        "minimum": -0.00783998505562461,
+        "maximum": 0.0611466676713559,
+        "positive": 61,
+        "unresolved": 0,
+        "negative": 3,
+        "percentile95_low": 0.01759980579945114,
+        "percentile95_high": 0.02448793096538959
+      },
+      {
+        "estimand": "Delta_Haar",
+        "n_encodings_or_pairs": 64,
+        "mean": -0.0005064690304459394,
+        "sample_sd": 0.003218903783410837,
+        "median": -0.0006933504025428555,
+        "q1": -0.002967283766785969,
+        "q3": 0.0014320727619233642,
+        "iqr": 0.004399356528709333,
+        "minimum": -0.007163814922517081,
+        "maximum": 0.006885120063825856,
+        "positive": 27,
+        "unresolved": 0,
+        "negative": 37,
+        "percentile95_low": -0.0012832085122750486,
+        "percentile95_high": 0.00029805556033659617
+      },
+      {
+        "estimand": "Gamma",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.02412668684765835,
+        "sample_sd": 0.01690565391852043,
+        "median": 0.025209554581661534,
+        "q1": 0.016711789874411097,
+        "q3": 0.03417899843389402,
+        "iqr": 0.017467208559482923,
+        "minimum": -0.029625544895717226,
+        "maximum": 0.06201084759275041,
+        "positive": 59,
+        "unresolved": 0,
+        "negative": 5,
+        "percentile95_low": 0.019929447892990643,
+        "percentile95_high": 0.02812996244054377
+      },
+      {
+        "estimand": "L_C",
+        "n_encodings_or_pairs": 64,
+        "mean": -0.04982998910847393,
+        "sample_sd": 0.021745527460811966,
+        "median": -0.051510026989813384,
+        "q1": -0.06164846320603928,
+        "q3": -0.038167540037054276,
+        "iqr": 0.023480923168985007,
+        "minimum": -0.10632644380049067,
+        "maximum": 0.017245532613666403,
+        "positive": 1,
+        "unresolved": 0,
+        "negative": 63,
+        "percentile95_low": -0.05504987796775702,
+        "percentile95_high": -0.04446355404950561
+      },
+      {
+        "estimand": "L_U",
+        "n_encodings_or_pairs": 64,
+        "mean": -0.07395667595613227,
+        "sample_sd": 0.024122205867341293,
+        "median": -0.07361931819617074,
+        "q1": -0.09190484115213006,
+        "q3": -0.05771460056659153,
+        "iqr": 0.03419024058553853,
+        "minimum": -0.1231994493436066,
+        "maximum": -0.02307326923525474,
+        "positive": 0,
+        "unresolved": 0,
+        "negative": 64,
+        "percentile95_low": -0.0797634450299654,
+        "percentile95_high": -0.0681253730562536
+      },
+      {
+        "estimand": "mera_C",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.2988454134051578,
+        "sample_sd": 0.014484647788024666,
+        "median": 0.2981171486475317,
+        "q1": 0.28886150833586977,
+        "q3": 0.308779232794244,
+        "iqr": 0.019917724458374253,
+        "minimum": 0.2696893700666429,
+        "maximum": 0.329370964821375,
+        "positive": 64,
+        "unresolved": 0,
+        "negative": 0,
+        "percentile95_low": 0.2953556188625036,
+        "percentile95_high": 0.3024023031984939
+      },
+      {
+        "estimand": "mera_U",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.25373587172244527,
+        "sample_sd": 0.017699851520097034,
+        "median": 0.2532039111636925,
+        "q1": 0.24115663340030952,
+        "q3": 0.26335789158020545,
+        "iqr": 0.022201258179895933,
+        "minimum": 0.2170595690571973,
+        "maximum": 0.29810960834301586,
+        "positive": 64,
+        "unresolved": 0,
+        "negative": 0,
+        "percentile95_low": 0.2495043438139871,
+        "percentile95_high": 0.258032067357685
+      },
+      {
+        "estimand": "tree_C",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.3486754025136317,
+        "sample_sd": 0.017830884897708114,
+        "median": 0.3475710346154353,
+        "q1": 0.3422081255120103,
+        "q3": 0.36085679634544154,
+        "iqr": 0.018648670833431247,
+        "minimum": 0.2833006785342045,
+        "maximum": 0.38914023599837033,
+        "positive": 64,
+        "unresolved": 0,
+        "negative": 0,
+        "percentile95_low": 0.34421404103219166,
+        "percentile95_high": 0.35290459585418094
+      },
+      {
+        "estimand": "tree_U",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.3276925476785775,
+        "sample_sd": 0.019625978280533106,
+        "median": 0.32860300155360267,
+        "q1": 0.3189781889830523,
+        "q3": 0.33876843221430547,
+        "iqr": 0.01979024323125317,
+        "minimum": 0.27036719624279787,
+        "maximum": 0.37484303318021117,
+        "positive": 64,
+        "unresolved": 0,
+        "negative": 0,
+        "percentile95_low": 0.32286121490623876,
+        "percentile95_high": 0.3323596570324316
+      },
+      {
+        "estimand": "haar_C",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.13327570098170932,
+        "sample_sd": 0.004015572038935479,
+        "median": 0.13301332605693827,
+        "q1": 0.1306148006677852,
+        "q3": 0.13627351421989006,
+        "iqr": 0.0056587135521048715,
+        "minimum": 0.12396488669846256,
+        "maximum": 0.14359391834914126,
+        "positive": 64,
+        "unresolved": 0,
+        "negative": 0,
+        "percentile95_low": 0.1323094779677608,
+        "percentile95_high": 0.13426055557361916
+      },
+      {
+        "estimand": "haar_U",
+        "n_encodings_or_pairs": 64,
+        "mean": 0.13378217001215525,
+        "sample_sd": 0.0026303120820632612,
+        "median": 0.13327487114521297,
+        "q1": 0.13204450138204163,
+        "q3": 0.13531051308435554,
+        "iqr": 0.0032660117023139146,
+        "minimum": 0.1289527222376243,
+        "maximum": 0.1403338394912437,
+        "positive": 64,
+        "unresolved": 0,
+        "negative": 0,
+        "percentile95_low": 0.1331540826606004,
+        "percentile95_high": 0.1344317546337867
+      }
+    ],
+    "independent_haar_contrasts": [
+      {
+        "contrast": "mera_minus_Haar_gap",
+        "estimate": 0.045616010713158524,
+        "percentile95_low": 0.04329358625443793,
+        "percentile95_high": 0.04789175757086046,
+        "sampling": "Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar."
+      },
+      {
+        "contrast": "mera_minus_Haar_C",
+        "estimate": 0.16556971242344848,
+        "percentile95_low": 0.1619233347009343,
+        "percentile95_high": 0.16923549178913502,
+        "sampling": "Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar."
+      },
+      {
+        "contrast": "mera_minus_Haar_U",
+        "estimate": 0.11995370171029002,
+        "percentile95_low": 0.1156659154839496,
+        "percentile95_high": 0.12427483372642933,
+        "sampling": "Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar."
+      },
+      {
+        "contrast": "tree_minus_Haar_gap",
+        "estimate": 0.021489323865500176,
+        "percentile95_low": 0.01804270335236682,
+        "percentile95_high": 0.025067294352457005,
+        "sampling": "Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar."
+      },
+      {
+        "contrast": "tree_minus_Haar_C",
+        "estimate": 0.2153997015319224,
+        "percentile95_low": 0.2108831555785474,
+        "percentile95_high": 0.2197749548594155,
+        "sampling": "Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar."
+      },
+      {
+        "contrast": "tree_minus_Haar_U",
+        "estimate": 0.19391037766642222,
+        "percentile95_low": 0.18900782004235062,
+        "percentile95_high": 0.19863937211491778,
+        "sampling": "Independent Haar resamples; MERA/tree pair indices shared across structured arms. No index pairing with Haar."
+      }
+    ],
+    "exploratory_comparison": [
+      {
+        "quantity": "Delta_MERA",
+        "exploratory_value": 0.044945222032085674,
+        "empirical_percentile_midrank": 46.875,
+        "within_observed_range": true,
+        "within_sample_iqr": true,
+        "comparison": "Descriptive placement against 64 new draws; exploratory seed excluded from estimation."
+      },
+      {
+        "quantity": "Delta_tree",
+        "exploratory_value": 0.032964035744602105,
+        "empirical_percentile_midrank": 81.25,
+        "within_observed_range": true,
+        "within_sample_iqr": false,
+        "comparison": "Descriptive placement against 64 new draws; exploratory seed excluded from estimation."
+      },
+      {
+        "quantity": "Gamma",
+        "exploratory_value": 0.01198118628748357,
+        "empirical_percentile_midrank": 14.0625,
+        "within_observed_range": true,
+        "within_sample_iqr": false,
+        "comparison": "Descriptive placement against 64 new draws; exploratory seed excluded from estimation."
+      },
+      {
+        "quantity": "L_C",
+        "exploratory_value": -0.04659158627096682,
+        "empirical_percentile_midrank": 64.0625,
+        "within_observed_range": true,
+        "within_sample_iqr": true,
+        "comparison": "Descriptive placement against 64 new draws; exploratory seed excluded from estimation."
+      },
+      {
+        "quantity": "L_U",
+        "exploratory_value": -0.05857277255845039,
+        "empirical_percentile_midrank": 73.4375,
+        "within_observed_range": true,
+        "within_sample_iqr": true,
+        "comparison": "Descriptive placement against 64 new draws; exploratory seed excluded from estimation."
+      }
+    ],
+    "bootstrap_replicates": 20000,
+    "interval_label": "Approximate Monte Carlo uncertainty for the declared random-encoding distributions; percentile 95% intervals, no multiplicity adjustment.",
+    "encoding_counts": {
+      "mera": 64,
+      "paired_tree": 64,
+      "independent_haar": 64
+    },
+    "pairing": "MERA/tree only. Haar encodings are independently sampled.",
+    "complementary_identity": "Delta_5=-Delta_3 for complementary access ensembles in each pure preparation; algebraic consequence, not independent evidence."
+  },
+  "maximum_validation_residual": 5.209166431541234e-13,
+  "maximum_complementary_gap_residual": 9.936496070395151e-15,
+  "exploratory_regression_maximum_residual": 0.0,
+  "total_ensemble_subset_rows": 10752,
+  "resources": {
+    "peak_sampled_rss_bytes": 132259840,
+    "wall_seconds": 101.67563850001898,
+    "cpu_seconds": 89.28125,
+    "timing_scope": "Per-process study after Python imports through generation, validation, checkpointing, statistics and figures; excludes final report/summary.",
+    "memory_measurement": "Process RSS sampled every 10 ms; brief peaks may be missed.",
+    "os_peak_working_set_bytes": 132259840
+  }
+}
