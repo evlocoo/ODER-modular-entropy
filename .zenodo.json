@@ -4,7 +4,7 @@
   "description": "<p>A quantum diary falls into a black hole. Suppose its information survives in the outgoing radiation. What would it take for an observer to recover it, bring it into memory, and keep it?</p>\n<p>This computational companion to <em>From Preservation to Possession: The Physical Conditions for Black-Hole Information Recovery</em>, by Evlondo Cooper III, makes those steps explicit. Eleven executable notebooks explore how collection, access to correlations, receiving time, and storage affect recovery, even when the underlying information remains preserved.</p>\n<p>You can read the explanations and saved results, follow an individual calculation, or reproduce the numerical studies. The notebooks cover:</p>\n<ul>\n<li><strong>What an observer can recover:</strong> finite-source recovery bounds, joint collection patterns, and the measurements needed to establish a recovery claim.</li>\n<li><strong>How information reaches memory:</strong> propagation, finite receivers, progressive collection, routing delays, and noisy storage.</li>\n<li><strong>Why the physical setup matters:</strong> Gaussian noise, observer trajectories under stated resource budgets, and access to shared classical records.</li>\n<li><strong>How access interacts with encoding:</strong> a finite MERA tensor-network study comparing observers who collect the same number of sites with the same individual collection probabilities, but receive different combinations.</li>\n</ul>\n<p>The package includes scientific code, numerical inputs, reference results, saved tables and figures, and verification routines. Each package’s README explains where to begin, what each notebook calculates, and how to run it. The verification guide documents execution records, numerical tolerances, and reproducibility checks, including 32 core tests and 22 MERA tests.</p>\n<p>These are explicit mathematical constructions and numerical studies. The accompanying paper also develops proposed experimental tests using programmable receivers and Bose–Einstein condensate analogs.</p>",
   "creators": [
     {
-      "name": "Cooper, Evlondo"
+      "name": "Cooper, Evlondo III"
     }
   ],
   "license": "mit",
@@ -18,5 +18,13 @@
     "observer trajectories",
     "joint records",
     "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24023092",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    }
   ]
 }

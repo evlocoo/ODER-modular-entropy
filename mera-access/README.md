@@ -37,7 +37,7 @@ python notebook_support/verify_regeneration.py --output outputs/reproduction
 
 The target must be new. To compare an existing completed run, use `--compare-only outputs/reproduction`. Scientific identifiers, seeds, counts, shapes, and types remain exact; finite numerical values use the `1e-10` tolerance. The two raw-negative-eigenvalue count diagnostics must match each run's saved eigenvalues exactly. Their differences between runs are reported separately.
 
-Run the 20 MERA tests and rebuild the HTML after saving a notebook run:
+Run the 22 MERA tests and rebuild the HTML after saving a notebook run:
 
 ```sh
 python -m unittest notebook_support.test_verifier notebook_support.test_validation

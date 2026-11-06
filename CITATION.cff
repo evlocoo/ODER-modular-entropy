@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use these notebooks, cite the accompanying manuscript and the applicable software version."
 title: "From Preservation to Possession: Black-Hole Computational Companion"
 version: "3.0.1"
+# Concept DOI covering all software versions.
+doi: "10.5281/zenodo.15428311"
 type: software
 authors:
   - family-names: Cooper
