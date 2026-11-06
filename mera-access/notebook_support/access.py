@@ -1,6 +1,6 @@
 """Notebook adapters for encoding, reduction, and verification."""
 from pathlib import Path
-import csv, hashlib, importlib.util, itertools, json, math, os, subprocess, sys, time
+import csv, hashlib, importlib.util, itertools, json, math, os, subprocess, sys, time, tempfile
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon, Rectangle
@@ -53,7 +53,17 @@ def load_backend(study):
     spec.loader.exec_module(backend)  # main() is guarded in the archived source.
     return backend
 
-def select_results(root, mode, run_name):
+def create_run_directory(root):
+    """Allocate an independent directory for notebook figures and checks."""
+    outputs = Path(root)/'outputs'
+    outputs.mkdir(exist_ok=True)
+    run = Path(tempfile.mkdtemp(prefix='analysis_', dir=outputs))
+    (run/'figures').mkdir()
+    (run/'verification').mkdir()
+    return run
+
+
+def select_results(root, mode, run_name, output=None):
     study = root/'mera_ensemble_study'
     require(study/'results/summary.json')
     if mode == 'saved':
@@ -67,7 +77,9 @@ def select_results(root, mode, run_name):
     if target.exists():
         raise FileExistsError('Choose a new RUN_NAME. Existing runs are preserved: ' + run_name)
     print('Regenerating 64 MERA/tree pairs and 64 independent Haar encodings; progress follows.', flush=True)
-    log = root/'verification'/(run_name+'_process.log')
+    log_root = Path(output) if output is not None else root/'outputs'
+    log_root.mkdir(parents=True, exist_ok=True)
+    log = log_root/(run_name+'_process.log')
     with log.open('w', encoding='utf-8') as f:
         process = subprocess.Popen([sys.executable, '-u', str(root/'notebook_support/verify_regeneration.py'), '--output', str(target)],
                                    cwd=study, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
@@ -76,11 +88,11 @@ def select_results(root, mode, run_name):
             print(line.rstrip(), flush=True)
         status = process.wait()
     if status:
-        raise RuntimeError(f'Regeneration failed with exit code {status}. Inspect outputs/{run_name}/companion_verification.json for comparison locations, or verification/{log.name} for a study-process failure. Keep the result directory for diagnosis.')
+        raise RuntimeError(f'Regeneration failed with exit code {status}. Inspect outputs/{run_name}/companion_verification.json for comparison locations, or {log.relative_to(root)} for a study-process failure. Keep the result directory for diagnosis.')
     report = read_json(target/'companion_verification.json')
     if not report['passed']:
         raise AssertionError('Fresh-process comparison did not pass.')
-    write_json(root/'verification/current_regeneration.json', report)
+    write_json(log_root/'current_regeneration.json', report)
     print('Downstream analysis now uses outputs/' + run_name + '/, including its newly generated tensors.')
     return target, report
 

@@ -1,5 +1,7 @@
 # From Preservation to Possession
 
+[![Verification](https://github.com/evlocoo/ODER-modular-entropy/actions/workflows/black-hole-verification.yml/badge.svg?branch=main)](https://github.com/evlocoo/ODER-modular-entropy/actions/workflows/black-hole-verification.yml)
+
 ## The Physical Conditions for Black-Hole Information Recovery
 
 A quantum diary falls into a black hole. Suppose its information survives in the outgoing radiation. What would it take for an observer to recover it, bring it into memory, and keep it?

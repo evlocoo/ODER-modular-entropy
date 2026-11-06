@@ -27,7 +27,7 @@ python -m jupyterlab
 
 Select the environment's kernel and choose **Restart Kernel and Run All Cells**.
 
-The configuration cell selects `saved` by default: it loads the supplied tensors and results and executes the explanatory calculations and consistency checks offline. To regenerate the full study, set `MODE = "regenerate"`, choose a new `RUN_NAME`, and run all cells. The notebook then analyzes the newly generated outputs.
+The configuration cell selects `saved` by default: it loads the supplied tensors and results and executes the explanatory calculations and consistency checks offline. To regenerate the full study, set `MODE = "regenerate"`, choose a new `RUN_NAME`, and run all cells. The notebook then analyzes the newly generated outputs. Each execution writes its figures and verification records into a new `outputs/analysis_*/` directory, printed in the setup cell. The supplied figures and verification records remain available for comparison.
 
 For command-line regeneration and comparison:
 

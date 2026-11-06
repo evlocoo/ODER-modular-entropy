@@ -1,0 +1,67 @@
+name: Black-hole verification
+
+on:
+  push:
+    paths:
+      - 'black-holes/**'
+      - 'computational-notebooks/**'
+      - 'mera-access/**'
+      - '.github/workflows/black-hole-verification.yml'
+      - '.zenodo.json'
+  pull_request:
+    paths:
+      - 'black-holes/**'
+      - 'computational-notebooks/**'
+      - 'mera-access/**'
+      - '.github/workflows/black-hole-verification.yml'
+      - '.zenodo.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            **/requirements.txt
+            **/requirements-notebook.txt
+      - name: Locate companion
+        shell: bash
+        run: |
+          if [ -d black-holes/computational-notebooks ]; then
+            echo "COMPANION_ROOT=black-holes" >> "$GITHUB_ENV"
+          else
+            echo "COMPANION_ROOT=." >> "$GITHUB_ENV"
+          fi
+      - name: Install dependencies
+        run: |
+          python -m pip install -r "$COMPANION_ROOT/computational-notebooks/requirements.txt" -r "$COMPANION_ROOT/mera-access/requirements-notebook.txt"
+          python -m pip check
+      - name: Core tests
+        working-directory: ${{ env.COMPANION_ROOT }}/computational-notebooks
+        run: python -m unittest discover -s code -p "test_*.py"
+      - name: Certificate verifiers
+        working-directory: ${{ env.COMPANION_ROOT }}/computational-notebooks
+        run: |
+          python code/verify_event_results.py reference/observer
+          python code/verify_minimax_results.py reference/observer
+          python code/verify_progressive_results.py
+      - name: MERA tests and saved-results notebook
+        working-directory: ${{ env.COMPANION_ROOT }}/mera-access
+        run: python -m unittest notebook_support.test_verifier notebook_support.test_validation
+      - name: Check tracked files
+        run: git diff --exit-code HEAD
